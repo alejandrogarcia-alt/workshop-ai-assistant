@@ -23,7 +23,6 @@ services:
   - type: web
     name: workshop-ai-frontend
     runtime: static
-    region: oregon
     plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
