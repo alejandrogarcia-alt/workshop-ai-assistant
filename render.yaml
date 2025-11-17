@@ -26,6 +26,9 @@ services:
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://workshop-ai-backend.onrender.com/api
     headers:
       - path: /*
         name: Cache-Control
