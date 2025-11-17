@@ -1,0 +1,1764 @@
+{
+  "ws_1763323152901": {
+    "id": "ws_1763323152901",
+    "boardName": "Test1",
+    "currentStep": "problem_framing",
+    "createdAt": "2025-11-16T19:59:12.902Z",
+    "figmaBoard": null,
+    "data": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": [],
+      "features": {},
+      "prioritization": []
+    },
+    "groups": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": []
+    }
+  },
+  "ws_1763323538773": {
+    "id": "ws_1763323538773",
+    "boardName": "TEST2",
+    "currentStep": "actors",
+    "createdAt": "2025-11-16T20:05:38.773Z",
+    "figmaBoard": null,
+    "data": {
+      "problems": [],
+      "actors": [
+        {
+          "id": "item_1763323569711",
+          "text": "performance",
+          "timestamp": "2025-11-16T20:06:09.711Z",
+          "x": 236.51962841934915,
+          "y": 81.67381891009313
+        }
+      ],
+      "kpis": [],
+      "modules": [],
+      "features": {},
+      "prioritization": []
+    },
+    "groups": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": []
+    }
+  },
+  "ws_1763323847504": {
+    "id": "ws_1763323847504",
+    "boardName": "TestProblemFraming",
+    "currentStep": "problem_framing",
+    "createdAt": "2025-11-16T20:10:47.504Z",
+    "figmaBoard": null,
+    "data": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": [],
+      "features": {},
+      "prioritization": []
+    },
+    "groups": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": []
+    }
+  },
+  "ws_1763323895124": {
+    "id": "ws_1763323895124",
+    "boardName": "TEST",
+    "currentStep": "actors",
+    "createdAt": "2025-11-16T20:11:35.124Z",
+    "figmaBoard": {
+      "id": "manual",
+      "url": "https://www.figma.com/design/OLlqMftZjYS3LoO4RSsqaV/TEST?node-id=0-1&p=f&t=bVQSsPrvjaZJuGBr-0"
+    },
+    "data": {
+      "problems": [
+        {
+          "id": "item_1763323911569",
+          "text": "uno",
+          "timestamp": "2025-11-16T20:11:51.570Z",
+          "x": 87.11268719431833,
+          "y": 90.3347518151679
+        },
+        {
+          "id": "item_1763323916706",
+          "text": "dos",
+          "timestamp": "2025-11-16T20:11:56.706Z",
+          "x": 15.626270971960121,
+          "y": 51.86844436139965
+        },
+        {
+          "id": "item_1763323921960",
+          "text": "tres",
+          "timestamp": "2025-11-16T20:12:01.960Z",
+          "x": 74.15072104896177,
+          "y": 0.17029019865466566
+        },
+        {
+          "id": "item_1763323924668",
+          "text": "a",
+          "timestamp": "2025-11-16T20:12:04.668Z",
+          "x": 488.2642373220802,
+          "y": 196.0231150010107
+        },
+        {
+          "id": "item_1763323926891",
+          "text": "b",
+          "timestamp": "2025-11-16T20:12:06.891Z",
+          "x": 12.647270483460149,
+          "y": 179.90198343913465
+        },
+        {
+          "id": "item_1763323928911",
+          "text": "c",
+          "timestamp": "2025-11-16T20:12:08.911Z",
+          "x": 411.91154848107965,
+          "y": 112.94038683760421
+        }
+      ],
+      "actors": [],
+      "kpis": [],
+      "modules": [],
+      "features": {},
+      "prioritization": []
+    },
+    "groups": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": []
+    }
+  },
+  "ws_1763324566172": {
+    "id": "ws_1763324566172",
+    "boardName": "Test",
+    "currentStep": "problem_framing",
+    "createdAt": "2025-11-16T20:22:46.172Z",
+    "figmaBoard": {
+      "id": "manual",
+      "url": "https://www.figma.com/design/OLlqMftZjYS3LoO4RSsqaV/TEST?node-id=0-1&p=f&t=2oHTndNnczpt9qOa-0"
+    },
+    "data": {
+      "problems": [
+        {
+          "id": "item_1763324571303",
+          "text": "uno",
+          "timestamp": "2025-11-16T20:22:51.303Z",
+          "x": 417.93094647424056,
+          "y": 9.487704351520954
+        },
+        {
+          "id": "item_1763324573550",
+          "text": "dos",
+          "timestamp": "2025-11-16T20:22:53.550Z",
+          "x": 568.1405978746785,
+          "y": 132.91934159030598
+        },
+        {
+          "id": "item_1763324576449",
+          "text": "tres",
+          "timestamp": "2025-11-16T20:22:56.449Z",
+          "x": 580.9543358116432,
+          "y": 224.84489328413383
+        },
+        {
+          "id": "item_1763324581724",
+          "text": "pajaro",
+          "timestamp": "2025-11-16T20:23:01.724Z",
+          "x": 525.9127804136509,
+          "y": 228.1196591401039
+        },
+        {
+          "id": "item_1763324586318",
+          "text": "paloma",
+          "timestamp": "2025-11-16T20:23:06.318Z",
+          "x": 74.605138119979,
+          "y": 393.2454804939449
+        },
+        {
+          "id": "item_1763391175214",
+          "text": "ítem 8",
+          "timestamp": "2025-11-17T14:52:55.215Z",
+          "x": 553.4260011369804,
+          "y": 121.76214344600834
+        },
+        {
+          "id": "item_1763391488937",
+          "text": "item 18",
+          "timestamp": "2025-11-17T14:58:08.938Z",
+          "x": 544.0100160849363,
+          "y": 276.3435880053863
+        },
+        {
+          "id": "item_1763391496118",
+          "text": "item 20",
+          "timestamp": "2025-11-17T14:58:16.118Z",
+          "x": 591.7608721376114,
+          "y": 204.35318023168224
+        }
+      ],
+      "actors": [
+        {
+          "id": "item_1763325328780",
+          "text": "actor 1",
+          "timestamp": "2025-11-16T20:35:28.781Z",
+          "x": 305.669612322473,
+          "y": 111.78175638831904
+        },
+        {
+          "id": "item_1763325332967",
+          "text": "actor 2",
+          "timestamp": "2025-11-16T20:35:32.967Z",
+          "x": 466.49379811522164,
+          "y": 332.14632646511416
+        },
+        {
+          "id": "item_1763325339484",
+          "text": "empleado 1",
+          "timestamp": "2025-11-16T20:35:39.484Z",
+          "x": 180.996921277568,
+          "y": 101.47284741572484
+        },
+        {
+          "id": "item_1763325343692",
+          "text": "empleado 2",
+          "timestamp": "2025-11-16T20:35:43.692Z",
+          "x": 134.97349294881457,
+          "y": 7.618259923707438
+        }
+      ],
+      "kpis": [
+        {
+          "id": "item_1763325620743",
+          "text": "indicadoe 1",
+          "timestamp": "2025-11-16T20:40:20.743Z",
+          "x": 203.3833954104304,
+          "y": 194.10402414051111
+        },
+        {
+          "id": "item_1763325629220",
+          "text": "indiocador 2",
+          "timestamp": "2025-11-16T20:40:29.220Z",
+          "x": 417.28660565656827,
+          "y": 176.10162468975437
+        }
+      ],
+      "modules": [
+        {
+          "id": "item_1763327967621",
+          "text": "m1",
+          "timestamp": "2025-11-16T21:19:27.621Z",
+          "x": 12.931235664247964,
+          "y": 165.22422368761428
+        },
+        {
+          "id": "item_1763327969675",
+          "text": "m2",
+          "timestamp": "2025-11-16T21:19:29.675Z",
+          "x": 447.5346438914701,
+          "y": 66.26052803227908
+        }
+      ],
+      "features": {
+        "item_1763327967621": [
+          {
+            "id": "item_1763327984591",
+            "text": "f1",
+            "timestamp": "2025-11-16T21:19:44.591Z",
+            "x": 365.8725523876343,
+            "y": 56.203822334014845
+          },
+          {
+            "id": "item_1763327987894",
+            "text": "f2",
+            "timestamp": "2025-11-16T21:19:47.894Z",
+            "x": 398.0237307572206,
+            "y": 353.5272315923149
+          },
+          {
+            "id": "item_1763391575462",
+            "text": "login",
+            "timestamp": "2025-11-17T14:59:35.462Z",
+            "x": 198.9697813018408,
+            "y": 230.62139855800936
+          },
+          {
+            "id": "item_1763391584650",
+            "text": "busqueda",
+            "timestamp": "2025-11-17T14:59:44.650Z",
+            "x": 111.80970020200745,
+            "y": 34.518035171396555
+          },
+          {
+            "id": "item_1763391592475",
+            "text": "carrito",
+            "timestamp": "2025-11-17T14:59:52.476Z",
+            "x": 349.53286699198867,
+            "y": 180.67807864220615
+          }
+        ],
+        "item_1763327969675": [
+          {
+            "id": "item_1763327994944",
+            "text": "fm1",
+            "timestamp": "2025-11-16T21:19:54.944Z",
+            "x": 56.154038496465915,
+            "y": 285.045207264074
+          },
+          {
+            "id": "item_1763327998074",
+            "text": "fm2",
+            "timestamp": "2025-11-16T21:19:58.074Z",
+            "x": 133.82074325434945,
+            "y": 237.79364065657705
+          }
+        ]
+      },
+      "prioritization": [
+        {
+          "featureId": "item_1763327994944",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 3.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:06.471Z"
+            },
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:33.258Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 2.5
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763327984591",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:19.797Z"
+            },
+            {
+              "participantId": "p_1763392081955",
+              "value": 1,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:08:20.404Z"
+            },
+            {
+              "participantId": "p_1763392401822",
+              "value": 2,
+              "complexity": 1.5,
+              "timestamp": "2025-11-17T15:13:59.684Z"
+            }
+          ],
+          "averages": {
+            "value": 1.8,
+            "complexity": 2.2
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763327987894",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:24.399Z"
+            }
+          ],
+          "averages": {
+            "value": 2.5,
+            "complexity": 2.5
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763327998074",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:36.777Z"
+            }
+          ],
+          "averages": {
+            "value": 2.5,
+            "complexity": 2.5
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763391575462",
+          "votes": [
+            {
+              "participantId": "p_1763391602181",
+              "value": 1,
+              "complexity": 4,
+              "timestamp": "2025-11-17T15:00:15.624Z"
+            },
+            {
+              "participantId": "p_1763392081955",
+              "value": 1.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:09:54.033Z"
+            }
+          ],
+          "averages": {
+            "value": 1.3,
+            "complexity": 3.3
+          },
+          "quadrant": "avoid"
+        },
+        {
+          "featureId": "item_1763391592475",
+          "votes": [
+            {
+              "participantId": "p_1763391763707",
+              "value": 4.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:03:13.779Z"
+            }
+          ],
+          "averages": {
+            "value": 4.5,
+            "complexity": 2.5
+          },
+          "quadrant": "quick-wins"
+        }
+      ]
+    },
+    "groups": {
+      "problems": [
+        {
+          "category": "Numeración Secuencial",
+          "items": [
+            {
+              "id": "item_1763324571303",
+              "text": "uno",
+              "timestamp": "2025-11-16T20:22:51.303Z",
+              "x": 417.93094647424056,
+              "y": 9.487704351520954
+            },
+            {
+              "id": "item_1763324573550",
+              "text": "dos",
+              "timestamp": "2025-11-16T20:22:53.550Z",
+              "x": 568.1405978746785,
+              "y": 132.91934159030598
+            },
+            {
+              "id": "item_1763324576449",
+              "text": "tres",
+              "timestamp": "2025-11-16T20:22:56.449Z",
+              "x": 580.9543358116432,
+              "y": 224.84489328413383
+            }
+          ],
+          "description": "Representa una secuencia numérica ordenada, posiblemente indicando pasos, etapas, o prioridades.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Avifauna",
+          "items": [
+            {
+              "id": "item_1763324581724",
+              "text": "pajaro",
+              "timestamp": "2025-11-16T20:23:01.724Z",
+              "x": 525.9127804136509,
+              "y": 228.1196591401039
+            },
+            {
+              "id": "item_1763324586318",
+              "text": "paloma",
+              "timestamp": "2025-11-16T20:23:06.318Z",
+              "x": 74.605138119979,
+              "y": 393.2454804939449
+            }
+          ],
+          "description": "Se refiere a aves, sugiriendo elementos relacionados con la observación de aves, comportamiento de aves, o características de las aves dentro de la plataforma (podría ser figurativa o literal).",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Elementos Indefinidos",
+          "items": [
+            {
+              "id": "item_1763391175214",
+              "text": "ítem 8",
+              "timestamp": "2025-11-17T14:52:55.215Z",
+              "x": 553.4260011369804,
+              "y": 121.76214344600834
+            },
+            {
+              "id": "item_1763391488937",
+              "text": "item 18",
+              "timestamp": "2025-11-17T14:58:08.938Z",
+              "x": 544.0100160849363,
+              "y": 276.3435880053863
+            },
+            {
+              "id": "item_1763391496118",
+              "text": "item 20",
+              "timestamp": "2025-11-17T14:58:16.118Z",
+              "x": 591.7608721376114,
+              "y": 204.35318023168224
+            }
+          ],
+          "description": "Representa items genéricos o no especificados, posiblemente puntos pendientes, ideas vagas, o elementos que requieren mayor definición dentro del contexto del taller.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        }
+      ],
+      "actors": [
+        {
+          "category": "Actores Externos al Sistema",
+          "items": [
+            {
+              "id": "item_1763325328780",
+              "text": "actor 1",
+              "timestamp": "2025-11-16T20:35:28.781Z",
+              "x": 305.669612322473,
+              "y": 111.78175638831904
+            },
+            {
+              "id": "item_1763325332967",
+              "text": "actor 2",
+              "timestamp": "2025-11-16T20:35:32.967Z",
+              "x": 466.49379811522164,
+              "y": 332.14632646511416
+            }
+          ],
+          "description": "Representa entidades externas que interactúan con el sistema, sin ser parte de la organización interna. Pueden ser clientes, proveedores u otras partes interesadas externas.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Actores Internos al Sistema",
+          "items": [
+            {
+              "id": "item_1763325339484",
+              "text": "empleado 1",
+              "timestamp": "2025-11-16T20:35:39.484Z",
+              "x": 180.996921277568,
+              "y": 101.47284741572484
+            },
+            {
+              "id": "item_1763325343692",
+              "text": "empleado 2",
+              "timestamp": "2025-11-16T20:35:43.692Z",
+              "x": 134.97349294881457,
+              "y": 7.618259923707438
+            }
+          ],
+          "description": "Representa usuarios que forman parte de la organización que opera el sistema. Son empleados que interactúan directamente con el sistema para realizar sus tareas.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Roles con Potencial Solapamiento",
+          "items": [
+            {
+              "id": "item_1763325328780",
+              "text": "actor 1",
+              "timestamp": "2025-11-16T20:35:28.781Z",
+              "x": 305.669612322473,
+              "y": 111.78175638831904
+            },
+            {
+              "id": "item_1763325332967",
+              "text": "actor 2",
+              "timestamp": "2025-11-16T20:35:32.967Z",
+              "x": 466.49379811522164,
+              "y": 332.14632646511416
+            },
+            {
+              "id": "item_1763325339484",
+              "text": "empleado 1",
+              "timestamp": "2025-11-16T20:35:39.484Z",
+              "x": 180.996921277568,
+              "y": 101.47284741572484
+            },
+            {
+              "id": "item_1763325343692",
+              "text": "empleado 2",
+              "timestamp": "2025-11-16T20:35:43.692Z",
+              "x": 134.97349294881457,
+              "y": 7.618259923707438
+            }
+          ],
+          "description": "Este grupo indica que es necesario analizar la diferencia entre 'actor' y 'empleado', ya que ambos interactúan con el sistema y sus funciones podrían solaparse. El análisis debe enfocarse en los permisos, responsabilidades y casos de uso específicos de cada uno.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        }
+      ],
+      "kpis": [
+        {
+          "category": "Definición de Objetivos",
+          "items": [
+            {
+              "id": "item_1763325620743",
+              "text": "indicadoe 1",
+              "timestamp": "2025-11-16T20:40:20.743Z",
+              "x": 203.3833954104304,
+              "y": 194.10402414051111
+            },
+            {
+              "id": "item_1763325629220",
+              "text": "indiocador 2",
+              "timestamp": "2025-11-16T20:40:29.220Z",
+              "x": 417.28660565656827,
+              "y": 176.10162468975437
+            }
+          ],
+          "description": "Este grupo se centra en la definición inicial de los objetivos que los indicadores deben ayudar a medir. La inclusión de ambos indicadores sugiere una etapa temprana del proceso de diseño de producto donde se está buscando aclarar qué se quiere lograr.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        }
+      ],
+      "modules": []
+    }
+  },
+  "ws_1763393539024": {
+    "id": "ws_1763393539024",
+    "boardName": "Nuevo",
+    "currentStep": "problem_framing",
+    "createdAt": "2025-11-17T15:32:19.025Z",
+    "figmaBoard": null,
+    "data": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": [],
+      "features": {},
+      "prioritization": []
+    },
+    "groups": {
+      "problems": [],
+      "actors": [],
+      "kpis": [],
+      "modules": []
+    }
+  },
+  "ws_1763393681371": {
+    "id": "ws_1763393681371",
+    "boardName": "Test Copia",
+    "currentStep": "prioritization",
+    "createdAt": "2025-11-17T15:34:41.372Z",
+    "figmaBoard": null,
+    "data": {
+      "problems": [
+        {
+          "id": "item_1763324571303",
+          "text": "uno",
+          "timestamp": "2025-11-16T20:22:51.303Z",
+          "x": 417.93094647424056,
+          "y": 9.487704351520954
+        },
+        {
+          "id": "item_1763324573550",
+          "text": "dos",
+          "timestamp": "2025-11-16T20:22:53.550Z",
+          "x": 568.1405978746785,
+          "y": 132.91934159030598
+        },
+        {
+          "id": "item_1763324576449",
+          "text": "tres",
+          "timestamp": "2025-11-16T20:22:56.449Z",
+          "x": 580.9543358116432,
+          "y": 224.84489328413383
+        },
+        {
+          "id": "item_1763324581724",
+          "text": "pajaro",
+          "timestamp": "2025-11-16T20:23:01.724Z",
+          "x": 525.9127804136509,
+          "y": 228.1196591401039
+        },
+        {
+          "id": "item_1763324586318",
+          "text": "paloma",
+          "timestamp": "2025-11-16T20:23:06.318Z",
+          "x": 74.605138119979,
+          "y": 393.2454804939449
+        },
+        {
+          "id": "item_1763391175214",
+          "text": "ítem 8",
+          "timestamp": "2025-11-17T14:52:55.215Z",
+          "x": 553.4260011369804,
+          "y": 121.76214344600834
+        },
+        {
+          "id": "item_1763391488937",
+          "text": "item 18",
+          "timestamp": "2025-11-17T14:58:08.938Z",
+          "x": 544.0100160849363,
+          "y": 276.3435880053863
+        },
+        {
+          "id": "item_1763391496118",
+          "text": "item 20",
+          "timestamp": "2025-11-17T14:58:16.118Z",
+          "x": 591.7608721376114,
+          "y": 204.35318023168224
+        }
+      ],
+      "actors": [
+        {
+          "id": "item_1763325328780",
+          "text": "actor 1",
+          "timestamp": "2025-11-16T20:35:28.781Z",
+          "x": 305.669612322473,
+          "y": 111.78175638831904
+        },
+        {
+          "id": "item_1763325332967",
+          "text": "actor 2",
+          "timestamp": "2025-11-16T20:35:32.967Z",
+          "x": 466.49379811522164,
+          "y": 332.14632646511416
+        },
+        {
+          "id": "item_1763325339484",
+          "text": "empleado 1",
+          "timestamp": "2025-11-16T20:35:39.484Z",
+          "x": 180.996921277568,
+          "y": 101.47284741572484
+        },
+        {
+          "id": "item_1763325343692",
+          "text": "empleado 2",
+          "timestamp": "2025-11-16T20:35:43.692Z",
+          "x": 134.97349294881457,
+          "y": 7.618259923707438
+        },
+        {
+          "id": "item_1763393946259",
+          "text": "otro",
+          "timestamp": "2025-11-17T15:39:06.259Z",
+          "x": 176.4675419659711,
+          "y": 295.4582153519
+        },
+        {
+          "id": "item_1763393949149",
+          "text": "dos",
+          "timestamp": "2025-11-17T15:39:09.149Z",
+          "x": 483.38407661420666,
+          "y": 165.05165594542274
+        },
+        {
+          "id": "item_1763394049158",
+          "text": "este es un item largo para ver como se comporta la herramienta en estos casos, por ejemplo podriamos ver si hace scroll",
+          "timestamp": "2025-11-17T15:40:49.159Z",
+          "x": 72.04912112957888,
+          "y": 149.10794057822326
+        }
+      ],
+      "kpis": [
+        {
+          "id": "item_1763325620743",
+          "text": "indicadoe 1",
+          "timestamp": "2025-11-16T20:40:20.743Z",
+          "x": 203.3833954104304,
+          "y": 194.10402414051111
+        },
+        {
+          "id": "item_1763325629220",
+          "text": "indiocador 2",
+          "timestamp": "2025-11-16T20:40:29.220Z",
+          "x": 417.28660565656827,
+          "y": 176.10162468975437
+        }
+      ],
+      "modules": [
+        {
+          "id": "item_1763327967621",
+          "text": "m1",
+          "timestamp": "2025-11-16T21:19:27.621Z",
+          "x": 12.931235664247964,
+          "y": 165.22422368761428
+        },
+        {
+          "id": "item_1763327969675",
+          "text": "m2",
+          "timestamp": "2025-11-16T21:19:29.675Z",
+          "x": 447.5346438914701,
+          "y": 66.26052803227908
+        }
+      ],
+      "features": {
+        "item_1763327967621": [
+          {
+            "id": "item_1763327984591",
+            "text": "f1",
+            "timestamp": "2025-11-16T21:19:44.591Z",
+            "x": 365.8725523876343,
+            "y": 56.203822334014845
+          },
+          {
+            "id": "item_1763327987894",
+            "text": "f2",
+            "timestamp": "2025-11-16T21:19:47.894Z",
+            "x": 398.0237307572206,
+            "y": 353.5272315923149
+          },
+          {
+            "id": "item_1763391575462",
+            "text": "login",
+            "timestamp": "2025-11-17T14:59:35.462Z",
+            "x": 198.9697813018408,
+            "y": 230.62139855800936
+          },
+          {
+            "id": "item_1763391584650",
+            "text": "busqueda",
+            "timestamp": "2025-11-17T14:59:44.650Z",
+            "x": 111.80970020200745,
+            "y": 34.518035171396555
+          },
+          {
+            "id": "item_1763391592475",
+            "text": "carrito",
+            "timestamp": "2025-11-17T14:59:52.476Z",
+            "x": 349.53286699198867,
+            "y": 180.67807864220615
+          }
+        ],
+        "item_1763327969675": [
+          {
+            "id": "item_1763327994944",
+            "text": "fm1",
+            "timestamp": "2025-11-16T21:19:54.944Z",
+            "x": 56.154038496465915,
+            "y": 285.045207264074
+          },
+          {
+            "id": "item_1763327998074",
+            "text": "fm2",
+            "timestamp": "2025-11-16T21:19:58.074Z",
+            "x": 133.82074325434945,
+            "y": 237.79364065657705
+          }
+        ]
+      },
+      "prioritization": [
+        {
+          "featureId": "item_1763327994944",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 3.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:06.471Z"
+            },
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:33.258Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 2.5
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763327984591",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:19.797Z"
+            },
+            {
+              "participantId": "p_1763392081955",
+              "value": 1,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:08:20.404Z"
+            },
+            {
+              "participantId": "p_1763392401822",
+              "value": 2,
+              "complexity": 1.5,
+              "timestamp": "2025-11-17T15:13:59.684Z"
+            }
+          ],
+          "averages": {
+            "value": 1.8,
+            "complexity": 2.2
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763327987894",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:24.399Z"
+            }
+          ],
+          "averages": {
+            "value": 2.5,
+            "complexity": 2.5
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763327998074",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:36.777Z"
+            }
+          ],
+          "averages": {
+            "value": 2.5,
+            "complexity": 2.5
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763391575462",
+          "votes": [
+            {
+              "participantId": "p_1763391602181",
+              "value": 1,
+              "complexity": 4,
+              "timestamp": "2025-11-17T15:00:15.624Z"
+            },
+            {
+              "participantId": "p_1763392081955",
+              "value": 1.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:09:54.033Z"
+            }
+          ],
+          "averages": {
+            "value": 1.3,
+            "complexity": 3.3
+          },
+          "quadrant": "avoid"
+        },
+        {
+          "featureId": "item_1763391592475",
+          "votes": [
+            {
+              "participantId": "p_1763391763707",
+              "value": 4.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:03:13.779Z"
+            }
+          ],
+          "averages": {
+            "value": 4.5,
+            "complexity": 2.5
+          },
+          "quadrant": "quick-wins"
+        }
+      ]
+    },
+    "groups": {
+      "problems": [
+        {
+          "category": "Secuencia Numerica",
+          "items": [
+            {
+              "id": "item_1763324571303",
+              "text": "uno",
+              "timestamp": "2025-11-16T20:22:51.303Z",
+              "x": 417.93094647424056,
+              "y": 9.487704351520954
+            },
+            {
+              "id": "item_1763324573550",
+              "text": "dos",
+              "timestamp": "2025-11-16T20:22:53.550Z",
+              "x": 568.1405978746785,
+              "y": 132.91934159030598
+            },
+            {
+              "id": "item_1763324576449",
+              "text": "tres",
+              "timestamp": "2025-11-16T20:22:56.449Z",
+              "x": 580.9543358116432,
+              "y": 224.84489328413383
+            }
+          ],
+          "description": "Items que representan una progresión numérica simple, posiblemente indicando un orden, una etapa o un proceso secuencial dentro de la plataforma.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Avifauna",
+          "items": [
+            {
+              "id": "item_1763324581724",
+              "text": "pajaro",
+              "timestamp": "2025-11-16T20:23:01.724Z",
+              "x": 525.9127804136509,
+              "y": 228.1196591401039
+            },
+            {
+              "id": "item_1763324586318",
+              "text": "paloma",
+              "timestamp": "2025-11-16T20:23:06.318Z",
+              "x": 74.605138119979,
+              "y": 393.2454804939449
+            }
+          ],
+          "description": "Items referidos a aves, que podrían simbolizar aspectos como la mensajería, la libertad de elección del usuario o la capacidad de extender funcionalidades (plugins, extensions).",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Items no especificados",
+          "items": [
+            {
+              "id": "item_1763391175214",
+              "text": "ítem 8",
+              "timestamp": "2025-11-17T14:52:55.215Z",
+              "x": 553.4260011369804,
+              "y": 121.76214344600834
+            },
+            {
+              "id": "item_1763391488937",
+              "text": "item 18",
+              "timestamp": "2025-11-17T14:58:08.938Z",
+              "x": 544.0100160849363,
+              "y": 276.3435880053863
+            },
+            {
+              "id": "item_1763391496118",
+              "text": "item 20",
+              "timestamp": "2025-11-17T14:58:16.118Z",
+              "x": 591.7608721376114,
+              "y": 204.35318023168224
+            }
+          ],
+          "description": "Items genéricos denotados como 'ítem X'. Podrían representar funcionalidades pendientes de definir, casos de uso aún no explorados, o elementos básicos de la plataforma que necesitan mayor especificación. La repetición del formato sugiere una necesidad de detallar estos elementos.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        }
+      ],
+      "actors": [
+        {
+          "category": "Actores Externos al Sistema",
+          "items": [
+            {
+              "id": "item_1763325328780",
+              "text": "actor 1",
+              "timestamp": "2025-11-16T20:35:28.781Z",
+              "x": 305.669612322473,
+              "y": 111.78175638831904
+            },
+            {
+              "id": "item_1763325332967",
+              "text": "actor 2",
+              "timestamp": "2025-11-16T20:35:32.967Z",
+              "x": 466.49379811522164,
+              "y": 332.14632646511416
+            }
+          ],
+          "description": "Representa entidades externas que interactúan con el sistema, sin ser parte de la organización interna. Pueden ser clientes, proveedores u otras partes interesadas externas.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Actores Internos al Sistema",
+          "items": [
+            {
+              "id": "item_1763325339484",
+              "text": "empleado 1",
+              "timestamp": "2025-11-16T20:35:39.484Z",
+              "x": 180.996921277568,
+              "y": 101.47284741572484
+            },
+            {
+              "id": "item_1763325343692",
+              "text": "empleado 2",
+              "timestamp": "2025-11-16T20:35:43.692Z",
+              "x": 134.97349294881457,
+              "y": 7.618259923707438
+            }
+          ],
+          "description": "Representa usuarios que forman parte de la organización que opera el sistema. Son empleados que interactúan directamente con el sistema para realizar sus tareas.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Roles con Potencial Solapamiento",
+          "items": [
+            {
+              "id": "item_1763325328780",
+              "text": "actor 1",
+              "timestamp": "2025-11-16T20:35:28.781Z",
+              "x": 305.669612322473,
+              "y": 111.78175638831904
+            },
+            {
+              "id": "item_1763325332967",
+              "text": "actor 2",
+              "timestamp": "2025-11-16T20:35:32.967Z",
+              "x": 466.49379811522164,
+              "y": 332.14632646511416
+            },
+            {
+              "id": "item_1763325339484",
+              "text": "empleado 1",
+              "timestamp": "2025-11-16T20:35:39.484Z",
+              "x": 180.996921277568,
+              "y": 101.47284741572484
+            },
+            {
+              "id": "item_1763325343692",
+              "text": "empleado 2",
+              "timestamp": "2025-11-16T20:35:43.692Z",
+              "x": 134.97349294881457,
+              "y": 7.618259923707438
+            }
+          ],
+          "description": "Este grupo indica que es necesario analizar la diferencia entre 'actor' y 'empleado', ya que ambos interactúan con el sistema y sus funciones podrían solaparse. El análisis debe enfocarse en los permisos, responsabilidades y casos de uso específicos de cada uno.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        }
+      ],
+      "kpis": [
+        {
+          "category": "Definición de Objetivos",
+          "items": [
+            {
+              "id": "item_1763325620743",
+              "text": "indicadoe 1",
+              "timestamp": "2025-11-16T20:40:20.743Z",
+              "x": 203.3833954104304,
+              "y": 194.10402414051111
+            },
+            {
+              "id": "item_1763325629220",
+              "text": "indiocador 2",
+              "timestamp": "2025-11-16T20:40:29.220Z",
+              "x": 417.28660565656827,
+              "y": 176.10162468975437
+            }
+          ],
+          "description": "Este grupo se centra en la definición inicial de los objetivos que los indicadores deben ayudar a medir. La inclusión de ambos indicadores sugiere una etapa temprana del proceso de diseño de producto donde se está buscando aclarar qué se quiere lograr.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        }
+      ],
+      "modules": []
+    }
+  },
+  "ws_1763400920583": {
+    "id": "ws_1763400920583",
+    "boardName": "importado1",
+    "currentStep": "modules",
+    "createdAt": "2025-11-17T17:35:20.583Z",
+    "figmaBoard": null,
+    "data": {
+      "problems": [
+        {
+          "id": "item_1763324571303",
+          "text": "uno",
+          "timestamp": "2025-11-16T20:22:51.303Z",
+          "x": 417.93094647424056,
+          "y": 9.487704351520954
+        },
+        {
+          "id": "item_1763324573550",
+          "text": "dos",
+          "timestamp": "2025-11-16T20:22:53.550Z",
+          "x": 568.1405978746785,
+          "y": 132.91934159030598
+        },
+        {
+          "id": "item_1763324576449",
+          "text": "tres",
+          "timestamp": "2025-11-16T20:22:56.449Z",
+          "x": 580.9543358116432,
+          "y": 224.84489328413383
+        },
+        {
+          "id": "item_1763324581724",
+          "text": "pajaro",
+          "timestamp": "2025-11-16T20:23:01.724Z",
+          "x": 525.9127804136509,
+          "y": 228.1196591401039
+        },
+        {
+          "id": "item_1763324586318",
+          "text": "paloma",
+          "timestamp": "2025-11-16T20:23:06.318Z",
+          "x": 74.605138119979,
+          "y": 393.2454804939449
+        },
+        {
+          "id": "item_1763391175214",
+          "text": "ítem 8",
+          "timestamp": "2025-11-17T14:52:55.215Z",
+          "x": 553.4260011369804,
+          "y": 121.76214344600834
+        },
+        {
+          "id": "item_1763391488937",
+          "text": "item 18",
+          "timestamp": "2025-11-17T14:58:08.938Z",
+          "x": 544.0100160849363,
+          "y": 276.3435880053863
+        },
+        {
+          "id": "item_1763391496118",
+          "text": "item 20",
+          "timestamp": "2025-11-17T14:58:16.118Z",
+          "x": 591.7608721376114,
+          "y": 204.35318023168224
+        }
+      ],
+      "actors": [
+        {
+          "id": "item_1763325328780",
+          "text": "actor 1",
+          "timestamp": "2025-11-16T20:35:28.781Z",
+          "x": 305.669612322473,
+          "y": 111.78175638831904
+        },
+        {
+          "id": "item_1763325332967",
+          "text": "actor 2",
+          "timestamp": "2025-11-16T20:35:32.967Z",
+          "x": 466.49379811522164,
+          "y": 332.14632646511416
+        },
+        {
+          "id": "item_1763325339484",
+          "text": "empleado 1",
+          "timestamp": "2025-11-16T20:35:39.484Z",
+          "x": 180.996921277568,
+          "y": 101.47284741572484
+        },
+        {
+          "id": "item_1763325343692",
+          "text": "empleado 2",
+          "timestamp": "2025-11-16T20:35:43.692Z",
+          "x": 134.97349294881457,
+          "y": 7.618259923707438
+        },
+        {
+          "id": "item_1763393946259",
+          "text": "otro",
+          "timestamp": "2025-11-17T15:39:06.259Z",
+          "x": 176.4675419659711,
+          "y": 295.4582153519
+        },
+        {
+          "id": "item_1763393949149",
+          "text": "dos",
+          "timestamp": "2025-11-17T15:39:09.149Z",
+          "x": 483.38407661420666,
+          "y": 165.05165594542274
+        },
+        {
+          "id": "item_1763394049158",
+          "text": "este es un item largo para ver como se comporta la herramienta en estos casos, por ejemplo podriamos ver si hace scroll",
+          "timestamp": "2025-11-17T15:40:49.159Z",
+          "x": 72.04912112957888,
+          "y": 149.10794057822326
+        }
+      ],
+      "kpis": [
+        {
+          "id": "item_1763325620743",
+          "text": "indicadoe 1",
+          "timestamp": "2025-11-16T20:40:20.743Z",
+          "x": 203.3833954104304,
+          "y": 194.10402414051111
+        },
+        {
+          "id": "item_1763325629220",
+          "text": "indiocador 2",
+          "timestamp": "2025-11-16T20:40:29.220Z",
+          "x": 417.28660565656827,
+          "y": 176.10162468975437
+        }
+      ],
+      "modules": [
+        {
+          "id": "item_1763327967621",
+          "text": "m1",
+          "timestamp": "2025-11-16T21:19:27.621Z",
+          "x": 12.931235664247964,
+          "y": 165.22422368761428
+        },
+        {
+          "id": "item_1763327969675",
+          "text": "m2",
+          "timestamp": "2025-11-16T21:19:29.675Z",
+          "x": 447.5346438914701,
+          "y": 66.26052803227908
+        }
+      ],
+      "features": {
+        "item_1763327967621": [
+          {
+            "id": "item_1763327984591",
+            "text": "f1",
+            "timestamp": "2025-11-16T21:19:44.591Z",
+            "x": 365.8725523876343,
+            "y": 56.203822334014845
+          },
+          {
+            "id": "item_1763327987894",
+            "text": "f2",
+            "timestamp": "2025-11-16T21:19:47.894Z",
+            "x": 398.0237307572206,
+            "y": 353.5272315923149
+          },
+          {
+            "id": "item_1763391575462",
+            "text": "login",
+            "timestamp": "2025-11-17T14:59:35.462Z",
+            "x": 198.9697813018408,
+            "y": 230.62139855800936
+          },
+          {
+            "id": "item_1763391584650",
+            "text": "busqueda",
+            "timestamp": "2025-11-17T14:59:44.650Z",
+            "x": 111.80970020200745,
+            "y": 34.518035171396555
+          },
+          {
+            "id": "item_1763391592475",
+            "text": "carrito",
+            "timestamp": "2025-11-17T14:59:52.476Z",
+            "x": 349.53286699198867,
+            "y": 180.67807864220615
+          }
+        ],
+        "item_1763327969675": [
+          {
+            "id": "item_1763327994944",
+            "text": "fm1",
+            "timestamp": "2025-11-16T21:19:54.944Z",
+            "x": 56.154038496465915,
+            "y": 285.045207264074
+          },
+          {
+            "id": "item_1763327998074",
+            "text": "fm2",
+            "timestamp": "2025-11-16T21:19:58.074Z",
+            "x": 133.82074325434945,
+            "y": 237.79364065657705
+          }
+        ]
+      },
+      "prioritization": [
+        {
+          "featureId": "item_1763327994944",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 3.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:06.471Z"
+            },
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:33.258Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 2.5
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763327984591",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:19.797Z"
+            },
+            {
+              "participantId": "p_1763392081955",
+              "value": 1,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:08:20.404Z"
+            },
+            {
+              "participantId": "p_1763392401822",
+              "value": 2,
+              "complexity": 1.5,
+              "timestamp": "2025-11-17T15:13:59.684Z"
+            }
+          ],
+          "averages": {
+            "value": 1.8,
+            "complexity": 2.2
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763327987894",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:24.399Z"
+            }
+          ],
+          "averages": {
+            "value": 2.5,
+            "complexity": 2.5
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763327998074",
+          "votes": [
+            {
+              "participantId": "p_1763328004922",
+              "value": 2.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-16T21:21:36.777Z"
+            }
+          ],
+          "averages": {
+            "value": 2.5,
+            "complexity": 2.5
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763391575462",
+          "votes": [
+            {
+              "participantId": "p_1763391602181",
+              "value": 1,
+              "complexity": 4,
+              "timestamp": "2025-11-17T15:00:15.624Z"
+            },
+            {
+              "participantId": "p_1763392081955",
+              "value": 1.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:09:54.033Z"
+            }
+          ],
+          "averages": {
+            "value": 1.3,
+            "complexity": 3.3
+          },
+          "quadrant": "avoid"
+        },
+        {
+          "featureId": "item_1763391592475",
+          "votes": [
+            {
+              "participantId": "p_1763391763707",
+              "value": 4.5,
+              "complexity": 2.5,
+              "timestamp": "2025-11-17T15:03:13.779Z"
+            }
+          ],
+          "averages": {
+            "value": 4.5,
+            "complexity": 2.5
+          },
+          "quadrant": "quick-wins"
+        }
+      ]
+    },
+    "groups": {
+      "problems": [
+        {
+          "category": "Números Genéricos",
+          "items": [
+            {
+              "id": "item_1763324571303",
+              "text": "uno",
+              "timestamp": "2025-11-16T20:22:51.303Z",
+              "x": 417.93094647424056,
+              "y": 9.487704351520954
+            },
+            {
+              "id": "item_1763324573550",
+              "text": "dos",
+              "timestamp": "2025-11-16T20:22:53.550Z",
+              "x": 568.1405978746785,
+              "y": 132.91934159030598
+            },
+            {
+              "id": "item_1763324576449",
+              "text": "tres",
+              "timestamp": "2025-11-16T20:22:56.449Z",
+              "x": 580.9543358116432,
+              "y": 224.84489328413383
+            },
+            {
+              "id": "item_1763391175214",
+              "text": "ítem 8",
+              "timestamp": "2025-11-17T14:52:55.215Z",
+              "x": 553.4260011369804,
+              "y": 121.76214344600834
+            },
+            {
+              "id": "item_1763391488937",
+              "text": "item 18",
+              "timestamp": "2025-11-17T14:58:08.938Z",
+              "x": 544.0100160849363,
+              "y": 276.3435880053863
+            },
+            {
+              "id": "item_1763391496118",
+              "text": "item 20",
+              "timestamp": "2025-11-17T14:58:16.118Z",
+              "x": 591.7608721376114,
+              "y": 204.35318023168224
+            }
+          ],
+          "description": "Items que parecen ser placeholders o ejemplos genéricos.  Su significado no es evidente sin más contexto.  Es probable que representen datos o elementos que serán especificados más adelante.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Aves",
+          "items": [
+            {
+              "id": "item_1763324581724",
+              "text": "pajaro",
+              "timestamp": "2025-11-16T20:23:01.724Z",
+              "x": 525.9127804136509,
+              "y": 228.1196591401039
+            },
+            {
+              "id": "item_1763324586318",
+              "text": "paloma",
+              "timestamp": "2025-11-16T20:23:06.318Z",
+              "x": 74.605138119979,
+              "y": 393.2454804939449
+            }
+          ],
+          "description": "Items que se refieren a un tipo de animal volador, especificamente aves. Podrian representar una metáfora o referirse a casos de uso relacionados con el mundo natural o exterior.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        }
+      ],
+      "actors": [
+        {
+          "category": "Actores Externos al Sistema",
+          "items": [
+            {
+              "id": "item_1763325328780",
+              "text": "actor 1",
+              "timestamp": "2025-11-16T20:35:28.781Z",
+              "x": 305.669612322473,
+              "y": 111.78175638831904
+            },
+            {
+              "id": "item_1763325332967",
+              "text": "actor 2",
+              "timestamp": "2025-11-16T20:35:32.967Z",
+              "x": 466.49379811522164,
+              "y": 332.14632646511416
+            }
+          ],
+          "description": "Representa entidades externas que interactúan con el sistema, sin ser parte de la organización interna. Pueden ser clientes, proveedores u otras partes interesadas externas.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Actores Internos al Sistema",
+          "items": [
+            {
+              "id": "item_1763325339484",
+              "text": "empleado 1",
+              "timestamp": "2025-11-16T20:35:39.484Z",
+              "x": 180.996921277568,
+              "y": 101.47284741572484
+            },
+            {
+              "id": "item_1763325343692",
+              "text": "empleado 2",
+              "timestamp": "2025-11-16T20:35:43.692Z",
+              "x": 134.97349294881457,
+              "y": 7.618259923707438
+            }
+          ],
+          "description": "Representa usuarios que forman parte de la organización que opera el sistema. Son empleados que interactúan directamente con el sistema para realizar sus tareas.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Roles con Potencial Solapamiento",
+          "items": [
+            {
+              "id": "item_1763325328780",
+              "text": "actor 1",
+              "timestamp": "2025-11-16T20:35:28.781Z",
+              "x": 305.669612322473,
+              "y": 111.78175638831904
+            },
+            {
+              "id": "item_1763325332967",
+              "text": "actor 2",
+              "timestamp": "2025-11-16T20:35:32.967Z",
+              "x": 466.49379811522164,
+              "y": 332.14632646511416
+            },
+            {
+              "id": "item_1763325339484",
+              "text": "empleado 1",
+              "timestamp": "2025-11-16T20:35:39.484Z",
+              "x": 180.996921277568,
+              "y": 101.47284741572484
+            },
+            {
+              "id": "item_1763325343692",
+              "text": "empleado 2",
+              "timestamp": "2025-11-16T20:35:43.692Z",
+              "x": 134.97349294881457,
+              "y": 7.618259923707438
+            }
+          ],
+          "description": "Este grupo indica que es necesario analizar la diferencia entre 'actor' y 'empleado', ya que ambos interactúan con el sistema y sus funciones podrían solaparse. El análisis debe enfocarse en los permisos, responsabilidades y casos de uso específicos de cada uno.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        }
+      ],
+      "kpis": [
+        {
+          "category": "Definición de Objetivos",
+          "items": [
+            {
+              "id": "item_1763325620743",
+              "text": "indicadoe 1",
+              "timestamp": "2025-11-16T20:40:20.743Z",
+              "x": 203.3833954104304,
+              "y": 194.10402414051111
+            },
+            {
+              "id": "item_1763325629220",
+              "text": "indiocador 2",
+              "timestamp": "2025-11-16T20:40:29.220Z",
+              "x": 417.28660565656827,
+              "y": 176.10162468975437
+            }
+          ],
+          "description": "Este grupo se centra en la definición inicial de los objetivos que los indicadores deben ayudar a medir. La inclusión de ambos indicadores sugiere una etapa temprana del proceso de diseño de producto donde se está buscando aclarar qué se quiere lograr.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        }
+      ],
+      "modules": [
+        {
+          "category": "Módulo Principal 1",
+          "items": [
+            {
+              "id": "item_1763327967621",
+              "text": "m1",
+              "timestamp": "2025-11-16T21:19:27.621Z",
+              "x": 12.931235664247964,
+              "y": 165.22422368761428
+            }
+          ],
+          "description": "Representa el módulo m1, que actuará como un componente principal de la plataforma.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Módulo Principal 2",
+          "items": [
+            {
+              "id": "item_1763327969675",
+              "text": "m2",
+              "timestamp": "2025-11-16T21:19:29.675Z",
+              "x": 447.5346438914701,
+              "y": 66.26052803227908
+            }
+          ],
+          "description": "Representa el módulo m2, que actuará como un componente principal de la plataforma.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        }
+      ]
+    }
+  }
+}
