@@ -1207,7 +1207,7 @@
   "ws_1763400920583": {
     "id": "ws_1763400920583",
     "boardName": "importado1",
-    "currentStep": "modules",
+    "currentStep": "prioritization",
     "createdAt": "2025-11-17T17:35:20.583Z",
     "figmaBoard": null,
     "data": {
@@ -1267,6 +1267,27 @@
           "timestamp": "2025-11-17T14:58:16.118Z",
           "x": 591.7608721376114,
           "y": 204.35318023168224
+        },
+        {
+          "id": "item_1763410679844",
+          "text": "problemas de performance",
+          "timestamp": "2025-11-17T20:17:59.845Z",
+          "x": 474.7304211938727,
+          "y": 124.40109541574688
+        },
+        {
+          "id": "item_1763410691533",
+          "text": "escalabilidad",
+          "timestamp": "2025-11-17T20:18:11.534Z",
+          "x": 201.77756483597972,
+          "y": 29.32491513059139
+        },
+        {
+          "id": "item_1763410700588",
+          "text": "redundancia",
+          "timestamp": "2025-11-17T20:18:20.588Z",
+          "x": 536.0005349993568,
+          "y": 101.87705592754588
         }
       ],
       "actors": [
@@ -1318,6 +1339,27 @@
           "timestamp": "2025-11-17T15:40:49.159Z",
           "x": 72.04912112957888,
           "y": 149.10794057822326
+        },
+        {
+          "id": "item_1763410739428",
+          "text": "vendedor",
+          "timestamp": "2025-11-17T20:18:59.428Z",
+          "x": 285.9462885680525,
+          "y": 51.84436330841713
+        },
+        {
+          "id": "item_1763410743917",
+          "text": "administrador",
+          "timestamp": "2025-11-17T20:19:03.917Z",
+          "x": 81.64082597469164,
+          "y": 273.9834153340905
+        },
+        {
+          "id": "item_1763410749720",
+          "text": "cliente",
+          "timestamp": "2025-11-17T20:19:09.720Z",
+          "x": 356.2063052690154,
+          "y": 282.33883605585675
         }
       ],
       "kpis": [
@@ -1450,11 +1492,17 @@
               "value": 2,
               "complexity": 1.5,
               "timestamp": "2025-11-17T15:13:59.684Z"
+            },
+            {
+              "participantId": "p_1763410793707",
+              "value": 4,
+              "complexity": 3,
+              "timestamp": "2025-11-17T20:20:06.887Z"
             }
           ],
           "averages": {
-            "value": 1.8,
-            "complexity": 2.2
+            "value": 2.4,
+            "complexity": 2.4
           },
           "quadrant": "fill-ins"
         },
@@ -1533,7 +1581,7 @@
     "groups": {
       "problems": [
         {
-          "category": "Números Genéricos",
+          "category": "Identificación Problemas Generales",
           "items": [
             {
               "id": "item_1763324571303",
@@ -1578,14 +1626,45 @@
               "y": 204.35318023168224
             }
           ],
-          "description": "Items que parecen ser placeholders o ejemplos genéricos.  Su significado no es evidente sin más contexto.  Es probable que representen datos o elementos que serán especificados más adelante.",
+          "description": "Items que parecen ser problemas genéricos o sin contexto específico, que requieren más detalles para entender su impacto.",
           "position": {
             "x": 100,
             "y": 100
           }
         },
         {
-          "category": "Aves",
+          "category": "Problemas Escabilidad/Performance",
+          "items": [
+            {
+              "id": "item_1763410679844",
+              "text": "problemas de performance",
+              "timestamp": "2025-11-17T20:17:59.845Z",
+              "x": 474.7304211938727,
+              "y": 124.40109541574688
+            },
+            {
+              "id": "item_1763410691533",
+              "text": "escalabilidad",
+              "timestamp": "2025-11-17T20:18:11.534Z",
+              "x": 201.77756483597972,
+              "y": 29.32491513059139
+            },
+            {
+              "id": "item_1763410700588",
+              "text": "redundancia",
+              "timestamp": "2025-11-17T20:18:20.588Z",
+              "x": 536.0005349993568,
+              "y": 101.87705592754588
+            }
+          ],
+          "description": "Problemas relacionados con el rendimiento, la capacidad de la plataforma para manejar el aumento de la carga y la disponibilidad del servicio.  Se identifican desafíos técnicos críticos.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Conceptos Aves",
           "items": [
             {
               "id": "item_1763324581724",
@@ -1602,16 +1681,16 @@
               "y": 393.2454804939449
             }
           ],
-          "description": "Items que se refieren a un tipo de animal volador, especificamente aves. Podrian representar una metáfora o referirse a casos de uso relacionados con el mundo natural o exterior.",
+          "description": "Items que representan conceptos relacionados con aves. Requieren más contexto para entender su relevancia con la plataforma.",
           "position": {
-            "x": 450,
+            "x": 800,
             "y": 100
           }
         }
       ],
       "actors": [
         {
-          "category": "Actores Externos al Sistema",
+          "category": "Usuarios Directos",
           "items": [
             {
               "id": "item_1763325328780",
@@ -1626,16 +1705,23 @@
               "timestamp": "2025-11-16T20:35:32.967Z",
               "x": 466.49379811522164,
               "y": 332.14632646511416
+            },
+            {
+              "id": "item_1763410749720",
+              "text": "cliente",
+              "timestamp": "2025-11-17T20:19:09.720Z",
+              "x": 356.2063052690154,
+              "y": 282.33883605585675
             }
           ],
-          "description": "Representa entidades externas que interactúan con el sistema, sin ser parte de la organización interna. Pueden ser clientes, proveedores u otras partes interesadas externas.",
+          "description": "Personas que interactúan directamente con la plataforma para obtener un beneficio o completar una tarea específica. Incluye diferentes tipos de usuarios finales.",
           "position": {
             "x": 100,
             "y": 100
           }
         },
         {
-          "category": "Actores Internos al Sistema",
+          "category": "Personal Interno",
           "items": [
             {
               "id": "item_1763325339484",
@@ -1650,47 +1736,54 @@
               "timestamp": "2025-11-16T20:35:43.692Z",
               "x": 134.97349294881457,
               "y": 7.618259923707438
+            },
+            {
+              "id": "item_1763410739428",
+              "text": "vendedor",
+              "timestamp": "2025-11-17T20:18:59.428Z",
+              "x": 285.9462885680525,
+              "y": 51.84436330841713
+            },
+            {
+              "id": "item_1763410743917",
+              "text": "administrador",
+              "timestamp": "2025-11-17T20:19:03.917Z",
+              "x": 81.64082597469164,
+              "y": 273.9834153340905
             }
           ],
-          "description": "Representa usuarios que forman parte de la organización que opera el sistema. Son empleados que interactúan directamente con el sistema para realizar sus tareas.",
+          "description": "Empleados o personal de la empresa que interactúan con la plataforma para gestionar, operar o mantener el sistema, o para facilitar el uso por parte de los usuarios directos. Incluye vendedores y administradores.",
           "position": {
             "x": 450,
             "y": 100
           }
         },
         {
-          "category": "Roles con Potencial Solapamiento",
+          "category": "Sin Contexto",
           "items": [
             {
-              "id": "item_1763325328780",
-              "text": "actor 1",
-              "timestamp": "2025-11-16T20:35:28.781Z",
-              "x": 305.669612322473,
-              "y": 111.78175638831904
+              "id": "item_1763393946259",
+              "text": "otro",
+              "timestamp": "2025-11-17T15:39:06.259Z",
+              "x": 176.4675419659711,
+              "y": 295.4582153519
             },
             {
-              "id": "item_1763325332967",
-              "text": "actor 2",
-              "timestamp": "2025-11-16T20:35:32.967Z",
-              "x": 466.49379811522164,
-              "y": 332.14632646511416
+              "id": "item_1763393949149",
+              "text": "dos",
+              "timestamp": "2025-11-17T15:39:09.149Z",
+              "x": 483.38407661420666,
+              "y": 165.05165594542274
             },
             {
-              "id": "item_1763325339484",
-              "text": "empleado 1",
-              "timestamp": "2025-11-16T20:35:39.484Z",
-              "x": 180.996921277568,
-              "y": 101.47284741572484
-            },
-            {
-              "id": "item_1763325343692",
-              "text": "empleado 2",
-              "timestamp": "2025-11-16T20:35:43.692Z",
-              "x": 134.97349294881457,
-              "y": 7.618259923707438
+              "id": "item_1763394049158",
+              "text": "este es un item largo para ver como se comporta la herramienta en estos casos, por ejemplo podriamos ver si hace scroll",
+              "timestamp": "2025-11-17T15:40:49.159Z",
+              "x": 72.04912112957888,
+              "y": 149.10794057822326
             }
           ],
-          "description": "Este grupo indica que es necesario analizar la diferencia entre 'actor' y 'empleado', ya que ambos interactúan con el sistema y sus funciones podrían solaparse. El análisis debe enfocarse en los permisos, responsabilidades y casos de uso específicos de cada uno.",
+          "description": "Items que carecen de suficiente información contextual para ser categorizados significativamente dentro del contexto de actores principales. 'Otro', 'Dos' y el item largo no definen un actor/rol claro.",
           "position": {
             "x": 800,
             "y": 100

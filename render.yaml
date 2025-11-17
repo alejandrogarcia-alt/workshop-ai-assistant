@@ -1,0 +1,38 @@
+services:
+  # Backend API Service
+  - type: web
+    name: workshop-ai-backend
+    runtime: node
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: FIGMA_ACCESS_TOKEN
+        sync: false
+      - key: FIGMA_TEAM_ID
+        sync: false
+    healthCheckPath: /health
+
+  # Frontend Static Site
+  - type: web
+    name: workshop-ai-frontend
+    runtime: static
+    region: oregon
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
