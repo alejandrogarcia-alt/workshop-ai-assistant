@@ -27,7 +27,11 @@ export const workshopApi = {
   vote: (workshopId, featureId, value, complexity, participantId) =>
     api.post(`/workshop/${workshopId}/vote`, { featureId, value, complexity, participantId }),
   export: (workshopId) => api.get(`/workshop/${workshopId}/export`),
-  import: (boardName, workshopData) => api.post('/workshop/import', { boardName, workshopData })
+  import: (boardName, workshopData) => api.post('/workshop/import', { boardName, workshopData }),
+  deleteItem: (workshopId, itemId, step, moduleId = null) =>
+    api.delete(`/workshop/${workshopId}/delete-item`, { data: { itemId, step, moduleId } }),
+  editItem: (workshopId, itemId, text, step, moduleId = null) =>
+    api.put(`/workshop/${workshopId}/edit-item`, { itemId, text, step, moduleId })
 };
 
 // Figma API

@@ -790,9 +790,22 @@ function Workshop() {
             </div>
 
             {showGrouped && groups.length > 0 ? (
-              <GroupedView groups={groups} />
+              <GroupedView
+                groups={groups}
+                workshopId={workshopId}
+                step={currentStep}
+                moduleId={selectedModule}
+                onUpdate={loadWorkshop}
+              />
             ) : (
-              <StickyNoteGrid items={items} color={stepConfig.color} />
+              <StickyNoteGrid
+                items={items}
+                color={stepConfig.color}
+                workshopId={workshopId}
+                step={currentStep}
+                moduleId={selectedModule}
+                onUpdate={loadWorkshop}
+              />
             )}
           </div>
         )}

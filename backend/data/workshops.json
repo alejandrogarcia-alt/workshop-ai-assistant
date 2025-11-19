@@ -1,1854 +1,3117 @@
 {
-  "ws_1763323152901": {
-    "id": "ws_1763323152901",
-    "boardName": "Test1",
+  "ws_1763569124062": {
+    "id": "ws_1763569124062",
+    "boardName": "Taller TP",
     "currentStep": "problem_framing",
-    "createdAt": "2025-11-16T19:59:12.902Z",
+    "createdAt": "2025-11-19T16:18:44.062Z",
     "figmaBoard": null,
-    "data": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": [],
-      "features": {},
-      "prioritization": []
-    },
-    "groups": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": []
-    }
-  },
-  "ws_1763323538773": {
-    "id": "ws_1763323538773",
-    "boardName": "TEST2",
-    "currentStep": "actors",
-    "createdAt": "2025-11-16T20:05:38.773Z",
-    "figmaBoard": null,
-    "data": {
-      "problems": [],
-      "actors": [
-        {
-          "id": "item_1763323569711",
-          "text": "performance",
-          "timestamp": "2025-11-16T20:06:09.711Z",
-          "x": 236.51962841934915,
-          "y": 81.67381891009313
-        }
-      ],
-      "kpis": [],
-      "modules": [],
-      "features": {},
-      "prioritization": []
-    },
-    "groups": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": []
-    }
-  },
-  "ws_1763323847504": {
-    "id": "ws_1763323847504",
-    "boardName": "TestProblemFraming",
-    "currentStep": "problem_framing",
-    "createdAt": "2025-11-16T20:10:47.504Z",
-    "figmaBoard": null,
-    "data": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": [],
-      "features": {},
-      "prioritization": []
-    },
-    "groups": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": []
-    }
-  },
-  "ws_1763323895124": {
-    "id": "ws_1763323895124",
-    "boardName": "TEST",
-    "currentStep": "actors",
-    "createdAt": "2025-11-16T20:11:35.124Z",
-    "figmaBoard": {
-      "id": "manual",
-      "url": "https://www.figma.com/design/OLlqMftZjYS3LoO4RSsqaV/TEST?node-id=0-1&p=f&t=bVQSsPrvjaZJuGBr-0"
-    },
     "data": {
       "problems": [
         {
-          "id": "item_1763323911569",
-          "text": "uno",
-          "timestamp": "2025-11-16T20:11:51.570Z",
-          "x": 87.11268719431833,
-          "y": 90.3347518151679
+          "id": "item_1763571109974",
+          "text": "unificación del ecosistema / plataforma",
+          "timestamp": "2025-11-19T16:51:49.974Z",
+          "x": 36.536843727926474,
+          "y": 234.2202307724022
         },
         {
-          "id": "item_1763323916706",
-          "text": "dos",
-          "timestamp": "2025-11-16T20:11:56.706Z",
-          "x": 15.626270971960121,
-          "y": 51.86844436139965
+          "id": "item_1763571147369",
+          "text": "Necesitamos que anaqueleros y premier puedan tomar pedidos desde sus PV.",
+          "timestamp": "2025-11-19T16:52:27.369Z",
+          "x": 515.832994750403,
+          "y": 15.723456780749911
         },
         {
-          "id": "item_1763323921960",
-          "text": "tres",
-          "timestamp": "2025-11-16T20:12:01.960Z",
-          "x": 74.15072104896177,
-          "y": 0.17029019865466566
+          "id": "item_1763571182966",
+          "text": "Necesitamos que los anaqueleros y premier utilicen la data y sus habilidades de negociación para tomar pedidos.",
+          "timestamp": "2025-11-19T16:53:02.966Z",
+          "x": 492.2245746667806,
+          "y": 345.90854025649605
         },
         {
-          "id": "item_1763323924668",
-          "text": "a",
-          "timestamp": "2025-11-16T20:12:04.668Z",
-          "x": 488.2642373220802,
-          "y": 196.0231150010107
+          "id": "item_1763571232781",
+          "text": "Requerimos que los anaquelistas se enfoquen inicialmente en la ejecución y después en el pedido",
+          "timestamp": "2025-11-19T16:53:52.781Z",
+          "x": 309.9443927206429,
+          "y": 108.96883358052736
         },
         {
-          "id": "item_1763323926891",
-          "text": "b",
-          "timestamp": "2025-11-16T20:12:06.891Z",
-          "x": 12.647270483460149,
-          "y": 179.90198343913465
+          "id": "item_1763571392945",
+          "text": "eficientar la gestión del pedido",
+          "timestamp": "2025-11-19T16:56:32.945Z",
+          "x": 53.341358227217015,
+          "y": 181.14095026303062
         },
         {
-          "id": "item_1763323928911",
-          "text": "c",
-          "timestamp": "2025-11-16T20:12:08.911Z",
-          "x": 411.91154848107965,
-          "y": 112.94038683760421
-        }
-      ],
-      "actors": [],
-      "kpis": [],
-      "modules": [],
-      "features": {},
-      "prioritization": []
-    },
-    "groups": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": []
-    }
-  },
-  "ws_1763324566172": {
-    "id": "ws_1763324566172",
-    "boardName": "Test",
-    "currentStep": "problem_framing",
-    "createdAt": "2025-11-16T20:22:46.172Z",
-    "figmaBoard": {
-      "id": "manual",
-      "url": "https://www.figma.com/design/OLlqMftZjYS3LoO4RSsqaV/TEST?node-id=0-1&p=f&t=2oHTndNnczpt9qOa-0"
-    },
-    "data": {
-      "problems": [
-        {
-          "id": "item_1763324571303",
-          "text": "uno",
-          "timestamp": "2025-11-16T20:22:51.303Z",
-          "x": 417.93094647424056,
-          "y": 9.487704351520954
+          "id": "item_1763571597850",
+          "text": "fusionar en algun momento los perfiles del anaquelero y del premier",
+          "timestamp": "2025-11-19T16:59:57.850Z",
+          "x": 473.22101998930873,
+          "y": 273.3616841848866
         },
         {
-          "id": "item_1763324573550",
-          "text": "dos",
-          "timestamp": "2025-11-16T20:22:53.550Z",
-          "x": 568.1405978746785,
-          "y": 132.91934159030598
+          "id": "item_1763571683933",
+          "text": "creemos que donde hace más sentido el pedido sugerido es AQUI",
+          "timestamp": "2025-11-19T17:01:23.933Z",
+          "x": 498.18992018254005,
+          "y": 174.9309548310107
         },
         {
-          "id": "item_1763324576449",
-          "text": "tres",
-          "timestamp": "2025-11-16T20:22:56.449Z",
-          "x": 580.9543358116432,
-          "y": 224.84489328413383
+          "id": "item_1763571785303",
+          "text": "hay MUCHA información en canal moderno para que las soluciones sean preguntar \"que quiere\"?",
+          "timestamp": "2025-11-19T17:03:05.303Z",
+          "x": 525.3223990834817,
+          "y": 385.77547842563774
         },
         {
-          "id": "item_1763324581724",
-          "text": "pajaro",
-          "timestamp": "2025-11-16T20:23:01.724Z",
-          "x": 525.9127804136509,
-          "y": 228.1196591401039
+          "id": "item_1763571845471",
+          "text": "Queremos salir de la \"toma de pedidos\" a tomar pedido, considerar data y promociones. Algo más integral",
+          "timestamp": "2025-11-19T17:04:05.471Z",
+          "x": 563.0454513695523,
+          "y": 238.76929609097357
         },
         {
-          "id": "item_1763324586318",
-          "text": "paloma",
-          "timestamp": "2025-11-16T20:23:06.318Z",
-          "x": 74.605138119979,
-          "y": 393.2454804939449
+          "id": "item_1763572044518",
+          "text": "Anticipación para justing time",
+          "timestamp": "2025-11-19T17:07:24.518Z",
+          "x": 370.220219968277,
+          "y": 373.80492925528
         },
         {
-          "id": "item_1763391175214",
-          "text": "ítem 8",
-          "timestamp": "2025-11-17T14:52:55.215Z",
-          "x": 553.4260011369804,
-          "y": 121.76214344600834
+          "id": "item_1763572071647",
+          "text": "Proveer a los actores con indicares e incentivos para clientes y anaqueleros/premier",
+          "timestamp": "2025-11-19T17:07:51.647Z",
+          "x": 54.83412837697743,
+          "y": 109.24348306618299
         },
         {
-          "id": "item_1763391488937",
-          "text": "item 18",
-          "timestamp": "2025-11-17T14:58:08.938Z",
-          "x": 544.0100160849363,
-          "y": 276.3435880053863
+          "id": "item_1763572159159",
+          "text": "Pedido optimo",
+          "timestamp": "2025-11-19T17:09:19.159Z",
+          "x": 32.423010037821484,
+          "y": 149.4060778808481
         },
         {
-          "id": "item_1763391496118",
-          "text": "item 20",
-          "timestamp": "2025-11-17T14:58:16.118Z",
-          "x": 591.7608721376114,
-          "y": 204.35318023168224
+          "id": "item_1763572238042",
+          "text": "Pedido optimo es donde realmente movemos las palancas de negocio porque consideramos la DATA",
+          "timestamp": "2025-11-19T17:10:38.042Z",
+          "x": 467.01676629275346,
+          "y": 165.03245895504847
+        },
+        {
+          "id": "item_1763572532398",
+          "text": "vamos a tener que enfrentar resistencia operativa con datos duros",
+          "timestamp": "2025-11-19T17:15:32.398Z",
+          "x": 62.66123614923593,
+          "y": 3.8460874177860482
+        },
+        {
+          "id": "item_1763572649886",
+          "text": "Control de Agenda, para anticiparnos",
+          "timestamp": "2025-11-19T17:17:29.886Z",
+          "x": 56.98013238099462,
+          "y": 32.454471313385994
+        },
+        {
+          "id": "item_1763572796881",
+          "text": "Agentes de ayuda a los roles para acelerar adopcion",
+          "timestamp": "2025-11-19T17:19:56.881Z",
+          "x": 348.35915004323783,
+          "y": 194.28566973688334
+        },
+        {
+          "id": "item_1763572907915",
+          "text": "Hoy Silos de Datos Gepp IT y TP (Multi)",
+          "timestamp": "2025-11-19T17:21:47.915Z",
+          "x": 186.6816908126599,
+          "y": 301.3559119584687
+        },
+        {
+          "id": "item_1763572926154",
+          "text": "Integrar G Service , TP y nueva Toma Pedido",
+          "timestamp": "2025-11-19T17:22:06.154Z",
+          "x": 413.59884636636275,
+          "y": 242.02507831294065
+        },
+        {
+          "id": "item_1763572972168",
+          "text": "GS - Entrada , comida , salida",
+          "timestamp": "2025-11-19T17:22:52.168Z",
+          "x": 337.6915002434129,
+          "y": 291.0650496539934
+        },
+        {
+          "id": "item_1763573012026",
+          "text": "GS - Mejorar Candados (Geolocalizacion y Geo Cercas) e Indicadores",
+          "timestamp": "2025-11-19T17:23:32.026Z",
+          "x": 538.6314587953076,
+          "y": 260.5197037656694
+        },
+        {
+          "id": "item_1763573049127",
+          "text": "GS - Asegurar de donde hace login , y lugar",
+          "timestamp": "2025-11-19T17:24:09.127Z",
+          "x": 47.36161667359311,
+          "y": 288.5848990161077
+        },
+        {
+          "id": "item_1763573065611",
+          "text": "Al no tener dispositivos de Gepp, hay mucha variadad y tema de permisos",
+          "timestamp": "2025-11-19T17:24:25.611Z",
+          "x": 353.593595195653,
+          "y": 220.69502228022748
+        },
+        {
+          "id": "item_1763573168956",
+          "text": "GS - Tiendas sin recepcion.  Login con gestora de servicio o con QR (rotativo)",
+          "timestamp": "2025-11-19T17:26:08.956Z",
+          "x": 130.67009071713073,
+          "y": 352.15930829718815
+        },
+        {
+          "id": "item_1763573368834",
+          "text": "TP - Evolución tecnologica (voz, agentes, image recognition, etc)",
+          "timestamp": "2025-11-19T17:29:28.834Z",
+          "x": 61.01592347702829,
+          "y": 112.77171383250537
+        },
+        {
+          "id": "item_1763573435263",
+          "text": "gs - estabilidad",
+          "timestamp": "2025-11-19T17:30:35.263Z",
+          "x": 26.045378728651336,
+          "y": 350.9537924616302
+        },
+        {
+          "id": "item_1763573498375",
+          "text": "revision GS",
+          "timestamp": "2025-11-19T17:31:38.375Z",
+          "x": 563.753689119633,
+          "y": 390.52222544092007
+        },
+        {
+          "id": "item_1763573517448",
+          "text": "reconocimiento de voz",
+          "timestamp": "2025-11-19T17:31:57.448Z",
+          "x": 482.6030187644416,
+          "y": 237.18960671037235
+        },
+        {
+          "id": "item_1763573773934",
+          "text": "Calidad en Nuevas Reglas",
+          "timestamp": "2025-11-19T17:36:13.934Z",
+          "x": 376.36762716063726,
+          "y": 123.11550186254921
+        },
+        {
+          "id": "item_1763573815626",
+          "text": "simulacion de campañas",
+          "timestamp": "2025-11-19T17:36:55.626Z",
+          "x": 355.90208477909044,
+          "y": 156.58693179724472
+        },
+        {
+          "id": "item_1763573994614",
+          "text": "esquema de compensación que fomenta la venta (canje/salario/etc)",
+          "timestamp": "2025-11-19T17:39:54.614Z",
+          "x": 538.202651935964,
+          "y": 231.55660631710114
+        },
+        {
+          "id": "item_1763574137999",
+          "text": "Tratar de controlar la carga cognitiva con todas las ideas!",
+          "timestamp": "2025-11-19T17:42:17.999Z",
+          "x": 208.53000779371774,
+          "y": 239.05454235606433
+        },
+        {
+          "id": "item_1763575024085",
+          "text": "Oportunidad de sumar IA y potenciar",
+          "timestamp": "2025-11-19T17:57:04.085Z",
+          "x": 122.42858249846103,
+          "y": 299.8953264986311
+        },
+        {
+          "id": "item_1763575317046",
+          "text": "Contingencia de trabajo fuera de linea (datos pre-cargados)",
+          "timestamp": "2025-11-19T18:01:57.046Z",
+          "x": 109.65130938832581,
+          "y": 218.84328748543004
+        },
+        {
+          "id": "item_1763575548630",
+          "text": "Mejorar / Evaluar esquema de DRP",
+          "timestamp": "2025-11-19T18:05:48.630Z",
+          "x": 445.8383150651112,
+          "y": 148.325137032935
         }
       ],
       "actors": [
         {
-          "id": "item_1763325328780",
-          "text": "actor 1",
-          "timestamp": "2025-11-16T20:35:28.781Z",
-          "x": 305.669612322473,
-          "y": 111.78175638831904
+          "id": "item_1763574158399",
+          "text": "Anaquelero",
+          "timestamp": "2025-11-19T17:42:38.399Z",
+          "x": 125.15871215070507,
+          "y": 110.4741979550254
         },
         {
-          "id": "item_1763325332967",
-          "text": "actor 2",
-          "timestamp": "2025-11-16T20:35:32.967Z",
-          "x": 466.49379811522164,
-          "y": 332.14632646511416
+          "id": "item_1763574170539",
+          "text": "preventista",
+          "timestamp": "2025-11-19T17:42:50.539Z",
+          "x": 471.2346477880423,
+          "y": 44.841575097017824
         },
         {
-          "id": "item_1763325339484",
-          "text": "empleado 1",
-          "timestamp": "2025-11-16T20:35:39.484Z",
-          "x": 180.996921277568,
-          "y": 101.47284741572484
+          "id": "item_1763574202197",
+          "text": "Premier",
+          "timestamp": "2025-11-19T17:43:22.197Z",
+          "x": 538.3807969658449,
+          "y": 311.580616119251
         },
         {
-          "id": "item_1763325343692",
-          "text": "empleado 2",
-          "timestamp": "2025-11-16T20:35:43.692Z",
-          "x": 134.97349294881457,
-          "y": 7.618259923707438
+          "id": "item_1763574215330",
+          "text": "Jefe de Territorio",
+          "timestamp": "2025-11-19T17:43:35.330Z",
+          "x": 279.06590671849887,
+          "y": 165.94527969182505
+        },
+        {
+          "id": "item_1763574220378",
+          "text": "Auditor",
+          "timestamp": "2025-11-19T17:43:40.378Z",
+          "x": 136.08348263252478,
+          "y": 303.5163127889735
+        },
+        {
+          "id": "item_1763574238280",
+          "text": "Gestor de servicios",
+          "timestamp": "2025-11-19T17:43:58.280Z",
+          "x": 104.54326761985465,
+          "y": 139.9419787613099
+        },
+        {
+          "id": "item_1763574302106",
+          "text": "Premier, JT y Gestor de Servicios tienen acceso a la plataforma (anaquelero no)",
+          "timestamp": "2025-11-19T17:45:02.106Z",
+          "x": 62.60820350661178,
+          "y": 134.7123738748218
+        },
+        {
+          "id": "item_1763574349104",
+          "text": "La fusión del anaquelero + Premier sera el Mercaderista",
+          "timestamp": "2025-11-19T17:45:49.104Z",
+          "x": 496.6841122117002,
+          "y": 171.53924548376466
+        },
+        {
+          "id": "item_1763574371650",
+          "text": "Niveles gerenciales",
+          "timestamp": "2025-11-19T17:46:11.650Z",
+          "x": 23.982208489080705,
+          "y": 295.7621563397746
         }
       ],
       "kpis": [
         {
-          "id": "item_1763325620743",
-          "text": "indicadoe 1",
-          "timestamp": "2025-11-16T20:40:20.743Z",
-          "x": 203.3833954104304,
-          "y": 194.10402414051111
+          "id": "item_1763574681732",
+          "text": "Reducción de tiempo de gestión",
+          "timestamp": "2025-11-19T17:51:21.732Z",
+          "x": 431.6508021597505,
+          "y": 362.27675621467677
         },
         {
-          "id": "item_1763325629220",
-          "text": "indiocador 2",
-          "timestamp": "2025-11-16T20:40:29.220Z",
-          "x": 417.28660565656827,
-          "y": 176.10162468975437
+          "id": "item_1763574701563",
+          "text": "Dismimuir el nivel de rotación de todos los roles",
+          "timestamp": "2025-11-19T17:51:41.563Z",
+          "x": 353.51466915347913,
+          "y": 369.91317267878327
+        },
+        {
+          "id": "item_1763574794549",
+          "text": "Visibilidad end to end de los procesos",
+          "timestamp": "2025-11-19T17:53:14.549Z",
+          "x": 375.12265187783413,
+          "y": 133.68600604583332
+        },
+        {
+          "id": "item_1763574834220",
+          "text": "Maximizar la conversión por la unificación de procesos",
+          "timestamp": "2025-11-19T17:53:54.220Z",
+          "x": 314.754808404284,
+          "y": 105.314738798038
+        },
+        {
+          "id": "item_1763574886522",
+          "text": "Aconsejar /Alertar en tiempo real",
+          "timestamp": "2025-11-19T17:54:46.522Z",
+          "x": 268.95111610920475,
+          "y": 204.38230291624419
+        },
+        {
+          "id": "item_1763574938376",
+          "text": "Gestión en tiempo real de manera masiva (Blue line)",
+          "timestamp": "2025-11-19T17:55:38.376Z",
+          "x": 566.1287137883318,
+          "y": 355.4988646621643
+        },
+        {
+          "id": "item_1763574970514",
+          "text": "Mover el musculo operativo hacia un fast track",
+          "timestamp": "2025-11-19T17:56:10.514Z",
+          "x": 466.4733872469277,
+          "y": 229.19692388399335
+        },
+        {
+          "id": "item_1763575165090",
+          "text": "Aumentar la confianza y el engagement con la tienda",
+          "timestamp": "2025-11-19T17:59:25.090Z",
+          "x": 111.92766677181028,
+          "y": 378.6410751891692
+        },
+        {
+          "id": "item_1763575259873",
+          "text": "Aceptación del pedido óptimo (en % muy alto)",
+          "timestamp": "2025-11-19T18:00:59.873Z",
+          "x": 13.555192954016038,
+          "y": 352.3774039121118
+        },
+        {
+          "id": "item_1763575663424",
+          "text": "Lograr la adopción de la plataforma por parte de los actores (tener una usabilidad efectiva)",
+          "timestamp": "2025-11-19T18:07:43.424Z",
+          "x": 152.13830606223183,
+          "y": 30.453479756464972
+        },
+        {
+          "id": "item_1763576404120",
+          "text": "% eficiencia en productividad",
+          "timestamp": "2025-11-19T18:20:04.120Z",
+          "x": 29.625916618394488,
+          "y": 190.32211257874795
+        },
+        {
+          "id": "item_1763576430384",
+          "text": "mejoras en calificación de ejecución",
+          "timestamp": "2025-11-19T18:20:30.384Z",
+          "x": 118.98290848310937,
+          "y": 269.9189586974622
         }
       ],
       "modules": [
         {
-          "id": "item_1763327967621",
-          "text": "m1",
-          "timestamp": "2025-11-16T21:19:27.621Z",
-          "x": 12.931235664247964,
-          "y": 165.22422368761428
+          "id": "item_1763576819745",
+          "text": "Pedido Optimo",
+          "timestamp": "2025-11-19T18:26:59.745Z",
+          "x": 224.6522015740643,
+          "y": 237.09795770331806
         },
         {
-          "id": "item_1763327969675",
-          "text": "m2",
-          "timestamp": "2025-11-16T21:19:29.675Z",
-          "x": 447.5346438914701,
-          "y": 66.26052803227908
+          "id": "item_1763576825772",
+          "text": "Tienda Perfecta",
+          "timestamp": "2025-11-19T18:27:05.772Z",
+          "x": 546.834016963574,
+          "y": 101.49941187516882
+        },
+        {
+          "id": "item_1763576835157",
+          "text": "G-Service",
+          "timestamp": "2025-11-19T18:27:15.157Z",
+          "x": 470.6361474744985,
+          "y": 293.2549571106844
+        },
+        {
+          "id": "item_1763576853261",
+          "text": "Idea",
+          "timestamp": "2025-11-19T18:27:33.261Z",
+          "x": 271.23484211216226,
+          "y": 76.66703180391283
+        },
+        {
+          "id": "item_1763576875055",
+          "text": "Alertas y Notificaciones",
+          "timestamp": "2025-11-19T18:27:55.055Z",
+          "x": 347.89982643283946,
+          "y": 250.64171357202105
+        },
+        {
+          "id": "item_1763576916228",
+          "text": "Asistentes IA",
+          "timestamp": "2025-11-19T18:28:36.228Z",
+          "x": 460.4591983634824,
+          "y": 232.11397218674205
+        },
+        {
+          "id": "item_1763577029593",
+          "text": "Observabilidad",
+          "timestamp": "2025-11-19T18:30:29.593Z",
+          "x": 167.730507814269,
+          "y": 167.05945337104944
         }
       ],
       "features": {
-        "item_1763327967621": [
+        "item_1763576916228": [
           {
-            "id": "item_1763327984591",
-            "text": "f1",
-            "timestamp": "2025-11-16T21:19:44.591Z",
-            "x": 365.8725523876343,
-            "y": 56.203822334014845
+            "id": "item_1763576957306",
+            "text": "Reconocimiento Visual (Anaquel)",
+            "timestamp": "2025-11-19T18:29:17.306Z",
+            "x": 341.39893306496003,
+            "y": 229.2775257730228
           },
           {
-            "id": "item_1763327987894",
-            "text": "f2",
-            "timestamp": "2025-11-16T21:19:47.894Z",
-            "x": 398.0237307572206,
-            "y": 353.5272315923149
+            "id": "item_1763576970355",
+            "text": "Coach Digital",
+            "timestamp": "2025-11-19T18:29:30.355Z",
+            "x": 482.81493891256997,
+            "y": 349.15698584291107
           },
           {
-            "id": "item_1763391575462",
-            "text": "login",
-            "timestamp": "2025-11-17T14:59:35.462Z",
-            "x": 198.9697813018408,
-            "y": 230.62139855800936
+            "id": "item_1763579500147",
+            "text": "Agente IA x BI",
+            "timestamp": "2025-11-19T19:11:40.147Z",
+            "x": 322.71856274257703,
+            "y": 294.2108190677162
           },
           {
-            "id": "item_1763391584650",
-            "text": "busqueda",
-            "timestamp": "2025-11-17T14:59:44.650Z",
-            "x": 111.80970020200745,
-            "y": 34.518035171396555
+            "id": "item_1763579711635",
+            "text": "Ruta optima",
+            "timestamp": "2025-11-19T19:15:11.635Z",
+            "x": 382.92194096626156,
+            "y": 186.08114336060027
           },
           {
-            "id": "item_1763391592475",
-            "text": "carrito",
-            "timestamp": "2025-11-17T14:59:52.476Z",
-            "x": 349.53286699198867,
-            "y": 180.67807864220615
+            "id": "item_1763579726737",
+            "text": "Rutas",
+            "timestamp": "2025-11-19T19:15:26.737Z",
+            "x": 456.33594251838434,
+            "y": 88.38762312749333
+          },
+          {
+            "id": "item_1763579994026",
+            "text": "Asesor de pedido optimo (Coach Digital)",
+            "timestamp": "2025-11-19T19:19:54.026Z",
+            "x": 349.910563579921,
+            "y": 198.8589753216187
           }
         ],
-        "item_1763327969675": [
+        "item_1763577029593": [
           {
-            "id": "item_1763327994944",
-            "text": "fm1",
-            "timestamp": "2025-11-16T21:19:54.944Z",
-            "x": 56.154038496465915,
-            "y": 285.045207264074
+            "id": "item_1763577041970",
+            "text": "Actividades y Tiempos",
+            "timestamp": "2025-11-19T18:30:41.970Z",
+            "x": 184.98529597787171,
+            "y": 292.89183702044346
           },
           {
-            "id": "item_1763327998074",
-            "text": "fm2",
-            "timestamp": "2025-11-16T21:19:58.074Z",
-            "x": 133.82074325434945,
-            "y": 237.79364065657705
+            "id": "item_1763579668958",
+            "text": "Agenda (Personas, Turnos , Ausentismo, Rutas, etc.)",
+            "timestamp": "2025-11-19T19:14:28.958Z",
+            "x": 478.3096135866405,
+            "y": 288.50385678213587
+          },
+          {
+            "id": "item_1763579964480",
+            "text": "Producto fuera de stock ---> alerta de sku que están proximo a quedarse sin inventario",
+            "timestamp": "2025-11-19T19:19:24.480Z",
+            "x": 427.48144680686573,
+            "y": 399.46063870727113
+          }
+        ],
+        "item_1763576875055": [
+          {
+            "id": "item_1763579518992",
+            "text": "Blue Line",
+            "timestamp": "2025-11-19T19:11:58.992Z",
+            "x": 12.19342837519859,
+            "y": 105.74738012436553
+          },
+          {
+            "id": "item_1763579523169",
+            "text": "Red Line",
+            "timestamp": "2025-11-19T19:12:03.169Z",
+            "x": 184.29653189733745,
+            "y": 382.08574940914707
+          },
+          {
+            "id": "item_1763579539838",
+            "text": "Alertas de Sistema",
+            "timestamp": "2025-11-19T19:12:19.838Z",
+            "x": 353.1649321281651,
+            "y": 66.49544051483018
+          },
+          {
+            "id": "item_1763579545568",
+            "text": "Alertas Generales",
+            "timestamp": "2025-11-19T19:12:25.568Z",
+            "x": 66.48864410152844,
+            "y": 369.4820378545571
+          }
+        ],
+        "item_1763576819745": [
+          {
+            "id": "item_1763579599454",
+            "text": "Offline",
+            "timestamp": "2025-11-19T19:13:19.454Z",
+            "x": 345.1517342596546,
+            "y": 153.0237127432295
+          },
+          {
+            "id": "item_1763579798915",
+            "text": "Visibilidad Inventarios",
+            "timestamp": "2025-11-19T19:16:38.915Z",
+            "x": 221.63740685241564,
+            "y": 151.69815083768006
+          },
+          {
+            "id": "item_1763579845470",
+            "text": "Gestion de Pedidos",
+            "timestamp": "2025-11-19T19:17:25.470Z",
+            "x": 435.8624483841639,
+            "y": 71.11299281364265
+          },
+          {
+            "id": "item_1763579898876",
+            "text": "Reconocimiento de productos con QR, código de barras (visual)",
+            "timestamp": "2025-11-19T19:18:18.876Z",
+            "x": 530.4739437570975,
+            "y": 210.83599475673566
+          },
+          {
+            "id": "item_1763580579863",
+            "text": "Integración TP",
+            "timestamp": "2025-11-19T19:29:39.863Z",
+            "x": 446.28962622453855,
+            "y": 248.7315146338327
+          }
+        ],
+        "item_1763576825772": [
+          {
+            "id": "item_1763580061369",
+            "text": "Revisión de experiencia de usuario",
+            "timestamp": "2025-11-19T19:21:01.369Z",
+            "x": 409.1313182472454,
+            "y": 368.80222040504106
+          },
+          {
+            "id": "item_1763580076023",
+            "text": "Integración de IA",
+            "timestamp": "2025-11-19T19:21:16.023Z",
+            "x": 98.62186983982343,
+            "y": 20.15129456595952
+          }
+        ],
+        "item_1763576835157": [
+          {
+            "id": "item_1763580153757",
+            "text": "Candados",
+            "timestamp": "2025-11-19T19:22:33.757Z",
+            "x": 501.8171226229719,
+            "y": 293.8842059804942
+          }
+        ],
+        "item_1763576853261": [
+          {
+            "id": "item_1763580563988",
+            "text": "Integrar con TP y Pedido Óptimo (Continuidad de datos)",
+            "timestamp": "2025-11-19T19:29:23.988Z",
+            "x": 493.70275464362106,
+            "y": 335.593776154062
+          },
+          {
+            "id": "item_1763581027719",
+            "text": "Foto de ayuda de guía de mercadeo",
+            "timestamp": "2025-11-19T19:37:07.719Z",
+            "x": 219.92589712346944,
+            "y": 285.9542786204441
           }
         ]
       },
       "prioritization": [
         {
-          "featureId": "item_1763327994944",
+          "featureId": "item_1763579845470",
           "votes": [
             {
-              "participantId": "p_1763328004922",
-              "value": 3.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:06.471Z"
-            },
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:33.258Z"
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 5,
+              "timestamp": "2025-11-19T19:39:12.494Z"
             }
           ],
           "averages": {
-            "value": 3,
-            "complexity": 2.5
+            "value": 5,
+            "complexity": 5
           },
-          "quadrant": "quick-wins"
+          "quadrant": "major-projects"
         },
         {
-          "featureId": "item_1763327984591",
+          "featureId": "item_1763579599454",
           "votes": [
             {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:19.797Z"
-            },
-            {
-              "participantId": "p_1763392081955",
-              "value": 1,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:08:20.404Z"
-            },
-            {
-              "participantId": "p_1763392401822",
-              "value": 2,
-              "complexity": 1.5,
-              "timestamp": "2025-11-17T15:13:59.684Z"
-            }
-          ],
-          "averages": {
-            "value": 1.8,
-            "complexity": 2.2
-          },
-          "quadrant": "fill-ins"
-        },
-        {
-          "featureId": "item_1763327987894",
-          "votes": [
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:24.399Z"
-            }
-          ],
-          "averages": {
-            "value": 2.5,
-            "complexity": 2.5
-          },
-          "quadrant": "fill-ins"
-        },
-        {
-          "featureId": "item_1763327998074",
-          "votes": [
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:36.777Z"
-            }
-          ],
-          "averages": {
-            "value": 2.5,
-            "complexity": 2.5
-          },
-          "quadrant": "fill-ins"
-        },
-        {
-          "featureId": "item_1763391575462",
-          "votes": [
-            {
-              "participantId": "p_1763391602181",
-              "value": 1,
+              "participantId": "p_1763581057597",
+              "value": 3,
               "complexity": 4,
-              "timestamp": "2025-11-17T15:00:15.624Z"
-            },
-            {
-              "participantId": "p_1763392081955",
-              "value": 1.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:09:54.033Z"
-            }
-          ],
-          "averages": {
-            "value": 1.3,
-            "complexity": 3.3
-          },
-          "quadrant": "avoid"
-        },
-        {
-          "featureId": "item_1763391592475",
-          "votes": [
-            {
-              "participantId": "p_1763391763707",
-              "value": 4.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:03:13.779Z"
-            }
-          ],
-          "averages": {
-            "value": 4.5,
-            "complexity": 2.5
-          },
-          "quadrant": "quick-wins"
-        }
-      ]
-    },
-    "groups": {
-      "problems": [
-        {
-          "category": "Numeración Secuencial",
-          "items": [
-            {
-              "id": "item_1763324571303",
-              "text": "uno",
-              "timestamp": "2025-11-16T20:22:51.303Z",
-              "x": 417.93094647424056,
-              "y": 9.487704351520954
-            },
-            {
-              "id": "item_1763324573550",
-              "text": "dos",
-              "timestamp": "2025-11-16T20:22:53.550Z",
-              "x": 568.1405978746785,
-              "y": 132.91934159030598
-            },
-            {
-              "id": "item_1763324576449",
-              "text": "tres",
-              "timestamp": "2025-11-16T20:22:56.449Z",
-              "x": 580.9543358116432,
-              "y": 224.84489328413383
-            }
-          ],
-          "description": "Representa una secuencia numérica ordenada, posiblemente indicando pasos, etapas, o prioridades.",
-          "position": {
-            "x": 100,
-            "y": 100
-          }
-        },
-        {
-          "category": "Avifauna",
-          "items": [
-            {
-              "id": "item_1763324581724",
-              "text": "pajaro",
-              "timestamp": "2025-11-16T20:23:01.724Z",
-              "x": 525.9127804136509,
-              "y": 228.1196591401039
-            },
-            {
-              "id": "item_1763324586318",
-              "text": "paloma",
-              "timestamp": "2025-11-16T20:23:06.318Z",
-              "x": 74.605138119979,
-              "y": 393.2454804939449
-            }
-          ],
-          "description": "Se refiere a aves, sugiriendo elementos relacionados con la observación de aves, comportamiento de aves, o características de las aves dentro de la plataforma (podría ser figurativa o literal).",
-          "position": {
-            "x": 450,
-            "y": 100
-          }
-        },
-        {
-          "category": "Elementos Indefinidos",
-          "items": [
-            {
-              "id": "item_1763391175214",
-              "text": "ítem 8",
-              "timestamp": "2025-11-17T14:52:55.215Z",
-              "x": 553.4260011369804,
-              "y": 121.76214344600834
-            },
-            {
-              "id": "item_1763391488937",
-              "text": "item 18",
-              "timestamp": "2025-11-17T14:58:08.938Z",
-              "x": 544.0100160849363,
-              "y": 276.3435880053863
-            },
-            {
-              "id": "item_1763391496118",
-              "text": "item 20",
-              "timestamp": "2025-11-17T14:58:16.118Z",
-              "x": 591.7608721376114,
-              "y": 204.35318023168224
-            }
-          ],
-          "description": "Representa items genéricos o no especificados, posiblemente puntos pendientes, ideas vagas, o elementos que requieren mayor definición dentro del contexto del taller.",
-          "position": {
-            "x": 800,
-            "y": 100
-          }
-        }
-      ],
-      "actors": [
-        {
-          "category": "Actores Externos al Sistema",
-          "items": [
-            {
-              "id": "item_1763325328780",
-              "text": "actor 1",
-              "timestamp": "2025-11-16T20:35:28.781Z",
-              "x": 305.669612322473,
-              "y": 111.78175638831904
-            },
-            {
-              "id": "item_1763325332967",
-              "text": "actor 2",
-              "timestamp": "2025-11-16T20:35:32.967Z",
-              "x": 466.49379811522164,
-              "y": 332.14632646511416
-            }
-          ],
-          "description": "Representa entidades externas que interactúan con el sistema, sin ser parte de la organización interna. Pueden ser clientes, proveedores u otras partes interesadas externas.",
-          "position": {
-            "x": 100,
-            "y": 100
-          }
-        },
-        {
-          "category": "Actores Internos al Sistema",
-          "items": [
-            {
-              "id": "item_1763325339484",
-              "text": "empleado 1",
-              "timestamp": "2025-11-16T20:35:39.484Z",
-              "x": 180.996921277568,
-              "y": 101.47284741572484
-            },
-            {
-              "id": "item_1763325343692",
-              "text": "empleado 2",
-              "timestamp": "2025-11-16T20:35:43.692Z",
-              "x": 134.97349294881457,
-              "y": 7.618259923707438
-            }
-          ],
-          "description": "Representa usuarios que forman parte de la organización que opera el sistema. Son empleados que interactúan directamente con el sistema para realizar sus tareas.",
-          "position": {
-            "x": 450,
-            "y": 100
-          }
-        },
-        {
-          "category": "Roles con Potencial Solapamiento",
-          "items": [
-            {
-              "id": "item_1763325328780",
-              "text": "actor 1",
-              "timestamp": "2025-11-16T20:35:28.781Z",
-              "x": 305.669612322473,
-              "y": 111.78175638831904
-            },
-            {
-              "id": "item_1763325332967",
-              "text": "actor 2",
-              "timestamp": "2025-11-16T20:35:32.967Z",
-              "x": 466.49379811522164,
-              "y": 332.14632646511416
-            },
-            {
-              "id": "item_1763325339484",
-              "text": "empleado 1",
-              "timestamp": "2025-11-16T20:35:39.484Z",
-              "x": 180.996921277568,
-              "y": 101.47284741572484
-            },
-            {
-              "id": "item_1763325343692",
-              "text": "empleado 2",
-              "timestamp": "2025-11-16T20:35:43.692Z",
-              "x": 134.97349294881457,
-              "y": 7.618259923707438
-            }
-          ],
-          "description": "Este grupo indica que es necesario analizar la diferencia entre 'actor' y 'empleado', ya que ambos interactúan con el sistema y sus funciones podrían solaparse. El análisis debe enfocarse en los permisos, responsabilidades y casos de uso específicos de cada uno.",
-          "position": {
-            "x": 800,
-            "y": 100
-          }
-        }
-      ],
-      "kpis": [
-        {
-          "category": "Definición de Objetivos",
-          "items": [
-            {
-              "id": "item_1763325620743",
-              "text": "indicadoe 1",
-              "timestamp": "2025-11-16T20:40:20.743Z",
-              "x": 203.3833954104304,
-              "y": 194.10402414051111
-            },
-            {
-              "id": "item_1763325629220",
-              "text": "indiocador 2",
-              "timestamp": "2025-11-16T20:40:29.220Z",
-              "x": 417.28660565656827,
-              "y": 176.10162468975437
-            }
-          ],
-          "description": "Este grupo se centra en la definición inicial de los objetivos que los indicadores deben ayudar a medir. La inclusión de ambos indicadores sugiere una etapa temprana del proceso de diseño de producto donde se está buscando aclarar qué se quiere lograr.",
-          "position": {
-            "x": 100,
-            "y": 100
-          }
-        }
-      ],
-      "modules": []
-    }
-  },
-  "ws_1763393539024": {
-    "id": "ws_1763393539024",
-    "boardName": "Nuevo",
-    "currentStep": "problem_framing",
-    "createdAt": "2025-11-17T15:32:19.025Z",
-    "figmaBoard": null,
-    "data": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": [],
-      "features": {},
-      "prioritization": []
-    },
-    "groups": {
-      "problems": [],
-      "actors": [],
-      "kpis": [],
-      "modules": []
-    }
-  },
-  "ws_1763393681371": {
-    "id": "ws_1763393681371",
-    "boardName": "Test Copia",
-    "currentStep": "prioritization",
-    "createdAt": "2025-11-17T15:34:41.372Z",
-    "figmaBoard": null,
-    "data": {
-      "problems": [
-        {
-          "id": "item_1763324571303",
-          "text": "uno",
-          "timestamp": "2025-11-16T20:22:51.303Z",
-          "x": 417.93094647424056,
-          "y": 9.487704351520954
-        },
-        {
-          "id": "item_1763324573550",
-          "text": "dos",
-          "timestamp": "2025-11-16T20:22:53.550Z",
-          "x": 568.1405978746785,
-          "y": 132.91934159030598
-        },
-        {
-          "id": "item_1763324576449",
-          "text": "tres",
-          "timestamp": "2025-11-16T20:22:56.449Z",
-          "x": 580.9543358116432,
-          "y": 224.84489328413383
-        },
-        {
-          "id": "item_1763324581724",
-          "text": "pajaro",
-          "timestamp": "2025-11-16T20:23:01.724Z",
-          "x": 525.9127804136509,
-          "y": 228.1196591401039
-        },
-        {
-          "id": "item_1763324586318",
-          "text": "paloma",
-          "timestamp": "2025-11-16T20:23:06.318Z",
-          "x": 74.605138119979,
-          "y": 393.2454804939449
-        },
-        {
-          "id": "item_1763391175214",
-          "text": "ítem 8",
-          "timestamp": "2025-11-17T14:52:55.215Z",
-          "x": 553.4260011369804,
-          "y": 121.76214344600834
-        },
-        {
-          "id": "item_1763391488937",
-          "text": "item 18",
-          "timestamp": "2025-11-17T14:58:08.938Z",
-          "x": 544.0100160849363,
-          "y": 276.3435880053863
-        },
-        {
-          "id": "item_1763391496118",
-          "text": "item 20",
-          "timestamp": "2025-11-17T14:58:16.118Z",
-          "x": 591.7608721376114,
-          "y": 204.35318023168224
-        }
-      ],
-      "actors": [
-        {
-          "id": "item_1763325328780",
-          "text": "actor 1",
-          "timestamp": "2025-11-16T20:35:28.781Z",
-          "x": 305.669612322473,
-          "y": 111.78175638831904
-        },
-        {
-          "id": "item_1763325332967",
-          "text": "actor 2",
-          "timestamp": "2025-11-16T20:35:32.967Z",
-          "x": 466.49379811522164,
-          "y": 332.14632646511416
-        },
-        {
-          "id": "item_1763325339484",
-          "text": "empleado 1",
-          "timestamp": "2025-11-16T20:35:39.484Z",
-          "x": 180.996921277568,
-          "y": 101.47284741572484
-        },
-        {
-          "id": "item_1763325343692",
-          "text": "empleado 2",
-          "timestamp": "2025-11-16T20:35:43.692Z",
-          "x": 134.97349294881457,
-          "y": 7.618259923707438
-        },
-        {
-          "id": "item_1763393946259",
-          "text": "otro",
-          "timestamp": "2025-11-17T15:39:06.259Z",
-          "x": 176.4675419659711,
-          "y": 295.4582153519
-        },
-        {
-          "id": "item_1763393949149",
-          "text": "dos",
-          "timestamp": "2025-11-17T15:39:09.149Z",
-          "x": 483.38407661420666,
-          "y": 165.05165594542274
-        },
-        {
-          "id": "item_1763394049158",
-          "text": "este es un item largo para ver como se comporta la herramienta en estos casos, por ejemplo podriamos ver si hace scroll",
-          "timestamp": "2025-11-17T15:40:49.159Z",
-          "x": 72.04912112957888,
-          "y": 149.10794057822326
-        }
-      ],
-      "kpis": [
-        {
-          "id": "item_1763325620743",
-          "text": "indicadoe 1",
-          "timestamp": "2025-11-16T20:40:20.743Z",
-          "x": 203.3833954104304,
-          "y": 194.10402414051111
-        },
-        {
-          "id": "item_1763325629220",
-          "text": "indiocador 2",
-          "timestamp": "2025-11-16T20:40:29.220Z",
-          "x": 417.28660565656827,
-          "y": 176.10162468975437
-        }
-      ],
-      "modules": [
-        {
-          "id": "item_1763327967621",
-          "text": "m1",
-          "timestamp": "2025-11-16T21:19:27.621Z",
-          "x": 12.931235664247964,
-          "y": 165.22422368761428
-        },
-        {
-          "id": "item_1763327969675",
-          "text": "m2",
-          "timestamp": "2025-11-16T21:19:29.675Z",
-          "x": 447.5346438914701,
-          "y": 66.26052803227908
-        }
-      ],
-      "features": {
-        "item_1763327967621": [
-          {
-            "id": "item_1763327984591",
-            "text": "f1",
-            "timestamp": "2025-11-16T21:19:44.591Z",
-            "x": 365.8725523876343,
-            "y": 56.203822334014845
-          },
-          {
-            "id": "item_1763327987894",
-            "text": "f2",
-            "timestamp": "2025-11-16T21:19:47.894Z",
-            "x": 398.0237307572206,
-            "y": 353.5272315923149
-          },
-          {
-            "id": "item_1763391575462",
-            "text": "login",
-            "timestamp": "2025-11-17T14:59:35.462Z",
-            "x": 198.9697813018408,
-            "y": 230.62139855800936
-          },
-          {
-            "id": "item_1763391584650",
-            "text": "busqueda",
-            "timestamp": "2025-11-17T14:59:44.650Z",
-            "x": 111.80970020200745,
-            "y": 34.518035171396555
-          },
-          {
-            "id": "item_1763391592475",
-            "text": "carrito",
-            "timestamp": "2025-11-17T14:59:52.476Z",
-            "x": 349.53286699198867,
-            "y": 180.67807864220615
-          }
-        ],
-        "item_1763327969675": [
-          {
-            "id": "item_1763327994944",
-            "text": "fm1",
-            "timestamp": "2025-11-16T21:19:54.944Z",
-            "x": 56.154038496465915,
-            "y": 285.045207264074
-          },
-          {
-            "id": "item_1763327998074",
-            "text": "fm2",
-            "timestamp": "2025-11-16T21:19:58.074Z",
-            "x": 133.82074325434945,
-            "y": 237.79364065657705
-          }
-        ]
-      },
-      "prioritization": [
-        {
-          "featureId": "item_1763327994944",
-          "votes": [
-            {
-              "participantId": "p_1763328004922",
-              "value": 3.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:06.471Z"
-            },
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:33.258Z"
+              "timestamp": "2025-11-19T19:42:52.078Z"
             }
           ],
           "averages": {
             "value": 3,
-            "complexity": 2.5
+            "complexity": 4
           },
-          "quadrant": "quick-wins"
+          "quadrant": "major-projects"
         },
         {
-          "featureId": "item_1763327984591",
+          "featureId": "item_1763580061369",
           "votes": [
             {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:19.797Z"
-            },
-            {
-              "participantId": "p_1763392081955",
-              "value": 1,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:08:20.404Z"
-            },
-            {
-              "participantId": "p_1763392401822",
-              "value": 2,
-              "complexity": 1.5,
-              "timestamp": "2025-11-17T15:13:59.684Z"
-            }
-          ],
-          "averages": {
-            "value": 1.8,
-            "complexity": 2.2
-          },
-          "quadrant": "fill-ins"
-        },
-        {
-          "featureId": "item_1763327987894",
-          "votes": [
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:24.399Z"
-            }
-          ],
-          "averages": {
-            "value": 2.5,
-            "complexity": 2.5
-          },
-          "quadrant": "fill-ins"
-        },
-        {
-          "featureId": "item_1763327998074",
-          "votes": [
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:36.777Z"
-            }
-          ],
-          "averages": {
-            "value": 2.5,
-            "complexity": 2.5
-          },
-          "quadrant": "fill-ins"
-        },
-        {
-          "featureId": "item_1763391575462",
-          "votes": [
-            {
-              "participantId": "p_1763391602181",
-              "value": 1,
-              "complexity": 4,
-              "timestamp": "2025-11-17T15:00:15.624Z"
-            },
-            {
-              "participantId": "p_1763392081955",
-              "value": 1.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:09:54.033Z"
-            }
-          ],
-          "averages": {
-            "value": 1.3,
-            "complexity": 3.3
-          },
-          "quadrant": "avoid"
-        },
-        {
-          "featureId": "item_1763391592475",
-          "votes": [
-            {
-              "participantId": "p_1763391763707",
-              "value": 4.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:03:13.779Z"
-            }
-          ],
-          "averages": {
-            "value": 4.5,
-            "complexity": 2.5
-          },
-          "quadrant": "quick-wins"
-        }
-      ]
-    },
-    "groups": {
-      "problems": [
-        {
-          "category": "Secuencia Numerica",
-          "items": [
-            {
-              "id": "item_1763324571303",
-              "text": "uno",
-              "timestamp": "2025-11-16T20:22:51.303Z",
-              "x": 417.93094647424056,
-              "y": 9.487704351520954
-            },
-            {
-              "id": "item_1763324573550",
-              "text": "dos",
-              "timestamp": "2025-11-16T20:22:53.550Z",
-              "x": 568.1405978746785,
-              "y": 132.91934159030598
-            },
-            {
-              "id": "item_1763324576449",
-              "text": "tres",
-              "timestamp": "2025-11-16T20:22:56.449Z",
-              "x": 580.9543358116432,
-              "y": 224.84489328413383
-            }
-          ],
-          "description": "Items que representan una progresión numérica simple, posiblemente indicando un orden, una etapa o un proceso secuencial dentro de la plataforma.",
-          "position": {
-            "x": 100,
-            "y": 100
-          }
-        },
-        {
-          "category": "Avifauna",
-          "items": [
-            {
-              "id": "item_1763324581724",
-              "text": "pajaro",
-              "timestamp": "2025-11-16T20:23:01.724Z",
-              "x": 525.9127804136509,
-              "y": 228.1196591401039
-            },
-            {
-              "id": "item_1763324586318",
-              "text": "paloma",
-              "timestamp": "2025-11-16T20:23:06.318Z",
-              "x": 74.605138119979,
-              "y": 393.2454804939449
-            }
-          ],
-          "description": "Items referidos a aves, que podrían simbolizar aspectos como la mensajería, la libertad de elección del usuario o la capacidad de extender funcionalidades (plugins, extensions).",
-          "position": {
-            "x": 450,
-            "y": 100
-          }
-        },
-        {
-          "category": "Items no especificados",
-          "items": [
-            {
-              "id": "item_1763391175214",
-              "text": "ítem 8",
-              "timestamp": "2025-11-17T14:52:55.215Z",
-              "x": 553.4260011369804,
-              "y": 121.76214344600834
-            },
-            {
-              "id": "item_1763391488937",
-              "text": "item 18",
-              "timestamp": "2025-11-17T14:58:08.938Z",
-              "x": 544.0100160849363,
-              "y": 276.3435880053863
-            },
-            {
-              "id": "item_1763391496118",
-              "text": "item 20",
-              "timestamp": "2025-11-17T14:58:16.118Z",
-              "x": 591.7608721376114,
-              "y": 204.35318023168224
-            }
-          ],
-          "description": "Items genéricos denotados como 'ítem X'. Podrían representar funcionalidades pendientes de definir, casos de uso aún no explorados, o elementos básicos de la plataforma que necesitan mayor especificación. La repetición del formato sugiere una necesidad de detallar estos elementos.",
-          "position": {
-            "x": 800,
-            "y": 100
-          }
-        }
-      ],
-      "actors": [
-        {
-          "category": "Actores Externos al Sistema",
-          "items": [
-            {
-              "id": "item_1763325328780",
-              "text": "actor 1",
-              "timestamp": "2025-11-16T20:35:28.781Z",
-              "x": 305.669612322473,
-              "y": 111.78175638831904
-            },
-            {
-              "id": "item_1763325332967",
-              "text": "actor 2",
-              "timestamp": "2025-11-16T20:35:32.967Z",
-              "x": 466.49379811522164,
-              "y": 332.14632646511416
-            }
-          ],
-          "description": "Representa entidades externas que interactúan con el sistema, sin ser parte de la organización interna. Pueden ser clientes, proveedores u otras partes interesadas externas.",
-          "position": {
-            "x": 100,
-            "y": 100
-          }
-        },
-        {
-          "category": "Actores Internos al Sistema",
-          "items": [
-            {
-              "id": "item_1763325339484",
-              "text": "empleado 1",
-              "timestamp": "2025-11-16T20:35:39.484Z",
-              "x": 180.996921277568,
-              "y": 101.47284741572484
-            },
-            {
-              "id": "item_1763325343692",
-              "text": "empleado 2",
-              "timestamp": "2025-11-16T20:35:43.692Z",
-              "x": 134.97349294881457,
-              "y": 7.618259923707438
-            }
-          ],
-          "description": "Representa usuarios que forman parte de la organización que opera el sistema. Son empleados que interactúan directamente con el sistema para realizar sus tareas.",
-          "position": {
-            "x": 450,
-            "y": 100
-          }
-        },
-        {
-          "category": "Roles con Potencial Solapamiento",
-          "items": [
-            {
-              "id": "item_1763325328780",
-              "text": "actor 1",
-              "timestamp": "2025-11-16T20:35:28.781Z",
-              "x": 305.669612322473,
-              "y": 111.78175638831904
-            },
-            {
-              "id": "item_1763325332967",
-              "text": "actor 2",
-              "timestamp": "2025-11-16T20:35:32.967Z",
-              "x": 466.49379811522164,
-              "y": 332.14632646511416
-            },
-            {
-              "id": "item_1763325339484",
-              "text": "empleado 1",
-              "timestamp": "2025-11-16T20:35:39.484Z",
-              "x": 180.996921277568,
-              "y": 101.47284741572484
-            },
-            {
-              "id": "item_1763325343692",
-              "text": "empleado 2",
-              "timestamp": "2025-11-16T20:35:43.692Z",
-              "x": 134.97349294881457,
-              "y": 7.618259923707438
-            }
-          ],
-          "description": "Este grupo indica que es necesario analizar la diferencia entre 'actor' y 'empleado', ya que ambos interactúan con el sistema y sus funciones podrían solaparse. El análisis debe enfocarse en los permisos, responsabilidades y casos de uso específicos de cada uno.",
-          "position": {
-            "x": 800,
-            "y": 100
-          }
-        }
-      ],
-      "kpis": [
-        {
-          "category": "Definición de Objetivos",
-          "items": [
-            {
-              "id": "item_1763325620743",
-              "text": "indicadoe 1",
-              "timestamp": "2025-11-16T20:40:20.743Z",
-              "x": 203.3833954104304,
-              "y": 194.10402414051111
-            },
-            {
-              "id": "item_1763325629220",
-              "text": "indiocador 2",
-              "timestamp": "2025-11-16T20:40:29.220Z",
-              "x": 417.28660565656827,
-              "y": 176.10162468975437
-            }
-          ],
-          "description": "Este grupo se centra en la definición inicial de los objetivos que los indicadores deben ayudar a medir. La inclusión de ambos indicadores sugiere una etapa temprana del proceso de diseño de producto donde se está buscando aclarar qué se quiere lograr.",
-          "position": {
-            "x": 100,
-            "y": 100
-          }
-        }
-      ],
-      "modules": []
-    }
-  },
-  "ws_1763400920583": {
-    "id": "ws_1763400920583",
-    "boardName": "importado1",
-    "currentStep": "prioritization",
-    "createdAt": "2025-11-17T17:35:20.583Z",
-    "figmaBoard": null,
-    "data": {
-      "problems": [
-        {
-          "id": "item_1763324571303",
-          "text": "uno",
-          "timestamp": "2025-11-16T20:22:51.303Z",
-          "x": 417.93094647424056,
-          "y": 9.487704351520954
-        },
-        {
-          "id": "item_1763324573550",
-          "text": "dos",
-          "timestamp": "2025-11-16T20:22:53.550Z",
-          "x": 568.1405978746785,
-          "y": 132.91934159030598
-        },
-        {
-          "id": "item_1763324576449",
-          "text": "tres",
-          "timestamp": "2025-11-16T20:22:56.449Z",
-          "x": 580.9543358116432,
-          "y": 224.84489328413383
-        },
-        {
-          "id": "item_1763324581724",
-          "text": "pajaro",
-          "timestamp": "2025-11-16T20:23:01.724Z",
-          "x": 525.9127804136509,
-          "y": 228.1196591401039
-        },
-        {
-          "id": "item_1763324586318",
-          "text": "paloma",
-          "timestamp": "2025-11-16T20:23:06.318Z",
-          "x": 74.605138119979,
-          "y": 393.2454804939449
-        },
-        {
-          "id": "item_1763391175214",
-          "text": "ítem 8",
-          "timestamp": "2025-11-17T14:52:55.215Z",
-          "x": 553.4260011369804,
-          "y": 121.76214344600834
-        },
-        {
-          "id": "item_1763391488937",
-          "text": "item 18",
-          "timestamp": "2025-11-17T14:58:08.938Z",
-          "x": 544.0100160849363,
-          "y": 276.3435880053863
-        },
-        {
-          "id": "item_1763391496118",
-          "text": "item 20",
-          "timestamp": "2025-11-17T14:58:16.118Z",
-          "x": 591.7608721376114,
-          "y": 204.35318023168224
-        },
-        {
-          "id": "item_1763410679844",
-          "text": "problemas de performance",
-          "timestamp": "2025-11-17T20:17:59.845Z",
-          "x": 474.7304211938727,
-          "y": 124.40109541574688
-        },
-        {
-          "id": "item_1763410691533",
-          "text": "escalabilidad",
-          "timestamp": "2025-11-17T20:18:11.534Z",
-          "x": 201.77756483597972,
-          "y": 29.32491513059139
-        },
-        {
-          "id": "item_1763410700588",
-          "text": "redundancia",
-          "timestamp": "2025-11-17T20:18:20.588Z",
-          "x": 536.0005349993568,
-          "y": 101.87705592754588
-        }
-      ],
-      "actors": [
-        {
-          "id": "item_1763325328780",
-          "text": "actor 1",
-          "timestamp": "2025-11-16T20:35:28.781Z",
-          "x": 305.669612322473,
-          "y": 111.78175638831904
-        },
-        {
-          "id": "item_1763325332967",
-          "text": "actor 2",
-          "timestamp": "2025-11-16T20:35:32.967Z",
-          "x": 466.49379811522164,
-          "y": 332.14632646511416
-        },
-        {
-          "id": "item_1763325339484",
-          "text": "empleado 1",
-          "timestamp": "2025-11-16T20:35:39.484Z",
-          "x": 180.996921277568,
-          "y": 101.47284741572484
-        },
-        {
-          "id": "item_1763325343692",
-          "text": "empleado 2",
-          "timestamp": "2025-11-16T20:35:43.692Z",
-          "x": 134.97349294881457,
-          "y": 7.618259923707438
-        },
-        {
-          "id": "item_1763393946259",
-          "text": "otro",
-          "timestamp": "2025-11-17T15:39:06.259Z",
-          "x": 176.4675419659711,
-          "y": 295.4582153519
-        },
-        {
-          "id": "item_1763393949149",
-          "text": "dos",
-          "timestamp": "2025-11-17T15:39:09.149Z",
-          "x": 483.38407661420666,
-          "y": 165.05165594542274
-        },
-        {
-          "id": "item_1763394049158",
-          "text": "este es un item largo para ver como se comporta la herramienta en estos casos, por ejemplo podriamos ver si hace scroll",
-          "timestamp": "2025-11-17T15:40:49.159Z",
-          "x": 72.04912112957888,
-          "y": 149.10794057822326
-        },
-        {
-          "id": "item_1763410739428",
-          "text": "vendedor",
-          "timestamp": "2025-11-17T20:18:59.428Z",
-          "x": 285.9462885680525,
-          "y": 51.84436330841713
-        },
-        {
-          "id": "item_1763410743917",
-          "text": "administrador",
-          "timestamp": "2025-11-17T20:19:03.917Z",
-          "x": 81.64082597469164,
-          "y": 273.9834153340905
-        },
-        {
-          "id": "item_1763410749720",
-          "text": "cliente",
-          "timestamp": "2025-11-17T20:19:09.720Z",
-          "x": 356.2063052690154,
-          "y": 282.33883605585675
-        }
-      ],
-      "kpis": [
-        {
-          "id": "item_1763325620743",
-          "text": "indicadoe 1",
-          "timestamp": "2025-11-16T20:40:20.743Z",
-          "x": 203.3833954104304,
-          "y": 194.10402414051111
-        },
-        {
-          "id": "item_1763325629220",
-          "text": "indiocador 2",
-          "timestamp": "2025-11-16T20:40:29.220Z",
-          "x": 417.28660565656827,
-          "y": 176.10162468975437
-        }
-      ],
-      "modules": [
-        {
-          "id": "item_1763327967621",
-          "text": "m1",
-          "timestamp": "2025-11-16T21:19:27.621Z",
-          "x": 12.931235664247964,
-          "y": 165.22422368761428
-        },
-        {
-          "id": "item_1763327969675",
-          "text": "m2",
-          "timestamp": "2025-11-16T21:19:29.675Z",
-          "x": 447.5346438914701,
-          "y": 66.26052803227908
-        }
-      ],
-      "features": {
-        "item_1763327967621": [
-          {
-            "id": "item_1763327984591",
-            "text": "f1",
-            "timestamp": "2025-11-16T21:19:44.591Z",
-            "x": 365.8725523876343,
-            "y": 56.203822334014845
-          },
-          {
-            "id": "item_1763327987894",
-            "text": "f2",
-            "timestamp": "2025-11-16T21:19:47.894Z",
-            "x": 398.0237307572206,
-            "y": 353.5272315923149
-          },
-          {
-            "id": "item_1763391575462",
-            "text": "login",
-            "timestamp": "2025-11-17T14:59:35.462Z",
-            "x": 198.9697813018408,
-            "y": 230.62139855800936
-          },
-          {
-            "id": "item_1763391584650",
-            "text": "busqueda",
-            "timestamp": "2025-11-17T14:59:44.650Z",
-            "x": 111.80970020200745,
-            "y": 34.518035171396555
-          },
-          {
-            "id": "item_1763391592475",
-            "text": "carrito",
-            "timestamp": "2025-11-17T14:59:52.476Z",
-            "x": 349.53286699198867,
-            "y": 180.67807864220615
-          }
-        ],
-        "item_1763327969675": [
-          {
-            "id": "item_1763327994944",
-            "text": "fm1",
-            "timestamp": "2025-11-16T21:19:54.944Z",
-            "x": 56.154038496465915,
-            "y": 285.045207264074
-          },
-          {
-            "id": "item_1763327998074",
-            "text": "fm2",
-            "timestamp": "2025-11-16T21:19:58.074Z",
-            "x": 133.82074325434945,
-            "y": 237.79364065657705
-          }
-        ]
-      },
-      "prioritization": [
-        {
-          "featureId": "item_1763327994944",
-          "votes": [
-            {
-              "participantId": "p_1763328004922",
-              "value": 3.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:06.471Z"
-            },
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:33.258Z"
-            }
-          ],
-          "averages": {
-            "value": 3,
-            "complexity": 2.5
-          },
-          "quadrant": "quick-wins"
-        },
-        {
-          "featureId": "item_1763327984591",
-          "votes": [
-            {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:19.797Z"
-            },
-            {
-              "participantId": "p_1763392081955",
-              "value": 1,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:08:20.404Z"
-            },
-            {
-              "participantId": "p_1763392401822",
-              "value": 2,
-              "complexity": 1.5,
-              "timestamp": "2025-11-17T15:13:59.684Z"
-            },
-            {
-              "participantId": "p_1763410793707",
+              "participantId": "p_1763581057597",
               "value": 4,
+              "complexity": 2,
+              "timestamp": "2025-11-19T19:45:49.370Z"
+            }
+          ],
+          "averages": {
+            "value": 4,
+            "complexity": 2
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763580076023",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
               "complexity": 3,
-              "timestamp": "2025-11-17T20:20:06.887Z"
+              "timestamp": "2025-11-19T19:46:13.586Z"
             }
           ],
           "averages": {
-            "value": 2.4,
-            "complexity": 2.4
+            "value": 3,
+            "complexity": 3
           },
-          "quadrant": "fill-ins"
+          "quadrant": "quick-wins"
         },
         {
-          "featureId": "item_1763327987894",
+          "featureId": "item_1763580153757",
           "votes": [
             {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:24.399Z"
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:46:58.669Z"
             }
           ],
           "averages": {
-            "value": 2.5,
-            "complexity": 2.5
+            "value": 5,
+            "complexity": 1
           },
-          "quadrant": "fill-ins"
+          "quadrant": "quick-wins"
         },
         {
-          "featureId": "item_1763327998074",
+          "featureId": "item_1763581027719",
           "votes": [
             {
-              "participantId": "p_1763328004922",
-              "value": 2.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-16T21:21:36.777Z"
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 2,
+              "timestamp": "2025-11-19T19:47:51.988Z"
             }
           ],
           "averages": {
-            "value": 2.5,
-            "complexity": 2.5
+            "value": 5,
+            "complexity": 2
           },
-          "quadrant": "fill-ins"
+          "quadrant": "quick-wins"
         },
         {
-          "featureId": "item_1763391575462",
+          "featureId": "item_1763580563988",
           "votes": [
             {
-              "participantId": "p_1763391602181",
-              "value": 1,
+              "participantId": "p_1763581057597",
+              "value": 3,
               "complexity": 4,
-              "timestamp": "2025-11-17T15:00:15.624Z"
-            },
-            {
-              "participantId": "p_1763392081955",
-              "value": 1.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:09:54.033Z"
+              "timestamp": "2025-11-19T19:48:35.275Z"
             }
           ],
           "averages": {
-            "value": 1.3,
-            "complexity": 3.3
+            "value": 3,
+            "complexity": 4
+          },
+          "quadrant": "major-projects"
+        },
+        {
+          "featureId": "item_1763579518992",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 3,
+              "timestamp": "2025-11-19T19:49:08.045Z"
+            }
+          ],
+          "averages": {
+            "value": 5,
+            "complexity": 3
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763579523169",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 3,
+              "timestamp": "2025-11-19T19:49:28.952Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 3
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763579539838",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 3,
+              "timestamp": "2025-11-19T19:50:10.683Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 3
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763576970355",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 2,
+              "complexity": 5,
+              "timestamp": "2025-11-19T19:52:52.792Z"
+            }
+          ],
+          "averages": {
+            "value": 2,
+            "complexity": 5
           },
           "quadrant": "avoid"
         },
         {
-          "featureId": "item_1763391592475",
+          "featureId": "item_1763579964480",
           "votes": [
             {
-              "participantId": "p_1763391763707",
-              "value": 4.5,
-              "complexity": 2.5,
-              "timestamp": "2025-11-17T15:03:13.779Z"
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:54:09.109Z"
             }
           ],
           "averages": {
-            "value": 4.5,
-            "complexity": 2.5
+            "value": 3,
+            "complexity": 1
           },
           "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763579668958",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 2,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:55:52.315Z"
+            }
+          ],
+          "averages": {
+            "value": 2,
+            "complexity": 1
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763577041970",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 1,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:56:58.785Z"
+            }
+          ],
+          "averages": {
+            "value": 1,
+            "complexity": 1
+          },
+          "quadrant": "fill-ins"
         }
       ]
     },
     "groups": {
       "problems": [
         {
-          "category": "Identificación Problemas Generales",
+          "category": "Unificación Plataforma",
           "items": [
             {
-              "id": "item_1763324571303",
-              "text": "uno",
-              "timestamp": "2025-11-16T20:22:51.303Z",
-              "x": 417.93094647424056,
-              "y": 9.487704351520954
+              "id": "item_1763571109974",
+              "text": "unificación del ecosistema / plataforma",
+              "timestamp": "2025-11-19T16:51:49.974Z",
+              "x": 36.536843727926474,
+              "y": 234.2202307724022
             },
             {
-              "id": "item_1763324573550",
-              "text": "dos",
-              "timestamp": "2025-11-16T20:22:53.550Z",
-              "x": 568.1405978746785,
-              "y": 132.91934159030598
-            },
-            {
-              "id": "item_1763324576449",
-              "text": "tres",
-              "timestamp": "2025-11-16T20:22:56.449Z",
-              "x": 580.9543358116432,
-              "y": 224.84489328413383
-            },
-            {
-              "id": "item_1763391175214",
-              "text": "ítem 8",
-              "timestamp": "2025-11-17T14:52:55.215Z",
-              "x": 553.4260011369804,
-              "y": 121.76214344600834
-            },
-            {
-              "id": "item_1763391488937",
-              "text": "item 18",
-              "timestamp": "2025-11-17T14:58:08.938Z",
-              "x": 544.0100160849363,
-              "y": 276.3435880053863
-            },
-            {
-              "id": "item_1763391496118",
-              "text": "item 20",
-              "timestamp": "2025-11-17T14:58:16.118Z",
-              "x": 591.7608721376114,
-              "y": 204.35318023168224
+              "id": "item_1763572926154",
+              "text": "Integrar G Service , TP y nueva Toma Pedido",
+              "timestamp": "2025-11-19T17:22:06.154Z",
+              "x": 413.59884636636275,
+              "y": 242.02507831294065
             }
           ],
-          "description": "Items que parecen ser problemas genéricos o sin contexto específico, que requieren más detalles para entender su impacto.",
+          "description": "Consolidar las diversas plataformas y sistemas existentes para una experiencia unificada.",
           "position": {
             "x": 100,
             "y": 100
           }
         },
         {
-          "category": "Problemas Escabilidad/Performance",
+          "category": "Empoderamiento Fuerza Venta",
           "items": [
             {
-              "id": "item_1763410679844",
-              "text": "problemas de performance",
-              "timestamp": "2025-11-17T20:17:59.845Z",
-              "x": 474.7304211938727,
-              "y": 124.40109541574688
+              "id": "item_1763571147369",
+              "text": "Necesitamos que anaqueleros y premier puedan tomar pedidos desde sus PV.",
+              "timestamp": "2025-11-19T16:52:27.369Z",
+              "x": 515.832994750403,
+              "y": 15.723456780749911
             },
             {
-              "id": "item_1763410691533",
-              "text": "escalabilidad",
-              "timestamp": "2025-11-17T20:18:11.534Z",
-              "x": 201.77756483597972,
-              "y": 29.32491513059139
+              "id": "item_1763571182966",
+              "text": "Necesitamos que los anaqueleros y premier utilicen la data y sus habilidades de negociación para tomar pedidos.",
+              "timestamp": "2025-11-19T16:53:02.966Z",
+              "x": 492.2245746667806,
+              "y": 345.90854025649605
             },
             {
-              "id": "item_1763410700588",
-              "text": "redundancia",
-              "timestamp": "2025-11-17T20:18:20.588Z",
-              "x": 536.0005349993568,
-              "y": 101.87705592754588
+              "id": "item_1763571845471",
+              "text": "Queremos salir de la \"toma de pedidos\" a tomar pedido, considerar data y promociones. Algo más integral",
+              "timestamp": "2025-11-19T17:04:05.471Z",
+              "x": 563.0454513695523,
+              "y": 238.76929609097357
+            },
+            {
+              "id": "item_1763572071647",
+              "text": "Proveer a los actores con indicares e incentivos para clientes y anaqueleros/premier",
+              "timestamp": "2025-11-19T17:07:51.647Z",
+              "x": 54.83412837697743,
+              "y": 109.24348306618299
+            },
+            {
+              "id": "item_1763573994614",
+              "text": "esquema de compensación que fomenta la venta (canje/salario/etc)",
+              "timestamp": "2025-11-19T17:39:54.614Z",
+              "x": 538.202651935964,
+              "y": 231.55660631710114
             }
           ],
-          "description": "Problemas relacionados con el rendimiento, la capacidad de la plataforma para manejar el aumento de la carga y la disponibilidad del servicio.  Se identifican desafíos técnicos críticos.",
+          "description": "Proveer a los anaqueleros y premiers con las herramientas, datos e incentivos necesarios para optimizar la toma de pedidos y la gestión de clientes.",
           "position": {
             "x": 450,
             "y": 100
           }
         },
         {
-          "category": "Conceptos Aves",
+          "category": "Optimización Pedido",
           "items": [
             {
-              "id": "item_1763324581724",
-              "text": "pajaro",
-              "timestamp": "2025-11-16T20:23:01.724Z",
-              "x": 525.9127804136509,
-              "y": 228.1196591401039
+              "id": "item_1763571392945",
+              "text": "eficientar la gestión del pedido",
+              "timestamp": "2025-11-19T16:56:32.945Z",
+              "x": 53.341358227217015,
+              "y": 181.14095026303062
             },
             {
-              "id": "item_1763324586318",
-              "text": "paloma",
-              "timestamp": "2025-11-16T20:23:06.318Z",
-              "x": 74.605138119979,
-              "y": 393.2454804939449
+              "id": "item_1763571683933",
+              "text": "creemos que donde hace más sentido el pedido sugerido es AQUI",
+              "timestamp": "2025-11-19T17:01:23.933Z",
+              "x": 498.18992018254005,
+              "y": 174.9309548310107
+            },
+            {
+              "id": "item_1763572159159",
+              "text": "Pedido optimo",
+              "timestamp": "2025-11-19T17:09:19.159Z",
+              "x": 32.423010037821484,
+              "y": 149.4060778808481
+            },
+            {
+              "id": "item_1763572238042",
+              "text": "Pedido optimo es donde realmente movemos las palancas de negocio porque consideramos la DATA",
+              "timestamp": "2025-11-19T17:10:38.042Z",
+              "x": 467.01676629275346,
+              "y": 165.03245895504847
             }
           ],
-          "description": "Items que representan conceptos relacionados con aves. Requieren más contexto para entender su relevancia con la plataforma.",
+          "description": "Mejorar la eficiencia y efectividad del proceso de pedido mediante la incorporación de datos y sugerencias inteligentes.",
           "position": {
             "x": 800,
             "y": 100
+          }
+        },
+        {
+          "category": "Gestión Datos",
+          "items": [
+            {
+              "id": "item_1763571785303",
+              "text": "hay MUCHA información en canal moderno para que las soluciones sean preguntar \"que quiere\"?",
+              "timestamp": "2025-11-19T17:03:05.303Z",
+              "x": 525.3223990834817,
+              "y": 385.77547842563774
+            },
+            {
+              "id": "item_1763572907915",
+              "text": "Hoy Silos de Datos Gepp IT y TP (Multi)",
+              "timestamp": "2025-11-19T17:21:47.915Z",
+              "x": 186.6816908126599,
+              "y": 301.3559119584687
+            }
+          ],
+          "description": "Resolver la fragmentación de datos actual y aprovechar la información disponible para la toma de decisiones.",
+          "position": {
+            "x": 100,
+            "y": 500
+          }
+        },
+        {
+          "category": "Resistencia Adopción",
+          "items": [
+            {
+              "id": "item_1763572532398",
+              "text": "vamos a tener que enfrentar resistencia operativa con datos duros",
+              "timestamp": "2025-11-19T17:15:32.398Z",
+              "x": 62.66123614923593,
+              "y": 3.8460874177860482
+            },
+            {
+              "id": "item_1763572796881",
+              "text": "Agentes de ayuda a los roles para acelerar adopcion",
+              "timestamp": "2025-11-19T17:19:56.881Z",
+              "x": 348.35915004323783,
+              "y": 194.28566973688334
+            },
+            {
+              "id": "item_1763574137999",
+              "text": "Tratar de controlar la carga cognitiva con todas las ideas!",
+              "timestamp": "2025-11-19T17:42:17.999Z",
+              "x": 208.53000779371774,
+              "y": 239.05454235606433
+            }
+          ],
+          "description": "Anticipar y mitigar la resistencia al cambio, facilitando la adopción de la nueva plataforma.",
+          "position": {
+            "x": 450,
+            "y": 500
+          }
+        },
+        {
+          "category": "Control y Anticipación",
+          "items": [
+            {
+              "id": "item_1763572044518",
+              "text": "Anticipación para justing time",
+              "timestamp": "2025-11-19T17:07:24.518Z",
+              "x": 370.220219968277,
+              "y": 373.80492925528
+            },
+            {
+              "id": "item_1763572649886",
+              "text": "Control de Agenda, para anticiparnos",
+              "timestamp": "2025-11-19T17:17:29.886Z",
+              "x": 56.98013238099462,
+              "y": 32.454471313385994
+            }
+          ],
+          "description": "Implementar funcionalidades para la anticipación de la demanda y el control de la agenda.",
+          "position": {
+            "x": 800,
+            "y": 500
+          }
+        },
+        {
+          "category": "Geolocalización Seguridad",
+          "items": [
+            {
+              "id": "item_1763573012026",
+              "text": "GS - Mejorar Candados (Geolocalizacion y Geo Cercas) e Indicadores",
+              "timestamp": "2025-11-19T17:23:32.026Z",
+              "x": 538.6314587953076,
+              "y": 260.5197037656694
+            },
+            {
+              "id": "item_1763573049127",
+              "text": "GS - Asegurar de donde hace login , y lugar",
+              "timestamp": "2025-11-19T17:24:09.127Z",
+              "x": 47.36161667359311,
+              "y": 288.5848990161077
+            },
+            {
+              "id": "item_1763573065611",
+              "text": "Al no tener dispositivos de Gepp, hay mucha variadad y tema de permisos",
+              "timestamp": "2025-11-19T17:24:25.611Z",
+              "x": 353.593595195653,
+              "y": 220.69502228022748
+            },
+            {
+              "id": "item_1763573168956",
+              "text": "GS - Tiendas sin recepcion.  Login con gestora de servicio o con QR (rotativo)",
+              "timestamp": "2025-11-19T17:26:08.956Z",
+              "x": 130.67009071713073,
+              "y": 352.15930829718815
+            }
+          ],
+          "description": "Mejorar la seguridad y el control mediante el uso de la geolocalización y las geo-cercas.",
+          "position": {
+            "x": 100,
+            "y": 900
+          }
+        },
+        {
+          "category": "Evolución Tecnológica",
+          "items": [
+            {
+              "id": "item_1763573368834",
+              "text": "TP - Evolución tecnologica (voz, agentes, image recognition, etc)",
+              "timestamp": "2025-11-19T17:29:28.834Z",
+              "x": 61.01592347702829,
+              "y": 112.77171383250537
+            },
+            {
+              "id": "item_1763573517448",
+              "text": "reconocimiento de voz",
+              "timestamp": "2025-11-19T17:31:57.448Z",
+              "x": 482.6030187644416,
+              "y": 237.18960671037235
+            },
+            {
+              "id": "item_1763575024085",
+              "text": "Oportunidad de sumar IA y potenciar",
+              "timestamp": "2025-11-19T17:57:04.085Z",
+              "x": 122.42858249846103,
+              "y": 299.8953264986311
+            }
+          ],
+          "description": "Integrar nuevas tecnologías como reconocimiento de voz e IA para potenciar la plataforma.",
+          "position": {
+            "x": 450,
+            "y": 900
+          }
+        },
+        {
+          "category": "Calidad Estabilidad GS",
+          "items": [
+            {
+              "id": "item_1763572972168",
+              "text": "GS - Entrada , comida , salida",
+              "timestamp": "2025-11-19T17:22:52.168Z",
+              "x": 337.6915002434129,
+              "y": 291.0650496539934
+            },
+            {
+              "id": "item_1763573435263",
+              "text": "gs - estabilidad",
+              "timestamp": "2025-11-19T17:30:35.263Z",
+              "x": 26.045378728651336,
+              "y": 350.9537924616302
+            },
+            {
+              "id": "item_1763573498375",
+              "text": "revision GS",
+              "timestamp": "2025-11-19T17:31:38.375Z",
+              "x": 563.753689119633,
+              "y": 390.52222544092007
+            },
+            {
+              "id": "item_1763573773934",
+              "text": "Calidad en Nuevas Reglas",
+              "timestamp": "2025-11-19T17:36:13.934Z",
+              "x": 376.36762716063726,
+              "y": 123.11550186254921
+            }
+          ],
+          "description": "Asegurar la calidad, estabilidad y correcta configuración del módulo GS.",
+          "position": {
+            "x": 800,
+            "y": 900
+          }
+        },
+        {
+          "category": "Simulación Campañas",
+          "items": [
+            {
+              "id": "item_1763573815626",
+              "text": "simulacion de campañas",
+              "timestamp": "2025-11-19T17:36:55.626Z",
+              "x": 355.90208477909044,
+              "y": 156.58693179724472
+            }
+          ],
+          "description": "Implementar herramientas para la simulación y evaluación de campañas.",
+          "position": {
+            "x": 100,
+            "y": 1300
+          }
+        },
+        {
+          "category": "Contingencia Offline",
+          "items": [
+            {
+              "id": "item_1763575317046",
+              "text": "Contingencia de trabajo fuera de linea (datos pre-cargados)",
+              "timestamp": "2025-11-19T18:01:57.046Z",
+              "x": 109.65130938832581,
+              "y": 218.84328748543004
+            }
+          ],
+          "description": "Asegurar la funcionalidad de la plataforma en situaciones de falta de conectividad.",
+          "position": {
+            "x": 450,
+            "y": 1300
+          }
+        },
+        {
+          "category": "Mejora DRP",
+          "items": [
+            {
+              "id": "item_1763575548630",
+              "text": "Mejorar / Evaluar esquema de DRP",
+              "timestamp": "2025-11-19T18:05:48.630Z",
+              "x": 445.8383150651112,
+              "y": 148.325137032935
+            }
+          ],
+          "description": "Evaluar y mejorar el esquema de Distribución en Ruta Propia (DRP).",
+          "position": {
+            "x": 800,
+            "y": 1300
+          }
+        },
+        {
+          "category": "Roles y Foco",
+          "items": [
+            {
+              "id": "item_1763571232781",
+              "text": "Requerimos que los anaquelistas se enfoquen inicialmente en la ejecución y después en el pedido",
+              "timestamp": "2025-11-19T16:53:52.781Z",
+              "x": 309.9443927206429,
+              "y": 108.96883358052736
+            },
+            {
+              "id": "item_1763571597850",
+              "text": "fusionar en algun momento los perfiles del anaquelero y del premier",
+              "timestamp": "2025-11-19T16:59:57.850Z",
+              "x": 473.22101998930873,
+              "y": 273.3616841848866
+            }
+          ],
+          "description": "Definir el enfoque y posible fusión de los roles de anaquelero y premier.",
+          "position": {
+            "x": 100,
+            "y": 1700
           }
         }
       ],
       "actors": [
         {
-          "category": "Usuarios Directos",
+          "category": "Roles Operativos",
           "items": [
             {
-              "id": "item_1763325328780",
-              "text": "actor 1",
-              "timestamp": "2025-11-16T20:35:28.781Z",
-              "x": 305.669612322473,
-              "y": 111.78175638831904
+              "id": "item_1763574158399",
+              "text": "Anaquelero",
+              "timestamp": "2025-11-19T17:42:38.399Z",
+              "x": 125.15871215070507,
+              "y": 110.4741979550254
             },
             {
-              "id": "item_1763325332967",
-              "text": "actor 2",
-              "timestamp": "2025-11-16T20:35:32.967Z",
-              "x": 466.49379811522164,
-              "y": 332.14632646511416
+              "id": "item_1763574170539",
+              "text": "preventista",
+              "timestamp": "2025-11-19T17:42:50.539Z",
+              "x": 471.2346477880423,
+              "y": 44.841575097017824
             },
             {
-              "id": "item_1763410749720",
-              "text": "cliente",
-              "timestamp": "2025-11-17T20:19:09.720Z",
-              "x": 356.2063052690154,
-              "y": 282.33883605585675
+              "id": "item_1763574220378",
+              "text": "Auditor",
+              "timestamp": "2025-11-19T17:43:40.378Z",
+              "x": 136.08348263252478,
+              "y": 303.5163127889735
+            },
+            {
+              "id": "item_1763574349104",
+              "text": "La fusión del anaquelero + Premier sera el Mercaderista",
+              "timestamp": "2025-11-19T17:45:49.104Z",
+              "x": 496.6841122117002,
+              "y": 171.53924548376466
             }
           ],
-          "description": "Personas que interactúan directamente con la plataforma para obtener un beneficio o completar una tarea específica. Incluye diferentes tipos de usuarios finales.",
+          "description": "Roles que ejecutan tareas directamente relacionadas con la operación en campo, incluyendo el anaquelero (individual o fusionado en el Mercaderista), el preventista y el auditor. Se centran en la ejecución y el cumplimiento de tareas.",
           "position": {
             "x": 100,
             "y": 100
           }
         },
         {
-          "category": "Personal Interno",
+          "category": "Roles de Supervisión",
           "items": [
             {
-              "id": "item_1763325339484",
-              "text": "empleado 1",
-              "timestamp": "2025-11-16T20:35:39.484Z",
-              "x": 180.996921277568,
-              "y": 101.47284741572484
+              "id": "item_1763574215330",
+              "text": "Jefe de Territorio",
+              "timestamp": "2025-11-19T17:43:35.330Z",
+              "x": 279.06590671849887,
+              "y": 165.94527969182505
             },
             {
-              "id": "item_1763325343692",
-              "text": "empleado 2",
-              "timestamp": "2025-11-16T20:35:43.692Z",
-              "x": 134.97349294881457,
-              "y": 7.618259923707438
+              "id": "item_1763574238280",
+              "text": "Gestor de servicios",
+              "timestamp": "2025-11-19T17:43:58.280Z",
+              "x": 104.54326761985465,
+              "y": 139.9419787613099
             },
             {
-              "id": "item_1763410739428",
-              "text": "vendedor",
-              "timestamp": "2025-11-17T20:18:59.428Z",
-              "x": 285.9462885680525,
-              "y": 51.84436330841713
-            },
-            {
-              "id": "item_1763410743917",
-              "text": "administrador",
-              "timestamp": "2025-11-17T20:19:03.917Z",
-              "x": 81.64082597469164,
-              "y": 273.9834153340905
+              "id": "item_1763574371650",
+              "text": "Niveles gerenciales",
+              "timestamp": "2025-11-19T17:46:11.650Z",
+              "x": 23.982208489080705,
+              "y": 295.7621563397746
             }
           ],
-          "description": "Empleados o personal de la empresa que interactúan con la plataforma para gestionar, operar o mantener el sistema, o para facilitar el uso por parte de los usuarios directos. Incluye vendedores y administradores.",
+          "description": "Roles con responsabilidades de supervisión, gestión y estrategia. Incluyen el Jefe de Territorio, el Gestor de Servicios y otros niveles gerenciales. Su enfoque está en la planificación, coordinación y optimización de los equipos operativos.",
           "position": {
             "x": 450,
             "y": 100
           }
         },
         {
-          "category": "Sin Contexto",
+          "category": "Acceso a Plataforma",
           "items": [
             {
-              "id": "item_1763393946259",
-              "text": "otro",
-              "timestamp": "2025-11-17T15:39:06.259Z",
-              "x": 176.4675419659711,
-              "y": 295.4582153519
+              "id": "item_1763574202197",
+              "text": "Premier",
+              "timestamp": "2025-11-19T17:43:22.197Z",
+              "x": 538.3807969658449,
+              "y": 311.580616119251
             },
             {
-              "id": "item_1763393949149",
-              "text": "dos",
-              "timestamp": "2025-11-17T15:39:09.149Z",
-              "x": 483.38407661420666,
-              "y": 165.05165594542274
+              "id": "item_1763574215330",
+              "text": "Jefe de Territorio",
+              "timestamp": "2025-11-19T17:43:35.330Z",
+              "x": 279.06590671849887,
+              "y": 165.94527969182505
             },
             {
-              "id": "item_1763394049158",
-              "text": "este es un item largo para ver como se comporta la herramienta en estos casos, por ejemplo podriamos ver si hace scroll",
-              "timestamp": "2025-11-17T15:40:49.159Z",
-              "x": 72.04912112957888,
-              "y": 149.10794057822326
+              "id": "item_1763574238280",
+              "text": "Gestor de servicios",
+              "timestamp": "2025-11-19T17:43:58.280Z",
+              "x": 104.54326761985465,
+              "y": 139.9419787613099
+            },
+            {
+              "id": "item_1763574302106",
+              "text": "Premier, JT y Gestor de Servicios tienen acceso a la plataforma (anaquelero no)",
+              "timestamp": "2025-11-19T17:45:02.106Z",
+              "x": 62.60820350661178,
+              "y": 134.7123738748218
             }
           ],
-          "description": "Items que carecen de suficiente información contextual para ser categorizados significativamente dentro del contexto de actores principales. 'Otro', 'Dos' y el item largo no definen un actor/rol claro.",
+          "description": "Roles con acceso directo a la plataforma digital. Premier, Jefe de Territorio y Gestor de Servicios utilizan la plataforma como herramienta central para sus tareas.  El acceso denota un rol que requiere información y gestión a través de la plataforma.",
           "position": {
             "x": 800,
             "y": 100
+          }
+        },
+        {
+          "category": "Potencial Rol Futuro",
+          "items": [
+            {
+              "id": "item_1763574349104",
+              "text": "La fusión del anaquelero + Premier sera el Mercaderista",
+              "timestamp": "2025-11-19T17:45:49.104Z",
+              "x": 496.6841122117002,
+              "y": 171.53924548376466
+            }
+          ],
+          "description": "El rol de Mercaderista, como fusión del Anaquelero y Premier, representa una evolución potencial de los roles operativos y su interacción con la plataforma. Implica una consolidación de funciones y posibles nuevas necesidades.",
+          "position": {
+            "x": 100,
+            "y": 500
           }
         }
       ],
       "kpis": [
         {
-          "category": "Definición de Objetivos",
+          "category": "Eficiencia Operacional",
           "items": [
             {
-              "id": "item_1763325620743",
-              "text": "indicadoe 1",
-              "timestamp": "2025-11-16T20:40:20.743Z",
-              "x": 203.3833954104304,
-              "y": 194.10402414051111
+              "id": "item_1763574681732",
+              "text": "Reducción de tiempo de gestión",
+              "timestamp": "2025-11-19T17:51:21.732Z",
+              "x": 431.6508021597505,
+              "y": 362.27675621467677
             },
             {
-              "id": "item_1763325629220",
-              "text": "indiocador 2",
-              "timestamp": "2025-11-16T20:40:29.220Z",
-              "x": 417.28660565656827,
-              "y": 176.10162468975437
+              "id": "item_1763574938376",
+              "text": "Gestión en tiempo real de manera masiva (Blue line)",
+              "timestamp": "2025-11-19T17:55:38.376Z",
+              "x": 566.1287137883318,
+              "y": 355.4988646621643
+            },
+            {
+              "id": "item_1763574970514",
+              "text": "Mover el musculo operativo hacia un fast track",
+              "timestamp": "2025-11-19T17:56:10.514Z",
+              "x": 466.4733872469277,
+              "y": 229.19692388399335
+            },
+            {
+              "id": "item_1763576404120",
+              "text": "% eficiencia en productividad",
+              "timestamp": "2025-11-19T18:20:04.120Z",
+              "x": 29.625916618394488,
+              "y": 190.32211257874795
             }
           ],
-          "description": "Este grupo se centra en la definición inicial de los objetivos que los indicadores deben ayudar a medir. La inclusión de ambos indicadores sugiere una etapa temprana del proceso de diseño de producto donde se está buscando aclarar qué se quiere lograr.",
+          "description": "Métricas relacionadas con la optimización de las operaciones, la reducción de tiempos de gestión, la automatización y el aumento de la productividad general.",
           "position": {
             "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Retención y Satisfacción",
+          "items": [
+            {
+              "id": "item_1763574701563",
+              "text": "Dismimuir el nivel de rotación de todos los roles",
+              "timestamp": "2025-11-19T17:51:41.563Z",
+              "x": 353.51466915347913,
+              "y": 369.91317267878327
+            },
+            {
+              "id": "item_1763575165090",
+              "text": "Aumentar la confianza y el engagement con la tienda",
+              "timestamp": "2025-11-19T17:59:25.090Z",
+              "x": 111.92766677181028,
+              "y": 378.6410751891692
+            },
+            {
+              "id": "item_1763575663424",
+              "text": "Lograr la adopción de la plataforma por parte de los actores (tener una usabilidad efectiva)",
+              "timestamp": "2025-11-19T18:07:43.424Z",
+              "x": 152.13830606223183,
+              "y": 30.453479756464972
+            },
+            {
+              "id": "item_1763576430384",
+              "text": "mejoras en calificación de ejecución",
+              "timestamp": "2025-11-19T18:20:30.384Z",
+              "x": 118.98290848310937,
+              "y": 269.9189586974622
+            }
+          ],
+          "description": "Indicadores de la satisfacción y retención de los usuarios (internos y externos) de la plataforma, incluyendo empleados y clientes (tiendas).  Incluye la adopción de la plataforma y las mejoras percibidas.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Procesos Unificados",
+          "items": [
+            {
+              "id": "item_1763574794549",
+              "text": "Visibilidad end to end de los procesos",
+              "timestamp": "2025-11-19T17:53:14.549Z",
+              "x": 375.12265187783413,
+              "y": 133.68600604583332
+            },
+            {
+              "id": "item_1763574834220",
+              "text": "Maximizar la conversión por la unificación de procesos",
+              "timestamp": "2025-11-19T17:53:54.220Z",
+              "x": 314.754808404284,
+              "y": 105.314738798038
+            },
+            {
+              "id": "item_1763574886522",
+              "text": "Aconsejar /Alertar en tiempo real",
+              "timestamp": "2025-11-19T17:54:46.522Z",
+              "x": 268.95111610920475,
+              "y": 204.38230291624419
+            },
+            {
+              "id": "item_1763575259873",
+              "text": "Aceptación del pedido óptimo (en % muy alto)",
+              "timestamp": "2025-11-19T18:00:59.873Z",
+              "x": 13.555192954016038,
+              "y": 352.3774039121118
+            }
+          ],
+          "description": "Métricas que reflejan la mejora en la unificación y optimización de los procesos, la visibilidad de extremo a extremo, la toma de decisiones en tiempo real y la mejora en el porcentaje de aceptación de pedidos.",
+          "position": {
+            "x": 800,
             "y": 100
           }
         }
       ],
       "modules": [
         {
-          "category": "Módulo Principal 1",
+          "category": "Optimización de Operaciones",
           "items": [
             {
-              "id": "item_1763327967621",
-              "text": "m1",
-              "timestamp": "2025-11-16T21:19:27.621Z",
-              "x": 12.931235664247964,
-              "y": 165.22422368761428
+              "id": "item_1763576819745",
+              "text": "Pedido Optimo",
+              "timestamp": "2025-11-19T18:26:59.745Z",
+              "x": 224.6522015740643,
+              "y": 237.09795770331806
+            },
+            {
+              "id": "item_1763576825772",
+              "text": "Tienda Perfecta",
+              "timestamp": "2025-11-19T18:27:05.772Z",
+              "x": 546.834016963574,
+              "y": 101.49941187516882
             }
           ],
-          "description": "Representa el módulo m1, que actuará como un componente principal de la plataforma.",
+          "description": "Módulos enfocados en mejorar la eficiencia y efectividad de las operaciones centrales del negocio, apuntando a resultados como la minimización de costos y la maximización de ventas a través de la gestión optimizada del inventario y la presentación del producto.",
           "position": {
             "x": 100,
             "y": 100
           }
         },
         {
-          "category": "Módulo Principal 2",
+          "category": "Servicios Extendidos",
           "items": [
             {
-              "id": "item_1763327969675",
-              "text": "m2",
-              "timestamp": "2025-11-16T21:19:29.675Z",
-              "x": 447.5346438914701,
-              "y": 66.26052803227908
+              "id": "item_1763576835157",
+              "text": "G-Service",
+              "timestamp": "2025-11-19T18:27:15.157Z",
+              "x": 470.6361474744985,
+              "y": 293.2549571106844
+            },
+            {
+              "id": "item_1763576916228",
+              "text": "Asistentes IA",
+              "timestamp": "2025-11-19T18:28:36.228Z",
+              "x": 460.4591983634824,
+              "y": 232.11397218674205
             }
           ],
-          "description": "Representa el módulo m2, que actuará como un componente principal de la plataforma.",
+          "description": "Módulos que ofrecen valor agregado a través de servicios adicionales, ya sean proporcionados directamente (G-Service) o facilitados por tecnologías emergentes como la Inteligencia Artificial (Asistentes IA). Estos módulos buscan mejorar la experiencia del usuario y ofrecer soluciones personalizadas.",
           "position": {
             "x": 450,
             "y": 100
+          }
+        },
+        {
+          "category": "Análisis y Alertas",
+          "items": [
+            {
+              "id": "item_1763576875055",
+              "text": "Alertas y Notificaciones",
+              "timestamp": "2025-11-19T18:27:55.055Z",
+              "x": 347.89982643283946,
+              "y": 250.64171357202105
+            },
+            {
+              "id": "item_1763577029593",
+              "text": "Observabilidad",
+              "timestamp": "2025-11-19T18:30:29.593Z",
+              "x": 167.730507814269,
+              "y": 167.05945337104944
+            }
+          ],
+          "description": "Módulos dedicados a la monitorización, análisis y notificación de eventos relevantes dentro de la plataforma. Esto permite una respuesta rápida a problemas, la identificación de oportunidades y la mejora continua del sistema.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        },
+        {
+          "category": "Generación de Ideas",
+          "items": [
+            {
+              "id": "item_1763576853261",
+              "text": "Idea",
+              "timestamp": "2025-11-19T18:27:33.261Z",
+              "x": 271.23484211216226,
+              "y": 76.66703180391283
+            }
+          ],
+          "description": "Módulo que centraliza la recepción, gestión y desarrollo de nuevas ideas y oportunidades para el negocio.",
+          "position": {
+            "x": 100,
+            "y": 500
+          }
+        }
+      ]
+    }
+  },
+  "ws_1763594753238": {
+    "id": "ws_1763594753238",
+    "boardName": "TP v2",
+    "currentStep": "problem_framing",
+    "createdAt": "2025-11-19T23:25:53.238Z",
+    "figmaBoard": null,
+    "data": {
+      "problems": [
+        {
+          "id": "item_1763571109974",
+          "text": "unificación del ecosistema / plataforma",
+          "timestamp": "2025-11-19T16:51:49.974Z",
+          "x": 36.536843727926474,
+          "y": 234.2202307724022
+        },
+        {
+          "id": "item_1763571147369",
+          "text": "Necesitamos que anaqueleros y premier puedan tomar pedidos desde sus PV.",
+          "timestamp": "2025-11-19T16:52:27.369Z",
+          "x": 515.832994750403,
+          "y": 15.723456780749911
+        },
+        {
+          "id": "item_1763571182966",
+          "text": "Necesitamos que los anaqueleros y premier utilicen la data y sus habilidades de negociación para tomar pedidos.",
+          "timestamp": "2025-11-19T16:53:02.966Z",
+          "x": 492.2245746667806,
+          "y": 345.90854025649605
+        },
+        {
+          "id": "item_1763571232781",
+          "text": "Requerimos que los anaquelistas se enfoquen inicialmente en la ejecución y después en el pedido",
+          "timestamp": "2025-11-19T16:53:52.781Z",
+          "x": 309.9443927206429,
+          "y": 108.96883358052736
+        },
+        {
+          "id": "item_1763571392945",
+          "text": "eficientar la gestión del pedido",
+          "timestamp": "2025-11-19T16:56:32.945Z",
+          "x": 53.341358227217015,
+          "y": 181.14095026303062
+        },
+        {
+          "id": "item_1763571597850",
+          "text": "fusionar en algun momento los perfiles del anaquelero y del premier",
+          "timestamp": "2025-11-19T16:59:57.850Z",
+          "x": 473.22101998930873,
+          "y": 273.3616841848866
+        },
+        {
+          "id": "item_1763571683933",
+          "text": "creemos que donde hace más sentido el pedido sugerido es AQUI",
+          "timestamp": "2025-11-19T17:01:23.933Z",
+          "x": 498.18992018254005,
+          "y": 174.9309548310107
+        },
+        {
+          "id": "item_1763571785303",
+          "text": "hay MUCHA información en canal moderno para que las soluciones sean preguntar \"que quiere\"?",
+          "timestamp": "2025-11-19T17:03:05.303Z",
+          "x": 525.3223990834817,
+          "y": 385.77547842563774
+        },
+        {
+          "id": "item_1763571845471",
+          "text": "Queremos salir de la \"toma de pedidos\" a tomar pedido, considerar data y promociones. Algo más integral",
+          "timestamp": "2025-11-19T17:04:05.471Z",
+          "x": 563.0454513695523,
+          "y": 238.76929609097357
+        },
+        {
+          "id": "item_1763572044518",
+          "text": "Anticipación para justing time",
+          "timestamp": "2025-11-19T17:07:24.518Z",
+          "x": 370.220219968277,
+          "y": 373.80492925528
+        },
+        {
+          "id": "item_1763572071647",
+          "text": "Proveer a los actores con indicares e incentivos para clientes y anaqueleros/premier",
+          "timestamp": "2025-11-19T17:07:51.647Z",
+          "x": 54.83412837697743,
+          "y": 109.24348306618299
+        },
+        {
+          "id": "item_1763572159159",
+          "text": "Pedido optimo",
+          "timestamp": "2025-11-19T17:09:19.159Z",
+          "x": 32.423010037821484,
+          "y": 149.4060778808481
+        },
+        {
+          "id": "item_1763572238042",
+          "text": "Pedido optimo es donde realmente movemos las palancas de negocio porque consideramos la DATA",
+          "timestamp": "2025-11-19T17:10:38.042Z",
+          "x": 467.01676629275346,
+          "y": 165.03245895504847
+        },
+        {
+          "id": "item_1763572532398",
+          "text": "vamos a tener que enfrentar resistencia operativa con datos duros",
+          "timestamp": "2025-11-19T17:15:32.398Z",
+          "x": 62.66123614923593,
+          "y": 3.8460874177860482
+        },
+        {
+          "id": "item_1763572649886",
+          "text": "Control de Agenda, para anticiparnos",
+          "timestamp": "2025-11-19T17:17:29.886Z",
+          "x": 56.98013238099462,
+          "y": 32.454471313385994
+        },
+        {
+          "id": "item_1763572796881",
+          "text": "Agentes de ayuda a los roles para acelerar adopcion",
+          "timestamp": "2025-11-19T17:19:56.881Z",
+          "x": 348.35915004323783,
+          "y": 194.28566973688334
+        },
+        {
+          "id": "item_1763572907915",
+          "text": "Hoy Silos de Datos Gepp IT y TP (Multi)",
+          "timestamp": "2025-11-19T17:21:47.915Z",
+          "x": 186.6816908126599,
+          "y": 301.3559119584687
+        },
+        {
+          "id": "item_1763572926154",
+          "text": "Integrar G Service , TP y nueva Toma Pedido",
+          "timestamp": "2025-11-19T17:22:06.154Z",
+          "x": 413.59884636636275,
+          "y": 242.02507831294065
+        },
+        {
+          "id": "item_1763572972168",
+          "text": "GS - Entrada , comida , salida",
+          "timestamp": "2025-11-19T17:22:52.168Z",
+          "x": 337.6915002434129,
+          "y": 291.0650496539934
+        },
+        {
+          "id": "item_1763573012026",
+          "text": "GS - Mejorar Candados (Geolocalizacion y Geo Cercas) e Indicadores",
+          "timestamp": "2025-11-19T17:23:32.026Z",
+          "x": 538.6314587953076,
+          "y": 260.5197037656694
+        },
+        {
+          "id": "item_1763573049127",
+          "text": "GS - Asegurar de donde hace login , y lugar",
+          "timestamp": "2025-11-19T17:24:09.127Z",
+          "x": 47.36161667359311,
+          "y": 288.5848990161077
+        },
+        {
+          "id": "item_1763573065611",
+          "text": "Al no tener dispositivos de Gepp, hay mucha variadad y tema de permisos",
+          "timestamp": "2025-11-19T17:24:25.611Z",
+          "x": 353.593595195653,
+          "y": 220.69502228022748
+        },
+        {
+          "id": "item_1763573168956",
+          "text": "GS - Tiendas sin recepcion.  Login con gestora de servicio o con QR (rotativo)",
+          "timestamp": "2025-11-19T17:26:08.956Z",
+          "x": 130.67009071713073,
+          "y": 352.15930829718815
+        },
+        {
+          "id": "item_1763573368834",
+          "text": "TP - Evolución tecnologica (voz, agentes, image recognition, etc)",
+          "timestamp": "2025-11-19T17:29:28.834Z",
+          "x": 61.01592347702829,
+          "y": 112.77171383250537
+        },
+        {
+          "id": "item_1763573435263",
+          "text": "gs - estabilidad",
+          "timestamp": "2025-11-19T17:30:35.263Z",
+          "x": 26.045378728651336,
+          "y": 350.9537924616302
+        },
+        {
+          "id": "item_1763573498375",
+          "text": "revision GS",
+          "timestamp": "2025-11-19T17:31:38.375Z",
+          "x": 563.753689119633,
+          "y": 390.52222544092007
+        },
+        {
+          "id": "item_1763573517448",
+          "text": "reconocimiento de voz",
+          "timestamp": "2025-11-19T17:31:57.448Z",
+          "x": 482.6030187644416,
+          "y": 237.18960671037235
+        },
+        {
+          "id": "item_1763573773934",
+          "text": "Calidad en Nuevas Reglas",
+          "timestamp": "2025-11-19T17:36:13.934Z",
+          "x": 376.36762716063726,
+          "y": 123.11550186254921
+        },
+        {
+          "id": "item_1763573815626",
+          "text": "simulacion de campañas",
+          "timestamp": "2025-11-19T17:36:55.626Z",
+          "x": 355.90208477909044,
+          "y": 156.58693179724472
+        },
+        {
+          "id": "item_1763573994614",
+          "text": "esquema de compensación que fomenta la venta (canje/salario/etc)",
+          "timestamp": "2025-11-19T17:39:54.614Z",
+          "x": 538.202651935964,
+          "y": 231.55660631710114
+        },
+        {
+          "id": "item_1763574137999",
+          "text": "Tratar de controlar la carga cognitiva con todas las ideas!",
+          "timestamp": "2025-11-19T17:42:17.999Z",
+          "x": 208.53000779371774,
+          "y": 239.05454235606433
+        },
+        {
+          "id": "item_1763575024085",
+          "text": "Oportunidad de sumar IA y potenciar",
+          "timestamp": "2025-11-19T17:57:04.085Z",
+          "x": 122.42858249846103,
+          "y": 299.8953264986311
+        },
+        {
+          "id": "item_1763575317046",
+          "text": "Contingencia de trabajo fuera de linea (datos pre-cargados)",
+          "timestamp": "2025-11-19T18:01:57.046Z",
+          "x": 109.65130938832581,
+          "y": 218.84328748543004
+        },
+        {
+          "id": "item_1763575548630",
+          "text": "Mejorar / Evaluar esquema de DRP",
+          "timestamp": "2025-11-19T18:05:48.630Z",
+          "x": 445.8383150651112,
+          "y": 148.325137032935
+        }
+      ],
+      "actors": [
+        {
+          "id": "item_1763574158399",
+          "text": "Anaquelero",
+          "timestamp": "2025-11-19T17:42:38.399Z",
+          "x": 125.15871215070507,
+          "y": 110.4741979550254
+        },
+        {
+          "id": "item_1763574170539",
+          "text": "preventista",
+          "timestamp": "2025-11-19T17:42:50.539Z",
+          "x": 471.2346477880423,
+          "y": 44.841575097017824
+        },
+        {
+          "id": "item_1763574202197",
+          "text": "Premier",
+          "timestamp": "2025-11-19T17:43:22.197Z",
+          "x": 538.3807969658449,
+          "y": 311.580616119251
+        },
+        {
+          "id": "item_1763574215330",
+          "text": "Jefe de Territorio",
+          "timestamp": "2025-11-19T17:43:35.330Z",
+          "x": 279.06590671849887,
+          "y": 165.94527969182505
+        },
+        {
+          "id": "item_1763574220378",
+          "text": "Auditor",
+          "timestamp": "2025-11-19T17:43:40.378Z",
+          "x": 136.08348263252478,
+          "y": 303.5163127889735
+        },
+        {
+          "id": "item_1763574238280",
+          "text": "Gestor de servicios",
+          "timestamp": "2025-11-19T17:43:58.280Z",
+          "x": 104.54326761985465,
+          "y": 139.9419787613099
+        },
+        {
+          "id": "item_1763574302106",
+          "text": "Premier, JT y Gestor de Servicios tienen acceso a la plataforma (anaquelero no)",
+          "timestamp": "2025-11-19T17:45:02.106Z",
+          "x": 62.60820350661178,
+          "y": 134.7123738748218
+        },
+        {
+          "id": "item_1763574349104",
+          "text": "La fusión del anaquelero + Premier sera el Mercaderista",
+          "timestamp": "2025-11-19T17:45:49.104Z",
+          "x": 496.6841122117002,
+          "y": 171.53924548376466
+        },
+        {
+          "id": "item_1763574371650",
+          "text": "Niveles gerenciales",
+          "timestamp": "2025-11-19T17:46:11.650Z",
+          "x": 23.982208489080705,
+          "y": 295.7621563397746
+        }
+      ],
+      "kpis": [
+        {
+          "id": "item_1763574681732",
+          "text": "Reducción de tiempo de gestión",
+          "timestamp": "2025-11-19T17:51:21.732Z",
+          "x": 431.6508021597505,
+          "y": 362.27675621467677
+        },
+        {
+          "id": "item_1763574701563",
+          "text": "Dismimuir el nivel de rotación de todos los roles",
+          "timestamp": "2025-11-19T17:51:41.563Z",
+          "x": 353.51466915347913,
+          "y": 369.91317267878327
+        },
+        {
+          "id": "item_1763574794549",
+          "text": "Visibilidad end to end de los procesos",
+          "timestamp": "2025-11-19T17:53:14.549Z",
+          "x": 375.12265187783413,
+          "y": 133.68600604583332
+        },
+        {
+          "id": "item_1763574834220",
+          "text": "Maximizar la conversión por la unificación de procesos",
+          "timestamp": "2025-11-19T17:53:54.220Z",
+          "x": 314.754808404284,
+          "y": 105.314738798038
+        },
+        {
+          "id": "item_1763574886522",
+          "text": "Aconsejar /Alertar en tiempo real",
+          "timestamp": "2025-11-19T17:54:46.522Z",
+          "x": 268.95111610920475,
+          "y": 204.38230291624419
+        },
+        {
+          "id": "item_1763574938376",
+          "text": "Gestión en tiempo real de manera masiva (Blue line)",
+          "timestamp": "2025-11-19T17:55:38.376Z",
+          "x": 566.1287137883318,
+          "y": 355.4988646621643
+        },
+        {
+          "id": "item_1763574970514",
+          "text": "Mover el musculo operativo hacia un fast track",
+          "timestamp": "2025-11-19T17:56:10.514Z",
+          "x": 466.4733872469277,
+          "y": 229.19692388399335
+        },
+        {
+          "id": "item_1763575165090",
+          "text": "Aumentar la confianza y el engagement con la tienda",
+          "timestamp": "2025-11-19T17:59:25.090Z",
+          "x": 111.92766677181028,
+          "y": 378.6410751891692
+        },
+        {
+          "id": "item_1763575259873",
+          "text": "Aceptación del pedido óptimo (en % muy alto)",
+          "timestamp": "2025-11-19T18:00:59.873Z",
+          "x": 13.555192954016038,
+          "y": 352.3774039121118
+        },
+        {
+          "id": "item_1763575663424",
+          "text": "Lograr la adopción de la plataforma por parte de los actores (tener una usabilidad efectiva)",
+          "timestamp": "2025-11-19T18:07:43.424Z",
+          "x": 152.13830606223183,
+          "y": 30.453479756464972
+        },
+        {
+          "id": "item_1763576404120",
+          "text": "% eficiencia en productividad",
+          "timestamp": "2025-11-19T18:20:04.120Z",
+          "x": 29.625916618394488,
+          "y": 190.32211257874795
+        },
+        {
+          "id": "item_1763576430384",
+          "text": "mejoras en calificación de ejecución",
+          "timestamp": "2025-11-19T18:20:30.384Z",
+          "x": 118.98290848310937,
+          "y": 269.9189586974622
+        }
+      ],
+      "modules": [
+        {
+          "id": "item_1763576819745",
+          "text": "Pedido Optimo",
+          "timestamp": "2025-11-19T18:26:59.745Z",
+          "x": 224.6522015740643,
+          "y": 237.09795770331806
+        },
+        {
+          "id": "item_1763576825772",
+          "text": "Tienda Perfecta",
+          "timestamp": "2025-11-19T18:27:05.772Z",
+          "x": 546.834016963574,
+          "y": 101.49941187516882
+        },
+        {
+          "id": "item_1763576835157",
+          "text": "G-Service",
+          "timestamp": "2025-11-19T18:27:15.157Z",
+          "x": 470.6361474744985,
+          "y": 293.2549571106844
+        },
+        {
+          "id": "item_1763576853261",
+          "text": "Idea",
+          "timestamp": "2025-11-19T18:27:33.261Z",
+          "x": 271.23484211216226,
+          "y": 76.66703180391283
+        },
+        {
+          "id": "item_1763576875055",
+          "text": "Alertas y Notificaciones",
+          "timestamp": "2025-11-19T18:27:55.055Z",
+          "x": 347.89982643283946,
+          "y": 250.64171357202105
+        },
+        {
+          "id": "item_1763576916228",
+          "text": "Asistentes IA",
+          "timestamp": "2025-11-19T18:28:36.228Z",
+          "x": 460.4591983634824,
+          "y": 232.11397218674205
+        },
+        {
+          "id": "item_1763577029593",
+          "text": "Observabilidad",
+          "timestamp": "2025-11-19T18:30:29.593Z",
+          "x": 167.730507814269,
+          "y": 167.05945337104944
+        }
+      ],
+      "features": {
+        "item_1763576916228": [
+          {
+            "id": "item_1763576957306",
+            "text": "Reconocimiento Visual (Anaquel)",
+            "timestamp": "2025-11-19T18:29:17.306Z",
+            "x": 341.39893306496003,
+            "y": 229.2775257730228
+          },
+          {
+            "id": "item_1763576970355",
+            "text": "Coach Digital",
+            "timestamp": "2025-11-19T18:29:30.355Z",
+            "x": 482.81493891256997,
+            "y": 349.15698584291107
+          },
+          {
+            "id": "item_1763579500147",
+            "text": "Agente IA x BI",
+            "timestamp": "2025-11-19T19:11:40.147Z",
+            "x": 322.71856274257703,
+            "y": 294.2108190677162
+          },
+          {
+            "id": "item_1763579711635",
+            "text": "Ruta optima",
+            "timestamp": "2025-11-19T19:15:11.635Z",
+            "x": 382.92194096626156,
+            "y": 186.08114336060027
+          },
+          {
+            "id": "item_1763579726737",
+            "text": "Rutas",
+            "timestamp": "2025-11-19T19:15:26.737Z",
+            "x": 456.33594251838434,
+            "y": 88.38762312749333
+          },
+          {
+            "id": "item_1763579994026",
+            "text": "Asesor de pedido optimo (Coach Digital)",
+            "timestamp": "2025-11-19T19:19:54.026Z",
+            "x": 349.910563579921,
+            "y": 198.8589753216187
+          }
+        ],
+        "item_1763577029593": [
+          {
+            "id": "item_1763577041970",
+            "text": "Actividades y Tiempos",
+            "timestamp": "2025-11-19T18:30:41.970Z",
+            "x": 184.98529597787171,
+            "y": 292.89183702044346
+          },
+          {
+            "id": "item_1763579668958",
+            "text": "Agenda (Personas, Turnos , Ausentismo, Rutas, etc.)",
+            "timestamp": "2025-11-19T19:14:28.958Z",
+            "x": 478.3096135866405,
+            "y": 288.50385678213587
+          },
+          {
+            "id": "item_1763579964480",
+            "text": "Producto fuera de stock ---> alerta de sku que están proximo a quedarse sin inventario",
+            "timestamp": "2025-11-19T19:19:24.480Z",
+            "x": 427.48144680686573,
+            "y": 399.46063870727113
+          }
+        ],
+        "item_1763576875055": [
+          {
+            "id": "item_1763579518992",
+            "text": "Blue Line",
+            "timestamp": "2025-11-19T19:11:58.992Z",
+            "x": 12.19342837519859,
+            "y": 105.74738012436553
+          },
+          {
+            "id": "item_1763579523169",
+            "text": "Red Line",
+            "timestamp": "2025-11-19T19:12:03.169Z",
+            "x": 184.29653189733745,
+            "y": 382.08574940914707
+          },
+          {
+            "id": "item_1763579539838",
+            "text": "Alertas de Sistema",
+            "timestamp": "2025-11-19T19:12:19.838Z",
+            "x": 353.1649321281651,
+            "y": 66.49544051483018
+          },
+          {
+            "id": "item_1763579545568",
+            "text": "Alertas Generales",
+            "timestamp": "2025-11-19T19:12:25.568Z",
+            "x": 66.48864410152844,
+            "y": 369.4820378545571
+          }
+        ],
+        "item_1763576819745": [
+          {
+            "id": "item_1763579599454",
+            "text": "Offline",
+            "timestamp": "2025-11-19T19:13:19.454Z",
+            "x": 345.1517342596546,
+            "y": 153.0237127432295
+          },
+          {
+            "id": "item_1763579798915",
+            "text": "Visibilidad Inventarios",
+            "timestamp": "2025-11-19T19:16:38.915Z",
+            "x": 221.63740685241564,
+            "y": 151.69815083768006
+          },
+          {
+            "id": "item_1763579845470",
+            "text": "Gestion de Pedidos",
+            "timestamp": "2025-11-19T19:17:25.470Z",
+            "x": 435.8624483841639,
+            "y": 71.11299281364265
+          },
+          {
+            "id": "item_1763579898876",
+            "text": "Reconocimiento de productos con QR, código de barras (visual)",
+            "timestamp": "2025-11-19T19:18:18.876Z",
+            "x": 530.4739437570975,
+            "y": 210.83599475673566
+          },
+          {
+            "id": "item_1763580579863",
+            "text": "Integración TP",
+            "timestamp": "2025-11-19T19:29:39.863Z",
+            "x": 446.28962622453855,
+            "y": 248.7315146338327
+          }
+        ],
+        "item_1763576825772": [
+          {
+            "id": "item_1763580061369",
+            "text": "Revisión de experiencia de usuario",
+            "timestamp": "2025-11-19T19:21:01.369Z",
+            "x": 409.1313182472454,
+            "y": 368.80222040504106
+          },
+          {
+            "id": "item_1763580076023",
+            "text": "Integración de IA",
+            "timestamp": "2025-11-19T19:21:16.023Z",
+            "x": 98.62186983982343,
+            "y": 20.15129456595952
+          }
+        ],
+        "item_1763576835157": [
+          {
+            "id": "item_1763580153757",
+            "text": "Candados",
+            "timestamp": "2025-11-19T19:22:33.757Z",
+            "x": 501.8171226229719,
+            "y": 293.8842059804942
+          }
+        ],
+        "item_1763576853261": [
+          {
+            "id": "item_1763580563988",
+            "text": "Integrar con TP y Pedido Óptimo (Continuidad de datos)",
+            "timestamp": "2025-11-19T19:29:23.988Z",
+            "x": 493.70275464362106,
+            "y": 335.593776154062
+          },
+          {
+            "id": "item_1763581027719",
+            "text": "Foto de ayuda de guía de mercadeo",
+            "timestamp": "2025-11-19T19:37:07.719Z",
+            "x": 219.92589712346944,
+            "y": 285.9542786204441
+          }
+        ]
+      },
+      "prioritization": [
+        {
+          "featureId": "item_1763579845470",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 5,
+              "timestamp": "2025-11-19T19:39:12.494Z"
+            }
+          ],
+          "averages": {
+            "value": 5,
+            "complexity": 5
+          },
+          "quadrant": "major-projects"
+        },
+        {
+          "featureId": "item_1763579599454",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 4,
+              "timestamp": "2025-11-19T19:42:52.078Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 4
+          },
+          "quadrant": "major-projects"
+        },
+        {
+          "featureId": "item_1763580061369",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 4,
+              "complexity": 2,
+              "timestamp": "2025-11-19T19:45:49.370Z"
+            }
+          ],
+          "averages": {
+            "value": 4,
+            "complexity": 2
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763580076023",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 3,
+              "timestamp": "2025-11-19T19:46:13.586Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 3
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763580153757",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:46:58.669Z"
+            }
+          ],
+          "averages": {
+            "value": 5,
+            "complexity": 1
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763581027719",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 2,
+              "timestamp": "2025-11-19T19:47:51.988Z"
+            }
+          ],
+          "averages": {
+            "value": 5,
+            "complexity": 2
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763580563988",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 4,
+              "timestamp": "2025-11-19T19:48:35.275Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 4
+          },
+          "quadrant": "major-projects"
+        },
+        {
+          "featureId": "item_1763579518992",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 5,
+              "complexity": 3,
+              "timestamp": "2025-11-19T19:49:08.045Z"
+            }
+          ],
+          "averages": {
+            "value": 5,
+            "complexity": 3
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763579523169",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 3,
+              "timestamp": "2025-11-19T19:49:28.952Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 3
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763579539838",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 3,
+              "timestamp": "2025-11-19T19:50:10.683Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 3
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763576970355",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 2,
+              "complexity": 5,
+              "timestamp": "2025-11-19T19:52:52.792Z"
+            }
+          ],
+          "averages": {
+            "value": 2,
+            "complexity": 5
+          },
+          "quadrant": "avoid"
+        },
+        {
+          "featureId": "item_1763579964480",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 3,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:54:09.109Z"
+            }
+          ],
+          "averages": {
+            "value": 3,
+            "complexity": 1
+          },
+          "quadrant": "quick-wins"
+        },
+        {
+          "featureId": "item_1763579668958",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 2,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:55:52.315Z"
+            }
+          ],
+          "averages": {
+            "value": 2,
+            "complexity": 1
+          },
+          "quadrant": "fill-ins"
+        },
+        {
+          "featureId": "item_1763577041970",
+          "votes": [
+            {
+              "participantId": "p_1763581057597",
+              "value": 1,
+              "complexity": 1,
+              "timestamp": "2025-11-19T19:56:58.785Z"
+            }
+          ],
+          "averages": {
+            "value": 1,
+            "complexity": 1
+          },
+          "quadrant": "fill-ins"
+        }
+      ]
+    },
+    "groups": {
+      "problems": [
+        {
+          "category": "Unificación Plataforma",
+          "items": [
+            {
+              "id": "item_1763571109974",
+              "text": "unificación del ecosistema / plataforma",
+              "timestamp": "2025-11-19T16:51:49.974Z",
+              "x": 36.536843727926474,
+              "y": 234.2202307724022
+            },
+            {
+              "id": "item_1763572926154",
+              "text": "Integrar G Service , TP y nueva Toma Pedido",
+              "timestamp": "2025-11-19T17:22:06.154Z",
+              "x": 413.59884636636275,
+              "y": 242.02507831294065
+            }
+          ],
+          "description": "Consolidar las diversas plataformas y sistemas existentes para una experiencia unificada.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Empoderamiento Fuerza Venta",
+          "items": [
+            {
+              "id": "item_1763571147369",
+              "text": "Necesitamos que anaqueleros y premier puedan tomar pedidos desde sus PV.",
+              "timestamp": "2025-11-19T16:52:27.369Z",
+              "x": 515.832994750403,
+              "y": 15.723456780749911
+            },
+            {
+              "id": "item_1763571182966",
+              "text": "Necesitamos que los anaqueleros y premier utilicen la data y sus habilidades de negociación para tomar pedidos.",
+              "timestamp": "2025-11-19T16:53:02.966Z",
+              "x": 492.2245746667806,
+              "y": 345.90854025649605
+            },
+            {
+              "id": "item_1763571845471",
+              "text": "Queremos salir de la \"toma de pedidos\" a tomar pedido, considerar data y promociones. Algo más integral",
+              "timestamp": "2025-11-19T17:04:05.471Z",
+              "x": 563.0454513695523,
+              "y": 238.76929609097357
+            },
+            {
+              "id": "item_1763572071647",
+              "text": "Proveer a los actores con indicares e incentivos para clientes y anaqueleros/premier",
+              "timestamp": "2025-11-19T17:07:51.647Z",
+              "x": 54.83412837697743,
+              "y": 109.24348306618299
+            },
+            {
+              "id": "item_1763573994614",
+              "text": "esquema de compensación que fomenta la venta (canje/salario/etc)",
+              "timestamp": "2025-11-19T17:39:54.614Z",
+              "x": 538.202651935964,
+              "y": 231.55660631710114
+            }
+          ],
+          "description": "Proveer a los anaqueleros y premiers con las herramientas, datos e incentivos necesarios para optimizar la toma de pedidos y la gestión de clientes.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Optimización Pedido",
+          "items": [
+            {
+              "id": "item_1763571392945",
+              "text": "eficientar la gestión del pedido",
+              "timestamp": "2025-11-19T16:56:32.945Z",
+              "x": 53.341358227217015,
+              "y": 181.14095026303062
+            },
+            {
+              "id": "item_1763571683933",
+              "text": "creemos que donde hace más sentido el pedido sugerido es AQUI",
+              "timestamp": "2025-11-19T17:01:23.933Z",
+              "x": 498.18992018254005,
+              "y": 174.9309548310107
+            },
+            {
+              "id": "item_1763572159159",
+              "text": "Pedido optimo",
+              "timestamp": "2025-11-19T17:09:19.159Z",
+              "x": 32.423010037821484,
+              "y": 149.4060778808481
+            },
+            {
+              "id": "item_1763572238042",
+              "text": "Pedido optimo es donde realmente movemos las palancas de negocio porque consideramos la DATA",
+              "timestamp": "2025-11-19T17:10:38.042Z",
+              "x": 467.01676629275346,
+              "y": 165.03245895504847
+            }
+          ],
+          "description": "Mejorar la eficiencia y efectividad del proceso de pedido mediante la incorporación de datos y sugerencias inteligentes.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        },
+        {
+          "category": "Gestión Datos",
+          "items": [
+            {
+              "id": "item_1763571785303",
+              "text": "hay MUCHA información en canal moderno para que las soluciones sean preguntar \"que quiere\"?",
+              "timestamp": "2025-11-19T17:03:05.303Z",
+              "x": 525.3223990834817,
+              "y": 385.77547842563774
+            },
+            {
+              "id": "item_1763572907915",
+              "text": "Hoy Silos de Datos Gepp IT y TP (Multi)",
+              "timestamp": "2025-11-19T17:21:47.915Z",
+              "x": 186.6816908126599,
+              "y": 301.3559119584687
+            }
+          ],
+          "description": "Resolver la fragmentación de datos actual y aprovechar la información disponible para la toma de decisiones.",
+          "position": {
+            "x": 100,
+            "y": 500
+          }
+        },
+        {
+          "category": "Resistencia Adopción",
+          "items": [
+            {
+              "id": "item_1763572532398",
+              "text": "vamos a tener que enfrentar resistencia operativa con datos duros",
+              "timestamp": "2025-11-19T17:15:32.398Z",
+              "x": 62.66123614923593,
+              "y": 3.8460874177860482
+            },
+            {
+              "id": "item_1763572796881",
+              "text": "Agentes de ayuda a los roles para acelerar adopcion",
+              "timestamp": "2025-11-19T17:19:56.881Z",
+              "x": 348.35915004323783,
+              "y": 194.28566973688334
+            },
+            {
+              "id": "item_1763574137999",
+              "text": "Tratar de controlar la carga cognitiva con todas las ideas!",
+              "timestamp": "2025-11-19T17:42:17.999Z",
+              "x": 208.53000779371774,
+              "y": 239.05454235606433
+            }
+          ],
+          "description": "Anticipar y mitigar la resistencia al cambio, facilitando la adopción de la nueva plataforma.",
+          "position": {
+            "x": 450,
+            "y": 500
+          }
+        },
+        {
+          "category": "Control y Anticipación",
+          "items": [
+            {
+              "id": "item_1763572044518",
+              "text": "Anticipación para justing time",
+              "timestamp": "2025-11-19T17:07:24.518Z",
+              "x": 370.220219968277,
+              "y": 373.80492925528
+            },
+            {
+              "id": "item_1763572649886",
+              "text": "Control de Agenda, para anticiparnos",
+              "timestamp": "2025-11-19T17:17:29.886Z",
+              "x": 56.98013238099462,
+              "y": 32.454471313385994
+            }
+          ],
+          "description": "Implementar funcionalidades para la anticipación de la demanda y el control de la agenda.",
+          "position": {
+            "x": 800,
+            "y": 500
+          }
+        },
+        {
+          "category": "Geolocalización Seguridad",
+          "items": [
+            {
+              "id": "item_1763573012026",
+              "text": "GS - Mejorar Candados (Geolocalizacion y Geo Cercas) e Indicadores",
+              "timestamp": "2025-11-19T17:23:32.026Z",
+              "x": 538.6314587953076,
+              "y": 260.5197037656694
+            },
+            {
+              "id": "item_1763573049127",
+              "text": "GS - Asegurar de donde hace login , y lugar",
+              "timestamp": "2025-11-19T17:24:09.127Z",
+              "x": 47.36161667359311,
+              "y": 288.5848990161077
+            },
+            {
+              "id": "item_1763573065611",
+              "text": "Al no tener dispositivos de Gepp, hay mucha variadad y tema de permisos",
+              "timestamp": "2025-11-19T17:24:25.611Z",
+              "x": 353.593595195653,
+              "y": 220.69502228022748
+            },
+            {
+              "id": "item_1763573168956",
+              "text": "GS - Tiendas sin recepcion.  Login con gestora de servicio o con QR (rotativo)",
+              "timestamp": "2025-11-19T17:26:08.956Z",
+              "x": 130.67009071713073,
+              "y": 352.15930829718815
+            }
+          ],
+          "description": "Mejorar la seguridad y el control mediante el uso de la geolocalización y las geo-cercas.",
+          "position": {
+            "x": 100,
+            "y": 900
+          }
+        },
+        {
+          "category": "Evolución Tecnológica",
+          "items": [
+            {
+              "id": "item_1763573368834",
+              "text": "TP - Evolución tecnologica (voz, agentes, image recognition, etc)",
+              "timestamp": "2025-11-19T17:29:28.834Z",
+              "x": 61.01592347702829,
+              "y": 112.77171383250537
+            },
+            {
+              "id": "item_1763573517448",
+              "text": "reconocimiento de voz",
+              "timestamp": "2025-11-19T17:31:57.448Z",
+              "x": 482.6030187644416,
+              "y": 237.18960671037235
+            },
+            {
+              "id": "item_1763575024085",
+              "text": "Oportunidad de sumar IA y potenciar",
+              "timestamp": "2025-11-19T17:57:04.085Z",
+              "x": 122.42858249846103,
+              "y": 299.8953264986311
+            }
+          ],
+          "description": "Integrar nuevas tecnologías como reconocimiento de voz e IA para potenciar la plataforma.",
+          "position": {
+            "x": 450,
+            "y": 900
+          }
+        },
+        {
+          "category": "Calidad Estabilidad GS",
+          "items": [
+            {
+              "id": "item_1763572972168",
+              "text": "GS - Entrada , comida , salida",
+              "timestamp": "2025-11-19T17:22:52.168Z",
+              "x": 337.6915002434129,
+              "y": 291.0650496539934
+            },
+            {
+              "id": "item_1763573435263",
+              "text": "gs - estabilidad",
+              "timestamp": "2025-11-19T17:30:35.263Z",
+              "x": 26.045378728651336,
+              "y": 350.9537924616302
+            },
+            {
+              "id": "item_1763573498375",
+              "text": "revision GS",
+              "timestamp": "2025-11-19T17:31:38.375Z",
+              "x": 563.753689119633,
+              "y": 390.52222544092007
+            },
+            {
+              "id": "item_1763573773934",
+              "text": "Calidad en Nuevas Reglas",
+              "timestamp": "2025-11-19T17:36:13.934Z",
+              "x": 376.36762716063726,
+              "y": 123.11550186254921
+            }
+          ],
+          "description": "Asegurar la calidad, estabilidad y correcta configuración del módulo GS.",
+          "position": {
+            "x": 800,
+            "y": 900
+          }
+        },
+        {
+          "category": "Simulación Campañas",
+          "items": [
+            {
+              "id": "item_1763573815626",
+              "text": "simulacion de campañas",
+              "timestamp": "2025-11-19T17:36:55.626Z",
+              "x": 355.90208477909044,
+              "y": 156.58693179724472
+            }
+          ],
+          "description": "Implementar herramientas para la simulación y evaluación de campañas.",
+          "position": {
+            "x": 100,
+            "y": 1300
+          }
+        },
+        {
+          "category": "Contingencia Offline",
+          "items": [
+            {
+              "id": "item_1763575317046",
+              "text": "Contingencia de trabajo fuera de linea (datos pre-cargados)",
+              "timestamp": "2025-11-19T18:01:57.046Z",
+              "x": 109.65130938832581,
+              "y": 218.84328748543004
+            }
+          ],
+          "description": "Asegurar la funcionalidad de la plataforma en situaciones de falta de conectividad.",
+          "position": {
+            "x": 450,
+            "y": 1300
+          }
+        },
+        {
+          "category": "Mejora DRP",
+          "items": [
+            {
+              "id": "item_1763575548630",
+              "text": "Mejorar / Evaluar esquema de DRP",
+              "timestamp": "2025-11-19T18:05:48.630Z",
+              "x": 445.8383150651112,
+              "y": 148.325137032935
+            }
+          ],
+          "description": "Evaluar y mejorar el esquema de Distribución en Ruta Propia (DRP).",
+          "position": {
+            "x": 800,
+            "y": 1300
+          }
+        },
+        {
+          "category": "Roles y Foco",
+          "items": [
+            {
+              "id": "item_1763571232781",
+              "text": "Requerimos que los anaquelistas se enfoquen inicialmente en la ejecución y después en el pedido",
+              "timestamp": "2025-11-19T16:53:52.781Z",
+              "x": 309.9443927206429,
+              "y": 108.96883358052736
+            },
+            {
+              "id": "item_1763571597850",
+              "text": "fusionar en algun momento los perfiles del anaquelero y del premier",
+              "timestamp": "2025-11-19T16:59:57.850Z",
+              "x": 473.22101998930873,
+              "y": 273.3616841848866
+            }
+          ],
+          "description": "Definir el enfoque y posible fusión de los roles de anaquelero y premier.",
+          "position": {
+            "x": 100,
+            "y": 1700
+          }
+        }
+      ],
+      "actors": [
+        {
+          "category": "Roles Operativos",
+          "items": [
+            {
+              "id": "item_1763574158399",
+              "text": "Anaquelero",
+              "timestamp": "2025-11-19T17:42:38.399Z",
+              "x": 125.15871215070507,
+              "y": 110.4741979550254
+            },
+            {
+              "id": "item_1763574170539",
+              "text": "preventista",
+              "timestamp": "2025-11-19T17:42:50.539Z",
+              "x": 471.2346477880423,
+              "y": 44.841575097017824
+            },
+            {
+              "id": "item_1763574220378",
+              "text": "Auditor",
+              "timestamp": "2025-11-19T17:43:40.378Z",
+              "x": 136.08348263252478,
+              "y": 303.5163127889735
+            },
+            {
+              "id": "item_1763574349104",
+              "text": "La fusión del anaquelero + Premier sera el Mercaderista",
+              "timestamp": "2025-11-19T17:45:49.104Z",
+              "x": 496.6841122117002,
+              "y": 171.53924548376466
+            }
+          ],
+          "description": "Roles que ejecutan tareas directamente relacionadas con la operación en campo, incluyendo el anaquelero (individual o fusionado en el Mercaderista), el preventista y el auditor. Se centran en la ejecución y el cumplimiento de tareas.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Roles de Supervisión",
+          "items": [
+            {
+              "id": "item_1763574215330",
+              "text": "Jefe de Territorio",
+              "timestamp": "2025-11-19T17:43:35.330Z",
+              "x": 279.06590671849887,
+              "y": 165.94527969182505
+            },
+            {
+              "id": "item_1763574238280",
+              "text": "Gestor de servicios",
+              "timestamp": "2025-11-19T17:43:58.280Z",
+              "x": 104.54326761985465,
+              "y": 139.9419787613099
+            },
+            {
+              "id": "item_1763574371650",
+              "text": "Niveles gerenciales",
+              "timestamp": "2025-11-19T17:46:11.650Z",
+              "x": 23.982208489080705,
+              "y": 295.7621563397746
+            }
+          ],
+          "description": "Roles con responsabilidades de supervisión, gestión y estrategia. Incluyen el Jefe de Territorio, el Gestor de Servicios y otros niveles gerenciales. Su enfoque está en la planificación, coordinación y optimización de los equipos operativos.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Acceso a Plataforma",
+          "items": [
+            {
+              "id": "item_1763574202197",
+              "text": "Premier",
+              "timestamp": "2025-11-19T17:43:22.197Z",
+              "x": 538.3807969658449,
+              "y": 311.580616119251
+            },
+            {
+              "id": "item_1763574215330",
+              "text": "Jefe de Territorio",
+              "timestamp": "2025-11-19T17:43:35.330Z",
+              "x": 279.06590671849887,
+              "y": 165.94527969182505
+            },
+            {
+              "id": "item_1763574238280",
+              "text": "Gestor de servicios",
+              "timestamp": "2025-11-19T17:43:58.280Z",
+              "x": 104.54326761985465,
+              "y": 139.9419787613099
+            },
+            {
+              "id": "item_1763574302106",
+              "text": "Premier, JT y Gestor de Servicios tienen acceso a la plataforma (anaquelero no)",
+              "timestamp": "2025-11-19T17:45:02.106Z",
+              "x": 62.60820350661178,
+              "y": 134.7123738748218
+            }
+          ],
+          "description": "Roles con acceso directo a la plataforma digital. Premier, Jefe de Territorio y Gestor de Servicios utilizan la plataforma como herramienta central para sus tareas.  El acceso denota un rol que requiere información y gestión a través de la plataforma.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        },
+        {
+          "category": "Potencial Rol Futuro",
+          "items": [
+            {
+              "id": "item_1763574349104",
+              "text": "La fusión del anaquelero + Premier sera el Mercaderista",
+              "timestamp": "2025-11-19T17:45:49.104Z",
+              "x": 496.6841122117002,
+              "y": 171.53924548376466
+            }
+          ],
+          "description": "El rol de Mercaderista, como fusión del Anaquelero y Premier, representa una evolución potencial de los roles operativos y su interacción con la plataforma. Implica una consolidación de funciones y posibles nuevas necesidades.",
+          "position": {
+            "x": 100,
+            "y": 500
+          }
+        }
+      ],
+      "kpis": [
+        {
+          "category": "Eficiencia Operacional",
+          "items": [
+            {
+              "id": "item_1763574681732",
+              "text": "Reducción de tiempo de gestión",
+              "timestamp": "2025-11-19T17:51:21.732Z",
+              "x": 431.6508021597505,
+              "y": 362.27675621467677
+            },
+            {
+              "id": "item_1763574938376",
+              "text": "Gestión en tiempo real de manera masiva (Blue line)",
+              "timestamp": "2025-11-19T17:55:38.376Z",
+              "x": 566.1287137883318,
+              "y": 355.4988646621643
+            },
+            {
+              "id": "item_1763574970514",
+              "text": "Mover el musculo operativo hacia un fast track",
+              "timestamp": "2025-11-19T17:56:10.514Z",
+              "x": 466.4733872469277,
+              "y": 229.19692388399335
+            },
+            {
+              "id": "item_1763576404120",
+              "text": "% eficiencia en productividad",
+              "timestamp": "2025-11-19T18:20:04.120Z",
+              "x": 29.625916618394488,
+              "y": 190.32211257874795
+            }
+          ],
+          "description": "Métricas relacionadas con la optimización de las operaciones, la reducción de tiempos de gestión, la automatización y el aumento de la productividad general.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Retención y Satisfacción",
+          "items": [
+            {
+              "id": "item_1763574701563",
+              "text": "Dismimuir el nivel de rotación de todos los roles",
+              "timestamp": "2025-11-19T17:51:41.563Z",
+              "x": 353.51466915347913,
+              "y": 369.91317267878327
+            },
+            {
+              "id": "item_1763575165090",
+              "text": "Aumentar la confianza y el engagement con la tienda",
+              "timestamp": "2025-11-19T17:59:25.090Z",
+              "x": 111.92766677181028,
+              "y": 378.6410751891692
+            },
+            {
+              "id": "item_1763575663424",
+              "text": "Lograr la adopción de la plataforma por parte de los actores (tener una usabilidad efectiva)",
+              "timestamp": "2025-11-19T18:07:43.424Z",
+              "x": 152.13830606223183,
+              "y": 30.453479756464972
+            },
+            {
+              "id": "item_1763576430384",
+              "text": "mejoras en calificación de ejecución",
+              "timestamp": "2025-11-19T18:20:30.384Z",
+              "x": 118.98290848310937,
+              "y": 269.9189586974622
+            }
+          ],
+          "description": "Indicadores de la satisfacción y retención de los usuarios (internos y externos) de la plataforma, incluyendo empleados y clientes (tiendas).  Incluye la adopción de la plataforma y las mejoras percibidas.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Procesos Unificados",
+          "items": [
+            {
+              "id": "item_1763574794549",
+              "text": "Visibilidad end to end de los procesos",
+              "timestamp": "2025-11-19T17:53:14.549Z",
+              "x": 375.12265187783413,
+              "y": 133.68600604583332
+            },
+            {
+              "id": "item_1763574834220",
+              "text": "Maximizar la conversión por la unificación de procesos",
+              "timestamp": "2025-11-19T17:53:54.220Z",
+              "x": 314.754808404284,
+              "y": 105.314738798038
+            },
+            {
+              "id": "item_1763574886522",
+              "text": "Aconsejar /Alertar en tiempo real",
+              "timestamp": "2025-11-19T17:54:46.522Z",
+              "x": 268.95111610920475,
+              "y": 204.38230291624419
+            },
+            {
+              "id": "item_1763575259873",
+              "text": "Aceptación del pedido óptimo (en % muy alto)",
+              "timestamp": "2025-11-19T18:00:59.873Z",
+              "x": 13.555192954016038,
+              "y": 352.3774039121118
+            }
+          ],
+          "description": "Métricas que reflejan la mejora en la unificación y optimización de los procesos, la visibilidad de extremo a extremo, la toma de decisiones en tiempo real y la mejora en el porcentaje de aceptación de pedidos.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        }
+      ],
+      "modules": [
+        {
+          "category": "Optimización de Operaciones",
+          "items": [
+            {
+              "id": "item_1763576819745",
+              "text": "Pedido Optimo",
+              "timestamp": "2025-11-19T18:26:59.745Z",
+              "x": 224.6522015740643,
+              "y": 237.09795770331806
+            },
+            {
+              "id": "item_1763576825772",
+              "text": "Tienda Perfecta",
+              "timestamp": "2025-11-19T18:27:05.772Z",
+              "x": 546.834016963574,
+              "y": 101.49941187516882
+            }
+          ],
+          "description": "Módulos enfocados en mejorar la eficiencia y efectividad de las operaciones centrales del negocio, apuntando a resultados como la minimización de costos y la maximización de ventas a través de la gestión optimizada del inventario y la presentación del producto.",
+          "position": {
+            "x": 100,
+            "y": 100
+          }
+        },
+        {
+          "category": "Servicios Extendidos",
+          "items": [
+            {
+              "id": "item_1763576835157",
+              "text": "G-Service",
+              "timestamp": "2025-11-19T18:27:15.157Z",
+              "x": 470.6361474744985,
+              "y": 293.2549571106844
+            },
+            {
+              "id": "item_1763576916228",
+              "text": "Asistentes IA",
+              "timestamp": "2025-11-19T18:28:36.228Z",
+              "x": 460.4591983634824,
+              "y": 232.11397218674205
+            }
+          ],
+          "description": "Módulos que ofrecen valor agregado a través de servicios adicionales, ya sean proporcionados directamente (G-Service) o facilitados por tecnologías emergentes como la Inteligencia Artificial (Asistentes IA). Estos módulos buscan mejorar la experiencia del usuario y ofrecer soluciones personalizadas.",
+          "position": {
+            "x": 450,
+            "y": 100
+          }
+        },
+        {
+          "category": "Análisis y Alertas",
+          "items": [
+            {
+              "id": "item_1763576875055",
+              "text": "Alertas y Notificaciones",
+              "timestamp": "2025-11-19T18:27:55.055Z",
+              "x": 347.89982643283946,
+              "y": 250.64171357202105
+            },
+            {
+              "id": "item_1763577029593",
+              "text": "Observabilidad",
+              "timestamp": "2025-11-19T18:30:29.593Z",
+              "x": 167.730507814269,
+              "y": 167.05945337104944
+            }
+          ],
+          "description": "Módulos dedicados a la monitorización, análisis y notificación de eventos relevantes dentro de la plataforma. Esto permite una respuesta rápida a problemas, la identificación de oportunidades y la mejora continua del sistema.",
+          "position": {
+            "x": 800,
+            "y": 100
+          }
+        },
+        {
+          "category": "Generación de Ideas",
+          "items": [
+            {
+              "id": "item_1763576853261",
+              "text": "Idea",
+              "timestamp": "2025-11-19T18:27:33.261Z",
+              "x": 271.23484211216226,
+              "y": 76.66703180391283
+            }
+          ],
+          "description": "Módulo que centraliza la recepción, gestión y desarrollo de nuevas ideas y oportunidades para el negocio.",
+          "position": {
+            "x": 100,
+            "y": 500
           }
         }
       ]

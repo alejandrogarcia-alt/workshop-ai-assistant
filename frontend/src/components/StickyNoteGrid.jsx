@@ -1,6 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { workshopApi } from '../services/api';
 
-function StickyNoteGrid({ items, color = 'yellow' }) {
+function StickyNoteGrid({ items, color = 'yellow', workshopId, step, moduleId, onUpdate }) {
+  const [editingId, setEditingId] = useState(null);
+  const [editText, setEditText] = useState('');
+  const [deletingId, setDeletingId] = useState(null);
+  const handleDelete = async (item) => {
+    try {
+      await workshopApi.deleteItem(workshopId, item.id, step, moduleId);
+      setDeletingId(null);
+      if (onUpdate) onUpdate();
+    } catch (error) {
+      console.error('Error deleting item:', error);
+      alert('Error al borrar el item');
+    }
+  };
+
+  const handleEdit = async (item) => {
+    if (!editText.trim()) {
+      setEditingId(null);
+      return;
+    }
+    try {
+      await workshopApi.editItem(workshopId, item.id, editText.trim(), step, moduleId);
+      setEditingId(null);
+      setEditText('');
+      if (onUpdate) onUpdate();
+    } catch (error) {
+      console.error('Error editing item:', error);
+      alert('Error al editar el item');
+    }
+  };
+
+  const startEdit = (item) => {
+    setEditingId(item.id);
+    setEditText(item.text);
+  };
+
   if (items.length === 0) {
     return (
       <div style={{
@@ -30,21 +66,197 @@ function StickyNoteGrid({ items, color = 'yellow' }) {
             animationDelay: `${index * 0.03}s`,
             height: '130px',
             display: 'flex',
-            flexDirection: 'column'
+            flexDirection: 'column',
+            position: 'relative'
           }}
-          title={item.text}
         >
-          <p style={{
-            margin: 0,
-            fontSize: '14px',
-            lineHeight: '1.5',
-            wordBreak: 'break-word',
-            overflow: 'hidden',
-            display: '-webkit-box',
-            WebkitLineClamp: 5,
-            WebkitBoxOrient: 'vertical',
-            flex: 1
-          }}>
+          {/* Delete button */}
+          {deletingId === item.id ? (
+            <div style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'rgba(255, 255, 255, 0.95)',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '10px',
+              borderRadius: '8px',
+              zIndex: 10
+            }}>
+              <p style={{ margin: 0, fontSize: '13px', fontWeight: '600', textAlign: 'center', padding: '0 10px' }}>
+                ¿Borrar este item?
+              </p>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                <button
+                  onClick={() => handleDelete(item)}
+                  style={{
+                    background: '#f44336',
+                    color: 'white',
+                    border: 'none',
+                    padding: '6px 12px',
+                    borderRadius: '6px',
+                    fontSize: '12px',
+                    cursor: 'pointer',
+                    fontWeight: '600'
+                  }}
+                >
+                  Borrar
+                </button>
+                <button
+                  onClick={() => setDeletingId(null)}
+                  style={{
+                    background: '#999',
+                    color: 'white',
+                    border: 'none',
+                    padding: '6px 12px',
+                    borderRadius: '6px',
+                    fontSize: '12px',
+                    cursor: 'pointer',
+                    fontWeight: '600'
+                  }}
+                >
+                  Cancelar
+                </button>
+              </div>
+            </div>
+          ) : editingId === item.id ? (
+            <div style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              background: 'rgba(255, 255, 255, 0.98)',
+              display: 'flex',
+              flexDirection: 'column',
+              padding: '8px',
+              borderRadius: '8px',
+              zIndex: 10
+            }}>
+              <textarea
+                value={editText}
+                onChange={(e) => setEditText(e.target.value)}
+                autoFocus
+                style={{
+                  flex: 1,
+                  border: '2px solid var(--primary)',
+                  borderRadius: '6px',
+                  padding: '6px',
+                  fontSize: '13px',
+                  resize: 'none',
+                  fontFamily: 'inherit'
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' && e.ctrlKey) {
+                    handleEdit(item);
+                  } else if (e.key === 'Escape') {
+                    setEditingId(null);
+                    setEditText('');
+                  }
+                }}
+              />
+              <div style={{ display: 'flex', gap: '4px', marginTop: '6px' }}>
+                <button
+                  onClick={() => handleEdit(item)}
+                  style={{
+                    flex: 1,
+                    background: 'var(--primary)',
+                    color: 'white',
+                    border: 'none',
+                    padding: '5px',
+                    borderRadius: '6px',
+                    fontSize: '11px',
+                    cursor: 'pointer',
+                    fontWeight: '600'
+                  }}
+                >
+                  ✓ Guardar
+                </button>
+                <button
+                  onClick={() => {
+                    setEditingId(null);
+                    setEditText('');
+                  }}
+                  style={{
+                    flex: 1,
+                    background: '#999',
+                    color: 'white',
+                    border: 'none',
+                    padding: '5px',
+                    borderRadius: '6px',
+                    fontSize: '11px',
+                    cursor: 'pointer',
+                    fontWeight: '600'
+                  }}
+                >
+                  ✕ Cancelar
+                </button>
+              </div>
+            </div>
+          ) : (
+            <>
+              <button
+                onClick={() => setDeletingId(item.id)}
+                style={{
+                  position: 'absolute',
+                  top: '4px',
+                  right: '4px',
+                  background: 'rgba(244, 67, 54, 0.9)',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '50%',
+                  width: '22px',
+                  height: '22px',
+                  fontSize: '14px',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  lineHeight: 1,
+                  zIndex: 5,
+                  transition: 'all 0.2s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = '#d32f2f';
+                  e.currentTarget.style.transform = 'scale(1.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = 'rgba(244, 67, 54, 0.9)';
+                  e.currentTarget.style.transform = 'scale(1)';
+                }}
+                title="Borrar item"
+              >
+                ×
+              </button>
+            </>
+          )}
+
+          <p
+            style={{
+              margin: 0,
+              fontSize: '14px',
+              lineHeight: '1.5',
+              wordBreak: 'break-word',
+              overflow: 'hidden',
+              display: '-webkit-box',
+              WebkitLineClamp: 5,
+              WebkitBoxOrient: 'vertical',
+              flex: 1,
+              cursor: editingId !== item.id && deletingId !== item.id ? 'pointer' : 'default',
+              paddingRight: '28px'
+            }}
+            onClick={() => {
+              if (editingId !== item.id && deletingId !== item.id) {
+                startEdit(item);
+              }
+            }}
+            title={editingId !== item.id && deletingId !== item.id ? `Click para editar: ${item.text}` : item.text}
+          >
             {item.text}
           </p>
           <div style={{
