@@ -64,13 +64,70 @@ function StickyNoteGrid({ items, color = 'yellow', workshopId, step, moduleId, o
           className={`sticky-note sticky-${color} fade-in`}
           style={{
             animationDelay: `${index * 0.03}s`,
-            height: '130px',
+            height: '150px',
             display: 'flex',
             flexDirection: 'column',
-            position: 'relative'
+            position: 'relative',
+            padding: '0'
           }}
         >
-          {/* Delete button */}
+          {/* Header with participant name and delete button */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '6px 8px',
+            borderBottom: '1px solid rgba(0,0,0,0.1)',
+            minHeight: '28px'
+          }}>
+            <span style={{
+              fontSize: '10px',
+              fontWeight: '600',
+              color: 'rgba(0,0,0,0.5)',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+              whiteSpace: 'nowrap',
+              flex: 1,
+              marginRight: '4px'
+            }}>
+              {item.createdBy || 'Anónimo'}
+            </span>
+            {deletingId !== item.id && editingId !== item.id && (
+              <button
+                onClick={() => setDeletingId(item.id)}
+                style={{
+                  background: 'rgba(244, 67, 54, 0.9)',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '50%',
+                  width: '18px',
+                  height: '18px',
+                  fontSize: '12px',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 'bold',
+                  lineHeight: 1,
+                  transition: 'all 0.2s ease',
+                  flexShrink: 0
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = '#d32f2f';
+                  e.currentTarget.style.transform = 'scale(1.1)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = 'rgba(244, 67, 54, 0.9)';
+                  e.currentTarget.style.transform = 'scale(1)';
+                }}
+                title="Borrar item"
+              >
+                ×
+              </button>
+            )}
+          </div>
+
+          {/* Delete confirmation overlay */}
           {deletingId === item.id ? (
             <div style={{
               position: 'absolute',
@@ -197,44 +254,7 @@ function StickyNoteGrid({ items, color = 'yellow', workshopId, step, moduleId, o
                 </button>
               </div>
             </div>
-          ) : (
-            <>
-              <button
-                onClick={() => setDeletingId(item.id)}
-                style={{
-                  position: 'absolute',
-                  top: '4px',
-                  right: '4px',
-                  background: 'rgba(244, 67, 54, 0.9)',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: '50%',
-                  width: '22px',
-                  height: '22px',
-                  fontSize: '14px',
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontWeight: 'bold',
-                  lineHeight: 1,
-                  zIndex: 5,
-                  transition: 'all 0.2s ease'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.background = '#d32f2f';
-                  e.currentTarget.style.transform = 'scale(1.1)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.background = 'rgba(244, 67, 54, 0.9)';
-                  e.currentTarget.style.transform = 'scale(1)';
-                }}
-                title="Borrar item"
-              >
-                ×
-              </button>
-            </>
-          )}
+          ) : null}
 
           <p
             style={{
@@ -244,11 +264,11 @@ function StickyNoteGrid({ items, color = 'yellow', workshopId, step, moduleId, o
               wordBreak: 'break-word',
               overflow: 'hidden',
               display: '-webkit-box',
-              WebkitLineClamp: 5,
+              WebkitLineClamp: 4,
               WebkitBoxOrient: 'vertical',
               flex: 1,
               cursor: editingId !== item.id && deletingId !== item.id ? 'pointer' : 'default',
-              paddingRight: '28px'
+              padding: '8px 12px'
             }}
             onClick={() => {
               if (editingId !== item.id && deletingId !== item.id) {
@@ -260,10 +280,11 @@ function StickyNoteGrid({ items, color = 'yellow', workshopId, step, moduleId, o
             {item.text}
           </p>
           <div style={{
-            marginTop: '8px',
-            fontSize: '11px',
+            padding: '4px 8px',
+            fontSize: '10px',
             color: 'rgba(0,0,0,0.4)',
-            textAlign: 'right'
+            textAlign: 'right',
+            borderTop: '1px solid rgba(0,0,0,0.05)'
           }}>
             #{index + 1}
           </div>

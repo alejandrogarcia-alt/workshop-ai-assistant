@@ -100,20 +100,78 @@ function GroupedView({ groups, workshopId, step, moduleId, onUpdate }) {
               gap: '10px'
             }}>
               {group.items.map((item, itemIndex) => {
-                const itemObj = typeof item === 'string' ? { text: item, id: `temp_${itemIndex}` } : item;
+                const itemObj = typeof item === 'string' ? { text: item, id: `temp_${itemIndex}`, temp: true } : item;
                 const itemText = itemObj.text;
+                const hasRealId = itemObj.id && !itemObj.temp && !itemObj.id.startsWith('temp_');
                 return (
                   <div
                     key={itemObj.id || itemIndex}
                     className={`sticky-note sticky-${colorScheme.label}`}
                     style={{
-                      height: '105px',
+                      height: '120px',
                       fontSize: '12px',
                       display: 'flex',
                       flexDirection: 'column',
-                      position: 'relative'
+                      position: 'relative',
+                      padding: '0'
                     }}
                   >
+                    {/* Header with participant name and delete button */}
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between',
+                      padding: '4px 6px',
+                      borderBottom: '1px solid rgba(0,0,0,0.1)',
+                      minHeight: '22px'
+                    }}>
+                      <span style={{
+                        fontSize: '9px',
+                        fontWeight: '600',
+                        color: 'rgba(0,0,0,0.5)',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        whiteSpace: 'nowrap',
+                        flex: 1,
+                        marginRight: '4px'
+                      }}>
+                        {itemObj.createdBy || 'Anónimo'}
+                      </span>
+                      {deletingId !== itemObj.id && editingId !== itemObj.id && hasRealId && (
+                        <button
+                          onClick={() => setDeletingId(itemObj.id)}
+                          style={{
+                            background: 'rgba(244, 67, 54, 0.9)',
+                            color: 'white',
+                            border: 'none',
+                            borderRadius: '50%',
+                            width: '16px',
+                            height: '16px',
+                            fontSize: '11px',
+                            cursor: 'pointer',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontWeight: 'bold',
+                            lineHeight: 1,
+                            transition: 'all 0.2s ease',
+                            flexShrink: 0
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.background = '#d32f2f';
+                            e.currentTarget.style.transform = 'scale(1.1)';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.background = 'rgba(244, 67, 54, 0.9)';
+                            e.currentTarget.style.transform = 'scale(1)';
+                          }}
+                          title="Borrar item"
+                        >
+                          ×
+                        </button>
+                      )}
+                    </div>
+
                     {/* Delete/Edit overlay */}
                     {deletingId === itemObj.id ? (
                       <div style={{
@@ -244,44 +302,7 @@ function GroupedView({ groups, workshopId, step, moduleId, onUpdate }) {
                           </button>
                         </div>
                       </div>
-                    ) : (
-                      <>
-                        <button
-                          onClick={() => setDeletingId(itemObj.id)}
-                          style={{
-                            position: 'absolute',
-                            top: '3px',
-                            right: '3px',
-                            background: 'rgba(244, 67, 54, 0.9)',
-                            color: 'white',
-                            border: 'none',
-                            borderRadius: '50%',
-                            width: '18px',
-                            height: '18px',
-                            fontSize: '12px',
-                            cursor: 'pointer',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            fontWeight: 'bold',
-                            lineHeight: 1,
-                            zIndex: 5,
-                            transition: 'all 0.2s ease'
-                          }}
-                          onMouseEnter={(e) => {
-                            e.currentTarget.style.background = '#d32f2f';
-                            e.currentTarget.style.transform = 'scale(1.1)';
-                          }}
-                          onMouseLeave={(e) => {
-                            e.currentTarget.style.background = 'rgba(244, 67, 54, 0.9)';
-                            e.currentTarget.style.transform = 'scale(1)';
-                          }}
-                          title="Borrar item"
-                        >
-                          ×
-                        </button>
-                      </>
-                    )}
+                    ) : null}
 
                     <p
                       style={{
@@ -289,18 +310,18 @@ function GroupedView({ groups, workshopId, step, moduleId, onUpdate }) {
                         lineHeight: '1.4',
                         overflow: 'hidden',
                         display: '-webkit-box',
-                        WebkitLineClamp: 5,
+                        WebkitLineClamp: 4,
                         WebkitBoxOrient: 'vertical',
                         flex: 1,
-                        cursor: editingId !== itemObj.id && deletingId !== itemObj.id ? 'pointer' : 'default',
-                        paddingRight: '22px'
+                        cursor: editingId !== itemObj.id && deletingId !== itemObj.id && hasRealId ? 'pointer' : 'default',
+                        padding: '6px 8px'
                       }}
                       onClick={() => {
-                        if (editingId !== itemObj.id && deletingId !== itemObj.id) {
+                        if (editingId !== itemObj.id && deletingId !== itemObj.id && hasRealId) {
                           startEdit(itemObj);
                         }
                       }}
-                      title={editingId !== itemObj.id && deletingId !== itemObj.id ? `Click para editar: ${itemText}` : itemText}
+                      title={editingId !== itemObj.id && deletingId !== itemObj.id && hasRealId ? `Click para editar: ${itemText}` : itemText}
                     >
                       {itemText}
                     </p>

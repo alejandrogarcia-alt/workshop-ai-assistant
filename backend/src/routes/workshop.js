@@ -139,7 +139,7 @@ router.get('/:workshopId', (req, res) => {
 router.post('/:workshopId/add-item', async (req, res) => {
   try {
     const { workshopId } = req.params;
-    const { text, step } = req.body;
+    const { text, step, createdBy } = req.body;
 
     const workshop = workshops.get(workshopId);
     if (!workshop) {
@@ -151,7 +151,8 @@ router.post('/:workshopId/add-item', async (req, res) => {
       text,
       timestamp: new Date().toISOString(),
       x: Math.random() * 600,
-      y: Math.random() * 400
+      y: Math.random() * 400,
+      createdBy: createdBy || 'Anónimo'
     };
 
     // Add to appropriate collection based on step
@@ -181,6 +182,186 @@ router.post('/:workshopId/add-item', async (req, res) => {
     saveWorkshop(workshops, workshopId); // Persist to file
 
     res.json({ success: true, item, totalItems: getStepItems(workshop, step).length });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Delete item
+router.delete('/:workshopId/delete-item', async (req, res) => {
+  try {
+    const { workshopId } = req.params;
+    const { itemId, step, moduleId } = req.body;
+
+    const workshop = workshops.get(workshopId);
+    if (!workshop) {
+      return res.status(404).json({ error: 'Workshop not found' });
+    }
+
+    // Helper to remove item from array
+    const removeItem = (items) => {
+      const index = items.findIndex(item => item.id === itemId);
+      if (index > -1) {
+        items.splice(index, 1);
+        return true;
+      }
+      return false;
+    };
+
+    let removed = false;
+
+    // Remove from appropriate collection based on step
+    switch (step) {
+      case 'problem_framing':
+        removed = removeItem(workshop.data.problems);
+        // Also remove from groups if present
+        if (workshop.groups.problems) {
+          workshop.groups.problems.forEach(group => {
+            const idx = group.items.findIndex(item =>
+              (typeof item === 'object' && item.id === itemId) || item === itemId
+            );
+            if (idx > -1) group.items.splice(idx, 1);
+          });
+        }
+        break;
+      case 'actors':
+        removed = removeItem(workshop.data.actors);
+        if (workshop.groups.actors) {
+          workshop.groups.actors.forEach(group => {
+            const idx = group.items.findIndex(item =>
+              (typeof item === 'object' && item.id === itemId) || item === itemId
+            );
+            if (idx > -1) group.items.splice(idx, 1);
+          });
+        }
+        break;
+      case 'kpis':
+        removed = removeItem(workshop.data.kpis);
+        if (workshop.groups.kpis) {
+          workshop.groups.kpis.forEach(group => {
+            const idx = group.items.findIndex(item =>
+              (typeof item === 'object' && item.id === itemId) || item === itemId
+            );
+            if (idx > -1) group.items.splice(idx, 1);
+          });
+        }
+        break;
+      case 'modules':
+        removed = removeItem(workshop.data.modules);
+        if (workshop.groups.modules) {
+          workshop.groups.modules.forEach(group => {
+            const idx = group.items.findIndex(item =>
+              (typeof item === 'object' && item.id === itemId) || item === itemId
+            );
+            if (idx > -1) group.items.splice(idx, 1);
+          });
+        }
+        break;
+      case 'features':
+        if (moduleId && workshop.data.features[moduleId]) {
+          removed = removeItem(workshop.data.features[moduleId]);
+        }
+        break;
+    }
+
+    if (!removed) {
+      return res.status(404).json({ error: 'Item not found' });
+    }
+
+    workshops.set(workshopId, workshop);
+    saveWorkshop(workshops, workshopId);
+
+    res.json({ success: true });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Edit item
+router.put('/:workshopId/edit-item', async (req, res) => {
+  try {
+    const { workshopId } = req.params;
+    const { itemId, text, step, moduleId } = req.body;
+
+    const workshop = workshops.get(workshopId);
+    if (!workshop) {
+      return res.status(404).json({ error: 'Workshop not found' });
+    }
+
+    // Helper to update item in array
+    const updateItem = (items) => {
+      const item = items.find(item => item.id === itemId);
+      if (item) {
+        item.text = text;
+        return true;
+      }
+      return false;
+    };
+
+    let updated = false;
+
+    // Update in appropriate collection based on step
+    switch (step) {
+      case 'problem_framing':
+        updated = updateItem(workshop.data.problems);
+        // Also update in groups if present
+        if (workshop.groups.problems) {
+          workshop.groups.problems.forEach(group => {
+            const item = group.items.find(item =>
+              typeof item === 'object' && item.id === itemId
+            );
+            if (item) item.text = text;
+          });
+        }
+        break;
+      case 'actors':
+        updated = updateItem(workshop.data.actors);
+        if (workshop.groups.actors) {
+          workshop.groups.actors.forEach(group => {
+            const item = group.items.find(item =>
+              typeof item === 'object' && item.id === itemId
+            );
+            if (item) item.text = text;
+          });
+        }
+        break;
+      case 'kpis':
+        updated = updateItem(workshop.data.kpis);
+        if (workshop.groups.kpis) {
+          workshop.groups.kpis.forEach(group => {
+            const item = group.items.find(item =>
+              typeof item === 'object' && item.id === itemId
+            );
+            if (item) item.text = text;
+          });
+        }
+        break;
+      case 'modules':
+        updated = updateItem(workshop.data.modules);
+        if (workshop.groups.modules) {
+          workshop.groups.modules.forEach(group => {
+            const item = group.items.find(item =>
+              typeof item === 'object' && item.id === itemId
+            );
+            if (item) item.text = text;
+          });
+        }
+        break;
+      case 'features':
+        if (moduleId && workshop.data.features[moduleId]) {
+          updated = updateItem(workshop.data.features[moduleId]);
+        }
+        break;
+    }
+
+    if (!updated) {
+      return res.status(404).json({ error: 'Item not found' });
+    }
+
+    workshops.set(workshopId, workshop);
+    saveWorkshop(workshops, workshopId);
+
+    res.json({ success: true });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -650,45 +831,56 @@ router.get('/:workshopId/generate-pptx', async (req, res) => {
       const addSectionSlide = async (title, groups) => {
         if (!groups || groups.length === 0) return;
 
-        const maxNotes = 8;
+        const maxNotesPerSlide = 8;
         const noteWidth = 150;
         const noteHeight = 120;
         const startX = 60;
-        const startY = 150;
+        const startY = 180;
         const gapX = 10;
         const gapY = 10;
 
-        await pres.addSlide(slide => {
-          // Title
-          slide.addText(text => {
-            text.value('Resultados Workshop');
-            text.x(60);
-            text.y(50);
-            text.cx(400);
-            text.cy(30);
-            text.fontSize(14);
-            text.textColor('666666');
-          });
+        // Create a slide for each group
+        for (const group of groups) {
+          if (!group.items || group.items.length === 0) continue;
 
-          slide.addText(text => {
-            text.value(title);
-            text.x(60);
-            text.y(80);
-            text.cx(600);
-            text.cy(50);
-            text.fontSize(36);
-            text.textColor('006D5B');
-            // bold not supported in nodejs-pptx
-          });
+          const itemsToShow = group.items.slice(0, maxNotesPerSlide);
 
-          // Add sticky notes grid (4x2)
-          let noteIndex = 0;
+          await pres.addSlide(slide => {
+            // Phase name (small text at top)
+            slide.addText(text => {
+              text.value(title);
+              text.x(60);
+              text.y(40);
+              text.cx(400);
+              text.cy(25);
+              text.fontSize(14);
+              text.textColor('666666');
+            });
 
-          for (const group of groups) {
-            if (noteIndex >= maxNotes) break;
+            // Group/Category name (main title)
+            slide.addText(text => {
+              text.value(group.category || 'Items');
+              text.x(60);
+              text.y(70);
+              text.cx(600);
+              text.cy(50);
+              text.fontSize(32);
+              text.textColor('006D5B');
+            });
 
-            for (const item of group.items) {
-              if (noteIndex >= maxNotes) break;
+            // Item count
+            slide.addText(text => {
+              text.value(`${group.items.length} items`);
+              text.x(60);
+              text.y(125);
+              text.cx(200);
+              text.cy(20);
+              text.fontSize(12);
+              text.textColor('999999');
+            });
+
+            // Add sticky notes grid (4x2)
+            itemsToShow.forEach((item, noteIndex) => {
 
               const col = noteIndex % 4;
               const row = Math.floor(noteIndex / 4);
@@ -706,100 +898,155 @@ router.get('/:workshopId/generate-pptx', async (req, res) => {
                 shape.color(colors[colorIndex]);
               });
 
+              // Participant name on sticky note
+              const createdBy = typeof item === 'string' ? '' : (item.createdBy || 'Anónimo');
+              if (createdBy) {
+                slide.addText(text => {
+                  text.value(createdBy);
+                  text.x(x + 10);
+                  text.y(y + 5);
+                  text.cx(noteWidth - 20);
+                  text.cy(15);
+                  text.fontSize(9);
+                  text.textColor('666666');
+                });
+              }
+
               // Text on sticky note
               const itemText = typeof item === 'string' ? item : (item.text || '');
               if (itemText) {
                 slide.addText(text => {
                   text.value(itemText.substring(0, 100) + (itemText.length > 100 ? '...' : ''));
                   text.x(x + 10);
-                  text.y(y + 10);
+                  text.y(y + 25);
                   text.cx(noteWidth - 20);
-                  text.cy(noteHeight - 20);
+                  text.cy(noteHeight - 35);
                   text.fontSize(12);
                   text.textColor('333333');
                 });
               }
+            });
+          });
 
-              noteIndex++;
-            }
-          }
-        });
+          // If group has more than 8 items, create continuation slides
+          if (group.items.length > maxNotesPerSlide) {
+            let remainingItems = group.items.slice(maxNotesPerSlide);
 
-        // If more than 8 items, create additional slides
-        let totalItems = groups.reduce((sum, g) => sum + g.items.length, 0);
-        if (totalItems > maxNotes) {
-          let remainingItems = [];
-          let count = 0;
-          for (const group of groups) {
-            for (const item of group.items) {
-              if (count >= maxNotes) {
-                remainingItems.push(item);
-              }
-              count++;
-            }
-          }
+            while (remainingItems.length > 0) {
+              const batch = remainingItems.splice(0, maxNotesPerSlide);
 
-          // Create continuation slides
-          while (remainingItems.length > 0) {
-            const batch = remainingItems.splice(0, maxNotes);
-            await pres.addSlide(slide => {
-              slide.addText(text => {
-                text.value(`${title} (continuación)`);
-                text.x(60);
-                text.y(80);
-                text.cx(600);
-                text.cy(50);
-                text.fontSize(36);
-                text.textColor('006D5B');
-                // bold not supported in nodejs-pptx
-              });
-
-              batch.forEach((item, idx) => {
-                const col = idx % 4;
-                const row = Math.floor(idx / 4);
-                const x = 60 + col * 160;
-                const y = 150 + row * 130;
-                const colorIndex = idx % colors.length;
-
-                slide.addShape(shape => {
-                  shape.type('rect');
-                  shape.x(x);
-                  shape.y(y);
-                  shape.cx(150);
-                  shape.cy(120);
-                  shape.color(colors[colorIndex]);
+              await pres.addSlide(slide => {
+                // Phase name (small text at top)
+                slide.addText(text => {
+                  text.value(title);
+                  text.x(60);
+                  text.y(40);
+                  text.cx(400);
+                  text.cy(25);
+                  text.fontSize(14);
+                  text.textColor('666666');
                 });
 
-                const itemText = typeof item === 'string' ? item : (item.text || '');
-                if (itemText) {
-                  slide.addText(text => {
-                    text.value(itemText.substring(0, 100));
-                    text.x(x + 8);
-                    text.y(y + 8);
-                    text.cx(134);
-                    text.cy(104);
-                    text.fontSize(10);
-                    text.textColor('333333');
+                // Group/Category name with continuation indicator
+                slide.addText(text => {
+                  text.value(`${group.category || 'Items'} (cont.)`);
+                  text.x(60);
+                  text.y(70);
+                  text.cx(600);
+                  text.cy(50);
+                  text.fontSize(32);
+                  text.textColor('006D5B');
+                });
+
+                // Add sticky notes for this batch
+                batch.forEach((item, idx) => {
+                  const col = idx % 4;
+                  const row = Math.floor(idx / 4);
+                  const x = startX + col * (noteWidth + gapX);
+                  const y = startY + row * (noteHeight + gapY);
+                  const colorIndex = idx % colors.length;
+
+                  slide.addShape(shape => {
+                    shape.type('rect');
+                    shape.x(x);
+                    shape.y(y);
+                    shape.cx(noteWidth);
+                    shape.cy(noteHeight);
+                    shape.color(colors[colorIndex]);
                   });
-                }
+
+                  const createdBy = typeof item === 'string' ? '' : (item.createdBy || 'Anónimo');
+                  if (createdBy) {
+                    slide.addText(text => {
+                      text.value(createdBy);
+                      text.x(x + 10);
+                      text.y(y + 5);
+                      text.cx(noteWidth - 20);
+                      text.cy(15);
+                      text.fontSize(9);
+                      text.textColor('666666');
+                    });
+                  }
+
+                  const itemText = typeof item === 'string' ? item : (item.text || '');
+                  if (itemText) {
+                    slide.addText(text => {
+                      text.value(itemText.substring(0, 100) + (itemText.length > 100 ? '...' : ''));
+                      text.x(x + 10);
+                      text.y(y + 25);
+                      text.cx(noteWidth - 20);
+                      text.cy(noteHeight - 35);
+                      text.fontSize(12);
+                      text.textColor('333333');
+                    });
+                  }
+                });
               });
-            });
+            }
           }
         }
       };
 
       // Add slides for each section
-      if (workshop.groups.problems.length > 0) {
+      // Problem Framing
+      if (workshop.groups.problems && workshop.groups.problems.length > 0) {
         await addSectionSlide('Problem Framing', workshop.groups.problems);
+      } else if (workshop.data.problems && workshop.data.problems.length > 0) {
+        // Show ungrouped items if no groups exist
+        await addSectionSlide('Problem Framing', [{
+          category: 'Items',
+          items: workshop.data.problems
+        }]);
       }
-      if (workshop.groups.actors.length > 0) {
+
+      // Actors
+      if (workshop.groups.actors && workshop.groups.actors.length > 0) {
         await addSectionSlide('Actores', workshop.groups.actors);
+      } else if (workshop.data.actors && workshop.data.actors.length > 0) {
+        await addSectionSlide('Actores', [{
+          category: 'Items',
+          items: workshop.data.actors
+        }]);
       }
-      if (workshop.groups.kpis.length > 0) {
+
+      // KPIs
+      if (workshop.groups.kpis && workshop.groups.kpis.length > 0) {
         await addSectionSlide('KPIs', workshop.groups.kpis);
+      } else if (workshop.data.kpis && workshop.data.kpis.length > 0) {
+        await addSectionSlide('KPIs', [{
+          category: 'Items',
+          items: workshop.data.kpis
+        }]);
       }
-      if (workshop.groups.modules.length > 0) {
+
+      // Modules
+      if (workshop.groups.modules && workshop.groups.modules.length > 0) {
         await addSectionSlide('Módulos', workshop.groups.modules);
+      } else if (workshop.data.modules && workshop.data.modules.length > 0) {
+        await addSectionSlide('Módulos', [{
+          category: 'Items',
+          items: workshop.data.modules
+        }]);
       }
 
       // Features by module
@@ -848,12 +1095,25 @@ router.get('/:workshopId/generate-pptx', async (req, res) => {
                 shape.color(colors[colorIndex]);
               });
 
+              // Participant name
+              if (feature.createdBy) {
+                slide.addText(text => {
+                  text.value(feature.createdBy);
+                  text.x(x + 8);
+                  text.y(y + 5);
+                  text.cx(134);
+                  text.cy(15);
+                  text.fontSize(8);
+                  text.textColor('666666');
+                });
+              }
+
               slide.addText(text => {
                 text.value(feature.text.substring(0, 100));
                 text.x(x + 8);
-                text.y(y + 8);
+                text.y(y + 23);
                 text.cx(134);
-                text.cy(104);
+                text.cy(89);
                 text.fontSize(10);
                 text.textColor('333333');
               });

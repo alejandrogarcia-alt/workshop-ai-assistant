@@ -15,8 +15,8 @@ export const workshopApi = {
   list: () => api.get('/workshop'),
   create: (boardName) => api.post('/workshop/create', { boardName }),
   get: (workshopId) => api.get(`/workshop/${workshopId}`),
-  addItem: (workshopId, text, step, moduleId = null) =>
-    api.post(`/workshop/${workshopId}/add-item`, { text, step, moduleId }),
+  addItem: (workshopId, text, step, moduleId = null, createdBy = null) =>
+    api.post(`/workshop/${workshopId}/add-item`, { text, step, moduleId, createdBy }),
   groupItems: (workshopId, step) =>
     api.post(`/workshop/${workshopId}/group-items`, { step }),
   nextStep: (workshopId) => api.post(`/workshop/${workshopId}/next-step`),

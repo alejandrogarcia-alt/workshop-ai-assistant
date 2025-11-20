@@ -82,6 +82,34 @@ function Workshop() {
   const [workshopList, setWorkshopList] = useState([]);
   const [voiceEnabled, setVoiceEnabled] = useState(true);
   const lastSpokenStep = useRef(null);
+  const [showParticipantModal, setShowParticipantModal] = useState(false);
+  const [participantName, setParticipantName] = useState('');
+  const [tempParticipantName, setTempParticipantName] = useState('');
+
+  // Generate random anonymous name
+  const generateAnonymousName = () => {
+    const num = Math.floor(Math.random() * 99) + 1;
+    return `Anonimo ${String(num).padStart(2, '0')}`;
+  };
+
+  // Check for participant name on mount
+  useEffect(() => {
+    const storedName = localStorage.getItem(`workshop_${workshopId}_participant`);
+    if (storedName) {
+      setParticipantName(storedName);
+    } else {
+      setShowParticipantModal(true);
+    }
+  }, [workshopId]);
+
+  // Handle participant name save
+  const handleSaveParticipantName = () => {
+    const finalName = tempParticipantName.trim() || generateAnonymousName();
+    setParticipantName(finalName);
+    localStorage.setItem(`workshop_${workshopId}_participant`, finalName);
+    setShowParticipantModal(false);
+    setTempParticipantName('');
+  };
 
   // Voice command handler
   const handleVoiceCommand = useCallback((command) => {
@@ -228,7 +256,8 @@ function Workshop() {
         workshopId,
         inputText.trim(),
         currentStep,
-        selectedModule
+        selectedModule,
+        participantName
       );
 
       const newItem = response.data.item;
@@ -1322,6 +1351,62 @@ function Workshop() {
                 Cerrar
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Participant Name Modal */}
+      {showParticipantModal && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: 'rgba(0,0,0,0.7)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 1001,
+          padding: '20px'
+        }}>
+          <div style={{
+            background: 'white',
+            borderRadius: '16px',
+            width: '100%',
+            maxWidth: '400px',
+            padding: '24px'
+          }}>
+            <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+              <span style={{ fontSize: '48px', display: 'block', marginBottom: '12px' }}>👤</span>
+              <h3 style={{ margin: '0 0 8px', fontSize: '20px' }}>¡Bienvenido al Workshop!</h3>
+              <p style={{ fontSize: '13px', color: 'var(--text-secondary)', margin: 0 }}>
+                Para comenzar, ingresa tu nombre o deja vacío para usar un nombre anónimo
+              </p>
+            </div>
+            <input
+              type="text"
+              value={tempParticipantName}
+              onChange={(e) => setTempParticipantName(e.target.value)}
+              placeholder="Tu nombre..."
+              style={{
+                width: '100%',
+                padding: '12px',
+                borderRadius: '8px',
+                border: '2px solid #E0E0E0',
+                marginBottom: '16px',
+                fontSize: '14px'
+              }}
+              onKeyPress={(e) => e.key === 'Enter' && handleSaveParticipantName()}
+              autoFocus
+            />
+            <button
+              onClick={handleSaveParticipantName}
+              className="btn btn-primary"
+              style={{ width: '100%', padding: '12px', fontSize: '14px' }}
+            >
+              Continuar
+            </button>
           </div>
         </div>
       )}
